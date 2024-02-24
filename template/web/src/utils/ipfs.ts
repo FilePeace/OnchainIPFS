@@ -104,17 +104,6 @@ export const transformIpfsUrlToUrlGateway = (
  * @returns An HTTPS URI that points to the data represented by the cid
  * embedded in the ipfs URI.
  */
-
-/** <<<<<<< HEAD:web/src/utils/ipfs.ts
- * export const ipfsToHTTP = function (ipfsURI: string, gateway = 'ipfs.io') {
- *   if (ipfsURI.startsWith('http')) {
- *     return ipfsURI.replace('http://', 'https://');
- *   }
- *   // IPNS Name is a Multihash of a serialized PublicKey.
- *   const cid = ipfsURI.replace('ipfs://', '');
- * =======
-*/
-
 export const ipfsToHTTP = (ipfsURI?: string | null, gatewayHostname?: string) => {
   if (!ipfsURI) return '';
 
@@ -136,4 +125,3 @@ export const ipfsToHTTP = (ipfsURI?: string | null, gatewayHostname?: string) =>
 
   return '';
 };
-

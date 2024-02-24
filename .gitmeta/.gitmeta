@@ -1,12 +1,12 @@
-commit Qme66fMYnVRn4AfMbkJ6YPS9MNgzZ9QRZ6NCnZ8ohUZvSu
+commit QmZ33SQkuPRz7i1ug1NZCLhv4NMqMLqrkWsLeu4JLWRjwZ
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 70ed602541e2f8122f0026411afe0d3fa59d0bd4179a83f748f428f7ba5887b7037161598340175fb016d736194a2704313c760960f617cd76633a03f76e084200
+Signature: 8426442ba5df6e86e868e714a2ca90d89133b03757bd9fa3e524edb1622fe1730e6775d7ce290374da7bc586f747753ebd5d633e5f104e4802577665f8f7e84e01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmQaKSZngbCNkzffTYYybggJbVgMLcCBsYPuQsDTjr2fD2
-Commit CID if containing only file hashes: QmZtomFAidgh1X7ogGP3iGHous55widwAoBNBFLUnukQYq
+Commit CID if including git's SHA1: QmNuf8R4tusd2JqsaUHPytCGweWKDLwjWAsRsSrxNYEKoB
+Commit CID if containing only file hashes: QmRq6UpyNjENtJFdELAV4GNivVLwvypsFDnkZyxUDbGCrV
 
 ------------------------------
 
@@ -17,23 +17,27 @@ Remote URL: /home/daniella/Desktop/Untitled Folder 2/build-onchain-apps
 
 ------------------------------
 
-chown -h 1000:1000 'web/next.config.js'
-chmod 0664 'web/next.config.js'
-/usr/bin/touch -hcmd "2024-07-16 15:21:32.6696317120 -0300" 'web/next.config.js'
-/usr/bin/touch -hcad "2024-07-16 15:21:32.8126294470 -0300" 'web/next.config.js'
+chown -h 1000:1000 'template/web/src/utils/ipfs.ts'
+chmod 0664 'template/web/src/utils/ipfs.ts'
+/usr/bin/touch -hcmd "2024-07-16 15:42:13.4455257390 -0300" 'template/web/src/utils/ipfs.ts'
+/usr/bin/touch -hcad "2024-07-16 16:07:03.4962191190 -0300" 'template/web/src/utils/ipfs.ts'
+chown -h 1000:1000 'template/web/src/utils/test/ipfsToHTTP.test.ts'
+chmod 0664 'template/web/src/utils/test/ipfsToHTTP.test.ts'
+/usr/bin/touch -hcmd "2024-07-16 15:42:13.4455257390 -0300" 'template/web/src/utils/test/ipfsToHTTP.test.ts'
+/usr/bin/touch -hcad "2024-07-16 16:07:12.8131282170 -0300" 'template/web/src/utils/test/ipfsToHTTP.test.ts'
 chown -h 1000:1000 'web/package.json'
 chmod 0664 'web/package.json'
-/usr/bin/touch -hcmd "2024-07-16 15:32:49.4714617090 -0300" 'web/package.json'
-/usr/bin/touch -hcad "2024-07-16 15:32:53.5154227680 -0300" 'web/package.json'
+/usr/bin/touch -hcmd "2024-07-16 16:04:14.3239110530 -0300" 'web/package.json'
+/usr/bin/touch -hcad "2024-07-16 16:05:51.4749293190 -0300" 'web/package.json'
 chown -h 1000:1000 'web/src/utils/ipfs.ts'
 chmod 0664 'web/src/utils/ipfs.ts'
-/usr/bin/touch -hcmd "2024-07-16 15:41:05.9060787560 -0300" 'web/src/utils/ipfs.ts'
-/usr/bin/touch -hcad "2024-07-16 15:41:12.1760271120 -0300" 'web/src/utils/ipfs.ts'
+/usr/bin/touch -hcmd "2024-07-16 16:04:41.6826315670 -0300" 'web/src/utils/ipfs.ts'
+/usr/bin/touch -hcad "2024-07-16 16:05:51.4769292990 -0300" 'web/src/utils/ipfs.ts'
 chown -h 1000:1000 'web/src/utils/test/ipfsToHTTP.test.ts'
 chmod 0664 'web/src/utils/test/ipfsToHTTP.test.ts'
-/usr/bin/touch -hcmd "2024-07-16 15:21:32.6696317120 -0300" 'web/src/utils/test/ipfsToHTTP.test.ts'
-/usr/bin/touch -hcad "2024-07-16 15:21:32.8866282760 -0300" 'web/src/utils/test/ipfsToHTTP.test.ts'
+/usr/bin/touch -hcmd "2024-07-16 16:05:12.2873217980 -0300" 'web/src/utils/test/ipfsToHTTP.test.ts'
+/usr/bin/touch -hcad "2024-07-16 16:06:13.3637120110 -0300" 'web/src/utils/test/ipfsToHTTP.test.ts'
 chown -h 1000:1000 'web/yarn.lock'
 chmod 0664 'web/yarn.lock'
-/usr/bin/touch -hcmd "2024-07-16 15:30:49.7556496610 -0300" 'web/yarn.lock'
-/usr/bin/touch -hcad "2024-07-16 15:30:58.3675617570 -0300" 'web/yarn.lock'
+/usr/bin/touch -hcmd "2024-07-16 16:03:55.6061037360 -0300" 'web/yarn.lock'
+/usr/bin/touch -hcad "2024-07-16 16:05:51.4769292990 -0300" 'web/yarn.lock'

@@ -27,4 +27,3 @@ describe('ipfsToHTTP', () => {
     expect(ipfsToHTTP(ipfsURI, 'cloudflare-ipfs.com')).toEqual(expected);
   });
 });
-
