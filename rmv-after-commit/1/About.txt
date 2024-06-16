@@ -1,3 +1,0 @@
-Onchain IPFS
-Store files referenced by Ethereum L1, on L2!
-

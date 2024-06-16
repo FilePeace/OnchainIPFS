@@ -1,5 +1,7 @@
 Onchain IPFS
-Store files referenced by Ethereum L1, on L2!
+mottos:
+"The easier, faster, cheaper alternative to Arweave for permanent storage. "
+"Store files referenced by Ethereum L1, on L2!"
 
 Logotype: IPFS logotype but Base's blue and instead of "IPFS": "OFS"
 
