@@ -1,0 +1,91 @@
+commit QmXiRNq6KyCvAfRXfLLHUTr6RSZZSJRkPAm7XWWeMWQc3N
+Branch: HEAD
+Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
+Signature: 685c5295a16913fec025ed41d8bb2217932ee7187d71ec06f260ef82d6d5d8f058fe198ad0a1535117acd3737403832ba6e18373a651e35dd1b1f9005597825500
+
+------------------------------
+
+Commit CID if including git's SHA1: QmZ58Tjr1SMPqjQofmaKPcED1Zd8EaJL6uQEMFiQC2oPjm
+Commit CID if containing only file hashes: QmXdypmfjbNz2Xi8DXRKQbnWDJzCQHVybkUJbbXrmqEy11
+
+------------------------------
+
+.gitmeta version: r8
+Local folder: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/Onchain IPFS
+Remote Name: 
+Remote URL: 
+
+------------------------------
+
+chown -h 1000:1000 '.folderstamp1'
+chmod 0755 '.folderstamp1'
+/usr/bin/touch -hcmd "2024-06-04 23:50:38.8900000000 -0300" '.folderstamp1'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" '.folderstamp1'
+chown -h 1000:1000 '.folderstamp2'
+chmod 0755 '.folderstamp2'
+/usr/bin/touch -hcmd "2024-06-04 23:58:36.4000000000 -0300" '.folderstamp2'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" '.folderstamp2'
+chown -h 1000:1000 'About.txt'
+chmod 0755 'About.txt'
+/usr/bin/touch -hcmd "2024-06-04 01:04:11.0000000000 -0300" 'About.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'About.txt'
+chown -h 1000:1000 'Telegram.txt'
+chmod 0755 'Telegram.txt'
+/usr/bin/touch -hcmd "2024-06-13 14:15:37.5200000000 -0300" 'Telegram.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'Telegram.txt'
+chown -h 1000:1000 'Today.txt'
+chmod 0755 'Today.txt'
+/usr/bin/touch -hcmd "2024-06-13 11:16:46.7900000000 -0300" 'Today.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'Today.txt'
+chown -h 1000:1000 'contracts/noempty.txt'
+chmod 0755 'contracts/noempty.txt'
+/usr/bin/touch -hcmd "2024-06-04 23:51:03.9900000000 -0300" 'contracts/noempty.txt'
+/usr/bin/touch -hcad "2024-06-16 12:06:04.0000000000 -0300" 'contracts/noempty.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-10.txt'
+chmod 0755 'rmv-after-commit/1/About-10.txt'
+/usr/bin/touch -hcmd "2024-05-31 13:05:10.0000000000 -0300" 'rmv-after-commit/1/About-10.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-10.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-2.txt'
+chmod 0755 'rmv-after-commit/1/About-2.txt'
+/usr/bin/touch -hcmd "2024-05-26 20:37:20.0000000000 -0300" 'rmv-after-commit/1/About-2.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-2.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-3.txt'
+chmod 0755 'rmv-after-commit/1/About-3.txt'
+/usr/bin/touch -hcmd "2024-05-28 02:05:32.0000000000 -0300" 'rmv-after-commit/1/About-3.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-3.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-4.txt'
+chmod 0755 'rmv-after-commit/1/About-4.txt'
+/usr/bin/touch -hcmd "2024-05-28 02:06:21.0000000000 -0300" 'rmv-after-commit/1/About-4.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-4.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-5.txt'
+chmod 0755 'rmv-after-commit/1/About-5.txt'
+/usr/bin/touch -hcmd "2024-05-28 02:13:12.0000000000 -0300" 'rmv-after-commit/1/About-5.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-5.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-6.txt'
+chmod 0755 'rmv-after-commit/1/About-6.txt'
+/usr/bin/touch -hcmd "2024-05-28 02:14:43.0000000000 -0300" 'rmv-after-commit/1/About-6.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-6.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-7.txt'
+chmod 0755 'rmv-after-commit/1/About-7.txt'
+/usr/bin/touch -hcmd "2024-05-28 02:22:11.0000000000 -0300" 'rmv-after-commit/1/About-7.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-7.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-8.txt'
+chmod 0755 'rmv-after-commit/1/About-8.txt'
+/usr/bin/touch -hcmd "2024-05-29 16:23:26.0000000000 -0300" 'rmv-after-commit/1/About-8.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-8.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About-9.txt'
+chmod 0755 'rmv-after-commit/1/About-9.txt'
+/usr/bin/touch -hcmd "2024-05-30 10:49:48.0000000000 -0300" 'rmv-after-commit/1/About-9.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About-9.txt'
+chown -h 1000:1000 'rmv-after-commit/1/About.txt'
+chmod 0755 'rmv-after-commit/1/About.txt'
+/usr/bin/touch -hcmd "2024-05-26 19:32:22.0000000000 -0300" 'rmv-after-commit/1/About.txt'
+/usr/bin/touch -hcad "2024-06-16 12:05:56.0000000000 -0300" 'rmv-after-commit/1/About.txt'
+chown -h 1000:1000 'scripts/noempty.txt'
+chmod 0755 'scripts/noempty.txt'
+/usr/bin/touch -hcmd "2024-06-04 23:51:03.9900000000 -0300" 'scripts/noempty.txt'
+/usr/bin/touch -hcad "2024-06-16 12:06:04.0000000000 -0300" 'scripts/noempty.txt'
+chown -h 1000:1000 'web/noempty.txt'
+chmod 0755 'web/noempty.txt'
+/usr/bin/touch -hcmd "2024-06-04 23:51:03.9900000000 -0300" 'web/noempty.txt'
+/usr/bin/touch -hcad "2024-06-16 12:06:04.0000000000 -0300" 'web/noempty.txt'
