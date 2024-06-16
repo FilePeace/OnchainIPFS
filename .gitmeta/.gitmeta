@@ -1,12 +1,12 @@
-commit QmX9afEZ9dk1HXfFD85GVaYuH8BnRE28zYFJ9eWAeXhCsS
+commit QmdDA3ZSJeFtTpukiaKzgLsp54bN69VCBArLXW6dfZC82f
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 73fbf2f75965059654d4de8eaa7d8f4c4959e42f41d81d17912015c946be1c47075a692f4f746b50b6511e3a2a7b61af2b4bc8b276c2be971251d36ee28ee94e00
+Signature: 8c2b81c8f448306c06acff9dd67f151dd9be6f2ef77c0a6d0a365f34d0c75976697b012968c35abf24daeab4798a3621745368d27d7632f753bd78966bde3d9600
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmVEWZQgMMxSVEsaUGZt4uVh6YDua5E1iZYWziMsKR5RD8
-Commit CID if containing only file hashes: QmVpZGEovUti2iDKXan9NMb9FnYQYwkeLETTksxWWZimAF
+Commit CID if including git's SHA1: QmP6gAsQ55KxeHABEBC2eU3sGNJZ3qbck6mzhyaV17CAFV
+Commit CID if containing only file hashes: QmUB23QJoWJ4VYUnTaNGgqcdDVuRpVjQndboWA5xN8ffBU
 
 ------------------------------
 
@@ -17,7 +17,15 @@ Remote URL:
 
 ------------------------------
 
-chown -h 1000:1000 'About.txt'
-chmod 0755 'About.txt'
-/usr/bin/touch -hcmd "2024-06-16 12:07:57.2300000000 -0300" 'About.txt'
-/usr/bin/touch -hcad "2024-06-16 12:08:02.0000000000 -0300" 'About.txt'
+chown -h 1000:1000 '.folderstamp3'
+chmod 0755 '.folderstamp3'
+/usr/bin/touch -hcmd "2024-06-16 15:06:04.8700000000 -0300" '.folderstamp3'
+/usr/bin/touch -hcad "2024-06-16 17:01:54.0000000000 -0300" '.folderstamp3'
+chown -h 1000:1000 'PioneersQueue.txt'
+chmod 0755 'PioneersQueue.txt'
+/usr/bin/touch -hcmd "2024-06-16 16:52:26.6800000000 -0300" 'PioneersQueue.txt'
+/usr/bin/touch -hcad "2024-06-16 17:01:54.0000000000 -0300" 'PioneersQueue.txt'
+chown -h 1000:1000 'Tasks.txt'
+chmod 0755 'Tasks.txt'
+/usr/bin/touch -hcmd "2024-06-16 17:01:41.1900000000 -0300" 'Tasks.txt'
+/usr/bin/touch -hcad "2024-06-16 17:01:54.0000000000 -0300" 'Tasks.txt'

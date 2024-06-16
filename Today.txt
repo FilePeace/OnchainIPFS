@@ -1,8 +1,0 @@
-- Onchain IPFS will begin the CommonBytes specification, through two fields one comma-separated.
-
-Onchain IPFS queue:
-- https://9block.com.br/collections/frontpage (examples: https://ipfs.io/ipfs/QmWaurhfmT8df3tadivGyqErCR5bhu9wSB59GpLm192mLh/ https://ipfs.io/ipfs/QmScug4ceKVTJMjXKaUWejjvNTo7UK6w3Zqs8Li3a8wUSK)
--
-(Onchain IPFS new features: detect duplicate CID+content, accept duplicate CID so open dispute with DAO/owner, can cancel register from storage and replace by other at any time when discovering a CID was fraudulent compared to the desired content, separate function for the brand new "IPFS Web2URLs" smart-contract where the same CID can have several URLs)
--
-Onchain IPFS: option to also add the results of "sha512sum -t " and "openssl dgst -sha3-512 "
