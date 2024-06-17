@@ -1,4 +1,5 @@
 Contracts:
+- First of all: make and use ERC-2350: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/&allREADFIRST/README.txt
 - Cursor add Feature: action: addFolder (CID string, CIDs array; can also add name, etc as for file CIDs)
 - Cursor add Feature: option to also add the results of "sha512sum -t " and "openssl dgst -sha3-512 "
 - add "Verify" feature, depending on the external "Onchain IPFS Verifier". When this contract says a register is legit, the NFT will get a checkmark at any time
@@ -15,7 +16,7 @@ Contracts:
 - Declare the author of the file, by using ETH address or a simple name
 
 ?are this really necessary?
-- - Option to tell the file original URL, just in case it wasn't originally on IPFS. This will enable this URL to become preserved, but futurely such feature will require oracles to tell wether the URL is offline or online with diverging CID /media/daniella/9C33-6BBD/SD-DO/&SDhsp/IPFS Web2URLs
+- Option to tell the file original URL, just in case it wasn't originally on IPFS. This will enable this URL to become preserved, but futurely such feature will require oracles to tell wether the URL is offline or online with diverging CID '/media/daniella/9C33-6BBD/SD-DO/&SDhsp/Onchain IPFS/IPFS Web2URLs'
 
 Site design:
 - Logotype: IPFS logotype but Base's blue and instead of "IPFS": "OFS"
