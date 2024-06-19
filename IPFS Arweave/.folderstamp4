@@ -1,0 +1,75 @@
+This folder: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/IPFS Arweave
+
+folderstamp version: r5
+Method: Recursive
+
+  File: ./.folderstamp1
+  Size: 536       	Blocks: 512        IO Block: 262144 regular file
+Device: 8,97	Inode: 364427      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-05 17:51:08.000000000 -0300
+Modify: 2024-06-05 17:51:01.680000000 -0300
+Change: 2024-06-05 17:51:24.190000000 -0300
+ Birth: 2024-06-05 17:51:01.560000000 -0300
+IPFS hash: Qmcu6ZnGeXSBwbi2DeJ1ffk5zeDBRFbLDS8d6rB5HdahXF
+------------------------------
+  File: ./.folderstamp2
+  Size: 1052      	Blocks: 512        IO Block: 262144 regular file
+Device: 8,97	Inode: 366023      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-05 17:51:08.000000000 -0300
+Modify: 2024-06-05 17:51:08.430000000 -0300
+Change: 2024-06-05 17:51:24.190000000 -0300
+ Birth: 2024-06-05 17:51:08.240000000 -0300
+IPFS hash: QmcbmdczVSDz71XV8BBTWEyyJpb8F7i3D5vgZHj9AmqsqH
+------------------------------
+  File: ./.folderstamp3
+  Size: 536       	Blocks: 512        IO Block: 262144 regular file
+Device: 8,97	Inode: 367398      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-05 17:51:12.000000000 -0300
+Modify: 2024-06-05 17:51:13.210000000 -0300
+Change: 2024-06-05 17:51:24.190000000 -0300
+ Birth: 2024-06-05 17:51:13.110000000 -0300
+IPFS hash: Qmcu6ZnGeXSBwbi2DeJ1ffk5zeDBRFbLDS8d6rB5HdahXF
+------------------------------
+  File: ./contracts/noempty.txt
+  Size: 0         	Blocks: 0          IO Block: 262144 regular empty file
+Device: 8,97	Inode: 374660      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-04 23:51:10.000000000 -0300
+Modify: 2024-06-04 23:51:03.990000000 -0300
+Change: 2024-06-05 17:51:40.280000000 -0300
+ Birth: 2024-06-05 17:51:40.280000000 -0300
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+------------------------------
+  File: ./scripts/noempty.txt
+  Size: 0         	Blocks: 0          IO Block: 262144 regular empty file
+Device: 8,97	Inode: 374662      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-04 23:51:20.000000000 -0300
+Modify: 2024-06-04 23:51:03.990000000 -0300
+Change: 2024-06-05 17:51:40.290000000 -0300
+ Birth: 2024-06-05 17:51:40.290000000 -0300
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+------------------------------
+  File: ./web/noempty.txt
+  Size: 0         	Blocks: 0          IO Block: 262144 regular empty file
+Device: 8,97	Inode: 374664      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-04 23:51:20.000000000 -0300
+Modify: 2024-06-04 23:51:03.990000000 -0300
+Change: 2024-06-05 17:51:40.300000000 -0300
+ Birth: 2024-06-05 17:51:40.300000000 -0300
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+------------------------------
+  File: ./.folderstamp
+  Size: 2968      	Blocks: 512        IO Block: 262144 regular file
+Device: 8,97	Inode: 375467      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-05 17:51:44.000000000 -0300
+Modify: 2024-06-05 17:51:46.010000000 -0300
+Change: 2024-06-05 17:51:46.010000000 -0300
+ Birth: 2024-06-05 17:51:45.500000000 -0300
+IPFS hash: Qmdz1BRpVUaQ6z73xASoReZ72vNFPxR4X1Pq94NJ87LuUT
+------------------------------

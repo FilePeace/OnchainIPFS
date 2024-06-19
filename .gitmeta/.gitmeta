@@ -1,23 +1,83 @@
-commit Qma9xr4NskB1uFU8E1ufCrbBkyRi23XvtM7McsFTSFhSGj
+commit QmYaPUqyAqyMD7i1Mmp7oihka8Kvf1SwQgjkCZhZHhNPZ1
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 14fd92071a37b5c620973796cbada2c85497d18274635dd4777dac17204014046cee5e34a6beeb4e58be84a818f0dff0556a00addc28e4ed33938b360df2d7ba00
+Signature: bbbf01b332fd0acf7814e96fe0feb09063eda22cb78d2dfe0ea2d207b6b55f6c78243390399319edd88b1aa6a91777321c8cc4bc4c25aa7af9f557d331ee31ba01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmV8kJWDc8Ura9J8EyGPVVFLsNyYRMA9qArJ91NcbXnHDA
-Commit CID if containing only file hashes: QmUzRnDzSLXivoPHKe7dN5SKRxY3DaZFjgZE519YKxLHPJ
+Commit CID if including git's SHA1: QmVwvH7iPPeTTR7sdNawPAWj3R5gaiQ2cpQTjbDJbea1au
+Commit CID if containing only file hashes: QmVFgwBeBpbWB3jnJZWak5Zeai7hjYgho5Fejtz7rgBN3r
 
 ------------------------------
 
 .gitmeta version: r8
-Local folder: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/Onchain IPFS
+Local folder: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/Ethereum/dapps/Data/Onchain IPFS
 Remote Name: 
 Remote URL: 
 
 ------------------------------
 
-chown -h 1000:1000 'Tasks.txt'
-chmod 0755 'Tasks.txt'
-/usr/bin/touch -hcmd "2024-06-17 01:49:07.2700000000 -0300" 'Tasks.txt'
-/usr/bin/touch -hcad "2024-06-17 01:49:28.0000000000 -0300" 'Tasks.txt'
+chown -h 1000:1000 'IPFS Arweave/.folderstamp1'
+chmod 0755 'IPFS Arweave/.folderstamp1'
+/usr/bin/touch -hcmd "2024-06-05 17:51:01.6800000000 -0300" 'IPFS Arweave/.folderstamp1'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Arweave/.folderstamp1'
+chown -h 1000:1000 'IPFS Arweave/.folderstamp2'
+chmod 0755 'IPFS Arweave/.folderstamp2'
+/usr/bin/touch -hcmd "2024-06-05 17:51:08.4300000000 -0300" 'IPFS Arweave/.folderstamp2'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Arweave/.folderstamp2'
+chown -h 1000:1000 'IPFS Arweave/.folderstamp3'
+chmod 0755 'IPFS Arweave/.folderstamp3'
+/usr/bin/touch -hcmd "2024-06-05 17:51:13.2100000000 -0300" 'IPFS Arweave/.folderstamp3'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Arweave/.folderstamp3'
+chown -h 1000:1000 'IPFS Arweave/.folderstamp4'
+chmod 0755 'IPFS Arweave/.folderstamp4'
+/usr/bin/touch -hcmd "2024-06-05 17:51:46.0800000000 -0300" 'IPFS Arweave/.folderstamp4'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Arweave/.folderstamp4'
+chown -h 1000:1000 'IPFS Arweave/contracts/noempty.txt'
+chmod 0755 'IPFS Arweave/contracts/noempty.txt'
+/usr/bin/touch -hcmd "2024-06-04 23:51:03.9900000000 -0300" 'IPFS Arweave/contracts/noempty.txt'
+/usr/bin/touch -hcad "2024-06-19 00:32:12.0000000000 -0300" 'IPFS Arweave/contracts/noempty.txt'
+chown -h 1000:1000 'IPFS Arweave/scripts/noempty.txt'
+chmod 0755 'IPFS Arweave/scripts/noempty.txt'
+/usr/bin/touch -hcmd "2024-06-04 23:51:03.9900000000 -0300" 'IPFS Arweave/scripts/noempty.txt'
+/usr/bin/touch -hcad "2024-06-19 00:32:14.0000000000 -0300" 'IPFS Arweave/scripts/noempty.txt'
+chown -h 1000:1000 'IPFS Arweave/web/noempty.txt'
+chmod 0755 'IPFS Arweave/web/noempty.txt'
+/usr/bin/touch -hcmd "2024-06-04 23:51:03.9900000000 -0300" 'IPFS Arweave/web/noempty.txt'
+/usr/bin/touch -hcad "2024-06-19 00:32:14.0000000000 -0300" 'IPFS Arweave/web/noempty.txt'
+chown -h 1000:1000 'IPFS Web2URLs/.folderstamp1'
+chmod 0755 'IPFS Web2URLs/.folderstamp1'
+/usr/bin/touch -hcmd "2024-06-06 00:17:51.8500000000 -0300" 'IPFS Web2URLs/.folderstamp1'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/.folderstamp1'
+chown -h 1000:1000 'IPFS Web2URLs/.folderstamp2'
+chmod 0755 'IPFS Web2URLs/.folderstamp2'
+/usr/bin/touch -hcmd "2024-06-06 00:17:57.4200000000 -0300" 'IPFS Web2URLs/.folderstamp2'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/.folderstamp2'
+chown -h 1000:1000 'IPFS Web2URLs/.folderstamp3'
+chmod 0755 'IPFS Web2URLs/.folderstamp3'
+/usr/bin/touch -hcmd "2024-06-06 00:18:04.0100000000 -0300" 'IPFS Web2URLs/.folderstamp3'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/.folderstamp3'
+chown -h 1000:1000 'IPFS Web2URLs/.folderstamp4'
+chmod 0755 'IPFS Web2URLs/.folderstamp4'
+/usr/bin/touch -hcmd "2024-06-06 00:43:47.1900000000 -0300" 'IPFS Web2URLs/.folderstamp4'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/.folderstamp4'
+chown -h 1000:1000 'IPFS Web2URLs/experiment/.folderstamp1'
+chmod 0755 'IPFS Web2URLs/experiment/.folderstamp1'
+/usr/bin/touch -hcmd "2024-06-06 00:21:27.8900000000 -0300" 'IPFS Web2URLs/experiment/.folderstamp1'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/experiment/.folderstamp1'
+chown -h 1000:1000 'IPFS Web2URLs/experiment/1RM1-NFT1imgFN_530x530.jpg.weborigin'
+chmod 0755 'IPFS Web2URLs/experiment/1RM1-NFT1imgFN_530x530.jpg.weborigin'
+/usr/bin/touch -hcmd "2024-06-06 00:20:08.6300000000 -0300" 'IPFS Web2URLs/experiment/1RM1-NFT1imgFN_530x530.jpg.weborigin'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/experiment/1RM1-NFT1imgFN_530x530.jpg.weborigin'
+chown -h 1000:1000 'IPFS Web2URLs/experiment/1RM1-NFT1imgFN_530x530.jpg_v=1623213521.weborigin'
+chmod 0755 'IPFS Web2URLs/experiment/1RM1-NFT1imgFN_530x530.jpg_v=1623213521.weborigin'
+/usr/bin/touch -hcmd "2024-06-06 00:19:08.5900000000 -0300" 'IPFS Web2URLs/experiment/1RM1-NFT1imgFN_530x530.jpg_v=1623213521.weborigin'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/experiment/1RM1-NFT1imgFN_530x530.jpg_v=1623213521.weborigin'
+chown -h 1000:1000 'IPFS Web2URLs/experiment/5da3089505aa454e814e00ce730c40b0.HD-1080p-7.2Mbps.mp4.weborigin'
+chmod 0755 'IPFS Web2URLs/experiment/5da3089505aa454e814e00ce730c40b0.HD-1080p-7.2Mbps.mp4.weborigin'
+/usr/bin/touch -hcmd "2024-06-06 00:20:50.6900000000 -0300" 'IPFS Web2URLs/experiment/5da3089505aa454e814e00ce730c40b0.HD-1080p-7.2Mbps.mp4.weborigin'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/experiment/5da3089505aa454e814e00ce730c40b0.HD-1080p-7.2Mbps.mp4.weborigin'
+chown -h 1000:1000 'IPFS Web2URLs/experiment/wget.log.html5'
+chmod 0755 'IPFS Web2URLs/experiment/wget.log.html5'
+/usr/bin/touch -hcmd "2024-06-06 00:21:15.5700000000 -0300" 'IPFS Web2URLs/experiment/wget.log.html5'
+/usr/bin/touch -hcad "2024-06-19 00:31:58.0000000000 -0300" 'IPFS Web2URLs/experiment/wget.log.html5'
