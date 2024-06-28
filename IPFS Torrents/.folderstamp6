@@ -1,0 +1,35 @@
+This folder: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/Ethereum/dapps/Data/Onchain IPFS/IPFS Torrents
+
+folderstamp version: r5
+Method: Non-recursive
+
+  File: ./contracts
+  Size: 262144    	Blocks: 512        IO Block: 262144 directory
+Device: 8,81	Inode: 35505       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-04 23:47:52.000000000 -0300
+Modify: 2024-06-04 23:51:07.020000000 -0300
+Change: 2024-06-04 23:51:07.020000000 -0300
+ Birth: 2024-06-05 00:03:29.730000000 -0300
+IPFS hash: 
+------------------------------
+  File: ./scripts
+  Size: 262144    	Blocks: 512        IO Block: 262144 directory
+Device: 8,81	Inode: 35506       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-04 23:47:58.000000000 -0300
+Modify: 2024-06-04 23:51:11.170000000 -0300
+Change: 2024-06-04 23:51:11.170000000 -0300
+ Birth: 2024-06-05 00:03:29.750000000 -0300
+IPFS hash: 
+------------------------------
+  File: ./web
+  Size: 262144    	Blocks: 512        IO Block: 262144 directory
+Device: 8,81	Inode: 35507       Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-06-04 23:48:02.000000000 -0300
+Modify: 2024-06-04 23:51:13.800000000 -0300
+Change: 2024-06-04 23:51:13.800000000 -0300
+ Birth: 2024-06-05 00:03:29.760000000 -0300
+IPFS hash: 
+------------------------------
