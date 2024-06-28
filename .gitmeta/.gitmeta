@@ -1,12 +1,12 @@
-commit QmVX3z2WjmkY3cB5vYHuefNDhX7Dtx1Wd56CaJQuxWcXWH
+commit QmVHv2rWukEu2QcVERz33ZV74sFXPGeK1CifBTxnr9bsJH
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: c78179069ed04ad34bf4df3ed396a6eda4b93c587ad3a3e373662ac8c797cbd2772b28bea91a481f5267a05564c6e3b3fed39ed39414a53014f66e626514aef401
+Signature: 687c25257e5df3936b792d0f0c2f8491390b6663f8f596fc776ff2b5e25d68a8454677e07da9ffc912ac09ae9349897578a96beb5f762621b0e3f6d61cbe393701
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmNy6oAcjknHqsYDXN5jebKuqXBusyGNCaRmPZQDzMGbKs
-Commit CID if containing only file hashes: QmNgM8yEyod7HwCroGPAPqRZ9rUbDQkDg1Pbthv7Bf6jpj
+Commit CID if including git's SHA1: QmYTGx1jEziRzRiVgLVGK5LRZkSMEP6Xzp4QkDTY9Hiqpd
+Commit CID if containing only file hashes: QmdjFn2Q3uoR6xCRfBxoEBwa2rhic1NJjzzDdPLRvAJdS3
 
 ------------------------------
 
@@ -17,63 +17,7 @@ Remote URL:
 
 ------------------------------
 
-chown -h 1000:1000 'IPFS Arweave/.folderstamp5'
-chmod 0755 'IPFS Arweave/.folderstamp5'
-/usr/bin/touch -hcmd "2024-06-28 13:12:20.0000000000 -0300" 'IPFS Arweave/.folderstamp5'
-/usr/bin/touch -hcad "2024-06-28 13:17:22.0000000000 -0300" 'IPFS Arweave/.folderstamp5'
-chown -h 1000:1000 'IPFS Arweave/PioneersQueue.txt'
-chmod 0755 'IPFS Arweave/PioneersQueue.txt'
-/usr/bin/touch -hcmd "2024-06-19 21:46:14.2900000000 -0300" 'IPFS Arweave/PioneersQueue.txt'
-/usr/bin/touch -hcad "2024-06-28 13:12:18.0000000000 -0300" 'IPFS Arweave/PioneersQueue.txt'
-chown -h 1000:1000 'IPFS Torrents/.folderstamp1'
-chmod 0755 'IPFS Torrents/.folderstamp1'
-/usr/bin/touch -hcmd "2024-06-05 00:02:23.0800000000 -0300" 'IPFS Torrents/.folderstamp1'
-/usr/bin/touch -hcad "2024-06-28 13:12:42.0000000000 -0300" 'IPFS Torrents/.folderstamp1'
-chown -h 1000:1000 'IPFS Torrents/.folderstamp2'
-chmod 0755 'IPFS Torrents/.folderstamp2'
-/usr/bin/touch -hcmd "2024-06-05 00:02:31.5900000000 -0300" 'IPFS Torrents/.folderstamp2'
-/usr/bin/touch -hcad "2024-06-28 13:12:42.0000000000 -0300" 'IPFS Torrents/.folderstamp2'
-chown -h 1000:1000 'IPFS Torrents/.folderstamp3'
-chmod 0755 'IPFS Torrents/.folderstamp3'
-/usr/bin/touch -hcmd "2024-06-05 00:02:41.0200000000 -0300" 'IPFS Torrents/.folderstamp3'
-/usr/bin/touch -hcad "2024-06-28 13:12:42.0000000000 -0300" 'IPFS Torrents/.folderstamp3'
-chown -h 1000:1000 'IPFS Torrents/.folderstamp4'
-chmod 0755 'IPFS Torrents/.folderstamp4'
-/usr/bin/touch -hcmd "2024-06-05 00:03:13.6400000000 -0300" 'IPFS Torrents/.folderstamp4'
-/usr/bin/touch -hcad "2024-06-28 13:12:42.0000000000 -0300" 'IPFS Torrents/.folderstamp4'
-chown -h 1000:1000 'IPFS Torrents/.folderstamp5'
-chmod 0755 'IPFS Torrents/.folderstamp5'
-/usr/bin/touch -hcmd "2024-06-05 00:03:36.1000000000 -0300" 'IPFS Torrents/.folderstamp5'
-/usr/bin/touch -hcad "2024-06-28 13:11:58.0000000000 -0300" 'IPFS Torrents/.folderstamp5'
-chown -h 1000:1000 'IPFS Torrents/.folderstamp6'
-chmod 0755 'IPFS Torrents/.folderstamp6'
-/usr/bin/touch -hcmd "2024-06-28 13:12:06.6400000000 -0300" 'IPFS Torrents/.folderstamp6'
-/usr/bin/touch -hcad "2024-06-28 13:12:42.0000000000 -0300" 'IPFS Torrents/.folderstamp6'
-chown -h 1000:1000 'IPFS Torrents/.folderstamp7'
-chmod 0755 'IPFS Torrents/.folderstamp7'
-/usr/bin/touch -hcmd "2024-06-28 13:12:43.6900000000 -0300" 'IPFS Torrents/.folderstamp7'
-/usr/bin/touch -hcad "2024-06-28 13:13:10.0000000000 -0300" 'IPFS Torrents/.folderstamp7'
-chown -h 1000:1000 'IPFS Torrents/.folderstamp8'
-chmod 0755 'IPFS Torrents/.folderstamp8'
-/usr/bin/touch -hcmd "2024-06-28 13:13:10.7300000000 -0300" 'IPFS Torrents/.folderstamp8'
-/usr/bin/touch -hcad "2024-06-28 13:17:22.0000000000 -0300" 'IPFS Torrents/.folderstamp8'
-chown -h 1000:1000 'IPFS Web2URLs/.folderstamp5'
-chmod 0755 'IPFS Web2URLs/.folderstamp5'
-/usr/bin/touch -hcmd "2024-06-28 13:12:28.4500000000 -0300" 'IPFS Web2URLs/.folderstamp5'
-/usr/bin/touch -hcad "2024-06-28 13:17:22.0000000000 -0300" 'IPFS Web2URLs/.folderstamp5'
-chown -h 1000:1000 'contracts/PioneersQueue.txt'
-chmod 0755 'contracts/PioneersQueue.txt'
-/usr/bin/touch -hcmd "2024-06-16 16:52:26.6800000000 -0300" 'contracts/PioneersQueue.txt'
-/usr/bin/touch -hcad "2024-06-28 13:17:22.0000000000 -0300" 'contracts/PioneersQueue.txt'
 chown -h 1000:1000 'contracts/Tasks.txt'
 chmod 0755 'contracts/Tasks.txt'
-/usr/bin/touch -hcmd "2024-06-17 01:49:07.2700000000 -0300" 'contracts/Tasks.txt'
-/usr/bin/touch -hcad "2024-06-28 13:16:46.0000000000 -0300" 'contracts/Tasks.txt'
-chown -h 1000:1000 'logo.png'
-chmod 0755 'logo.png'
-/usr/bin/touch -hcmd "2024-06-27 23:46:02.0000000000 -0300" 'logo.png'
-/usr/bin/touch -hcad "2024-06-28 12:39:00.0000000000 -0300" 'logo.png'
-chown -h 1000:1000 'logo.svg'
-chmod 0755 'logo.svg'
-/usr/bin/touch -hcmd "2024-06-27 23:46:10.0000000000 -0300" 'logo.svg'
-/usr/bin/touch -hcad "2024-06-28 12:39:00.0000000000 -0300" 'logo.svg'
+/usr/bin/touch -hcmd "2024-06-28 13:44:20.9400000000 -0300" 'contracts/Tasks.txt'
+/usr/bin/touch -hcad "2024-06-28 13:44:30.0000000000 -0300" 'contracts/Tasks.txt'
