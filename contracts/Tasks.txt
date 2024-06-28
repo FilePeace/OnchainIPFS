@@ -1,3 +1,5 @@
+@OnChainKit-general @OnChainKit-provider @Foundry @Anvil @Base-SmartWallet @WAGMI-React @WAGMI-core @WAGMI-CLI @Viem @WalletConnect @Web
+
 Contracts:
 - First of all: make and use ERC-2350: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/&allREADFIRST/README.txt
 - Cursor add Feature: action: addFolder (CID string, CIDs array; can also add name, etc as for file CIDs)
