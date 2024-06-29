@@ -1,17 +1,17 @@
-commit QmZ7ZSYMvNjeeY4whLggjuyhAXkq6wV1guoib2KcrsspVN
+commit QmcRQbuGqyzL4RDMbQ2JXvEfpGyZdJcc4DgeJc24Ak9Fig
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 1887ee82084e0d2ba44812b9aa1ecdb026808aedcf0361c5ce54f7aa8891d0ea69596dac78d99695d9aa955a9ce3c85a697937ee9ad22bc072d94d27b48a31fd00
+Signature: 469c37637f3e806a42896875651e481d5c96bb60060b95c6e78a5d3d34ec5f63135942f52198470840676d08f9a5b9827a8a0c0b3476bf58a849e19c98f3878d00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmNuuAMUBZRgaywne6oy7fYfyPMVPuHMh1WMBMxNeSQCaG
-Commit CID if containing only file hashes: QmVbxgNBp4oNRRcPd1iDGAeiZ7CFtCFPs4M2kR8L8dXGpA
+Commit CID if including git's SHA1: QmX53iFjy8Df3tLVt3Ft3L8XA1X8psh3cFAvQXrK3QdaKW
+Commit CID if containing only file hashes: QmRVMNgDSWb3HyFFzADGv2B26i2Yw4tfWioqoyEzHUnKVd
 
 ------------------------------
 
 .gitmeta version: r8
-Local folder: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/Ethereum/dapps/Data/Onchain IPFS
+Local folder: /media/daniella/B/git/nerdy DAOs/FilePeace/Dapps/Onchain IPFS
 Remote Name: 
 Remote URL: 
 
@@ -19,5 +19,5 @@ Remote URL:
 
 chown -h 1000:1000 'contracts/Tasks.txt'
 chmod 0755 'contracts/Tasks.txt'
-/usr/bin/touch -hcmd "2024-06-28 14:30:22.9100000000 -0300" 'contracts/Tasks.txt'
-/usr/bin/touch -hcad "2024-06-28 14:31:10.0000000000 -0300" 'contracts/Tasks.txt'
+/usr/bin/touch -hcmd "2024-06-29 20:11:39.4009192000 -0300" 'contracts/Tasks.txt'
+/usr/bin/touch -hcad "2024-06-29 20:11:56.1737750000 -0300" 'contracts/Tasks.txt'

@@ -1,7 +1,9 @@
 @OnChainKit-general @OnChainKit-provider @Foundry @Anvil @Base-SmartWallet @WAGMI-React @WAGMI-core @WAGMI-CLI @Viem @WalletConnect @Web
 
 Contracts:
-- First of all: make and use ERC-2350: /media/daniella/9C33-6BBD/SD-DO/&SDhsp/&allREADFIRST/README.txt
+- First of all: make and use ERC-2350:
+All of my contracts enabling token assets (including Onchain IPFS) should put to work ERC-2350 launched forcibly despite the ignorance it got: '/home/daniella/Desktop/Tasks/4.Huge/Solidity/ERCs/ERC-2350 Semantic' https://ethresear.ch/t/erc-2350-semantic-contracts-erc-extension-draft/6737. Any smart-contract should be able to safely leverage its functions embedded.
+-
 - Cursor add Feature: action: addFolder (CID string, CIDs array; can also add name, etc as for file CIDs)
 - Cursor add Feature: option to also add the results of "sha512sum -t " and "openssl dgst -sha3-512 "
 - add "Verify" feature, depending on the external "Onchain IPFS Verifier". When this contract says a register is legit, the NFT will get a checkmark at any time
