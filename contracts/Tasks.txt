@@ -26,11 +26,14 @@ Extensive testing:
 - Declare the author of the file, by using ETH address or a simple name
 
 Site design:
-- Logotype: IPFS logotype but Base's blue and instead of "IPFS": "OFS"
+- logo
 -
 mottos:
 -?? "The easier, faster, cheaper alternative to Arweave for permanent storage. "
 -? "Store files referenced by Ethereum L1, on L2!"
+- Find IPFS CIDs on the blockchain!
+
+add page telling "versus others" (vs. ipfs itself, vs. arweave). for vs. arweave: this system doesn't support adding the IPFS CID of the content. Onchain IPFS is compatible with both IPFS and Arweave, linking them into a single onchain registry: both the Content ID and the file data itself!
 
 Check if these are present on Onchain IPFS:
 "I need a new field, which can be filled OPTIONALLY: content author!
@@ -66,7 +69,7 @@ Onchain IPFS:
 
 -
 
-https://www.godaddy.com/pt-br/domainsearch/find?domainToCheck=onchainipfs.xyz
+https://www.godaddy.com/pt-br/domainsearch/find?domainToCheck=onchainipfs.xyz (or onchainipfs.filepeace.xyz)
 -
 Extra: Coinbase Smart Wallet (https://www.coinbase.com/wallet/smart-wallet) integration seems done, but need CB Onchain Verifications (https://www.coinbase.com/onchain-verify) and Account Abstraction Kit (https://www.coinbase.com/developer-platform/solutions/account-abstraction-kit)
 OnchainKit (https://onchainkit.xyz/) maybe already already included with buildonchainapps kit
