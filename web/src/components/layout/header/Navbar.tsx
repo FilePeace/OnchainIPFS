@@ -32,7 +32,9 @@ export function NavbarTitle() {
   return (
     <div className="flex h-8 items-center justify-start gap-4">
       <NextLink href="/" passHref className="relative h-8 w-8" aria-label="Home page">
-        <div className="absolute size-8 rounded-full bg-white" />
+        <div className="absolute size-8 rounded-full">
+          <img src="/logo.svg" alt="Coffee Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+        </div>
       </NextLink>
       <NextLink
         href="/"
@@ -40,7 +42,7 @@ export function NavbarTitle() {
         className="font-robotoMono text-center text-xl font-medium text-white no-underline"
         aria-label="build-onchain-apps Github repository"
       >
-        BUILD ONCHAIN APPS
+        Onchain IPFS
       </NextLink>
     </div>
   );
@@ -59,17 +61,17 @@ function Navbar() {
         <div className="flex items-center justify-start gap-8">
           <ul className="hidden items-center justify-start gap-8 md:flex">
             <li className="flex">
-              <NavbarLink href="https://github.com/coinbase/build-onchain-apps" target="_blank">
+              <NavbarLink href="https://github.com/danimesq/OnchainIPFS" target="_blank">
                 <GitHubLogoIcon
                   width="24"
                   height="24"
-                  aria-label="build-onchain-apps Github respository"
+                  aria-label="Onchain IPFS' Github respository"
                 />
               </NavbarLink>
             </li>
-            <li className="flex">
+            {/*<li className="flex">
               <NavbarLink href="/#get-started">Get Started</NavbarLink>
-            </li>
+            </li>*/}
             <li className="flex">
               <NavigationMenu.Root className="relative">
                 <NavigationMenu.List className={clsx('flex flex-row space-x-2')}>

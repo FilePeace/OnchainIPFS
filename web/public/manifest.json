@@ -1,6 +1,6 @@
 {
-  "name": "Build Onchain Apps",
-  "short_name": "Onchain App",
+  "name": "Onchain IPFS",
+  "short_name": "Onchain IPFS",
   "icons": [
     {
       "src": "/icons/16x16.png",
