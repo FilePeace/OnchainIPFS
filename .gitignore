@@ -1,3 +1,5 @@
 *.pptx
 
+.nostalgit/
+
 delete-after-chkdsk/
