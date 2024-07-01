@@ -1,12 +1,12 @@
-commit QmNdhqQH7sMJayiXQ3CHzuhNmPF5UfipboK9ScjF3ckJkx
+commit QmasS9He6xbgVfpxD8RHAzXUmiqgWT7ry6vssmMEb4Tzex
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 974d6c5ef7e9d7cc374ef135fe8a3a3c57728eb0b46ccf7a1b5b2281e7238b145ec5db2672ceef880e649ea440fe72fc64b5544b44f45d1b53e7691618b391a500
+Signature: 4eee34d74de20a0fb8ba4e49fb2c0069be615ba1dce004b669ae3a12c23f7d5152c0886a050242516099f6f3c62195b47fdb81e90cee7cc7bf10e53401c03c7700
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdYva3WXiDv1dqm3tEqYCyrX44wrk1ZpsvP5P5zYkhZv1
-Commit CID if containing only file hashes: QmNkyPkThdEPUEHYuwjsq8SN3J5yaUaJrTUCfpzYKHvbA9
+Commit CID if including git's SHA1: QmQJf4aQHJGxDYysUDcjfgoqxvgeaVmgGVSL26kas4rMHh
+Commit CID if containing only file hashes: QmcNgiRMnrotgtBmP8kvBzPURYbGrk8kyvYkXdaJo1a1W2
 
 ------------------------------
 
@@ -19,13 +19,9 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 chown -h 1000:1000 'web/src/components/layout/header/Experiences.tsx'
 chmod 0664 'web/src/components/layout/header/Experiences.tsx'
-/usr/bin/touch -hcmd "2024-07-01 14:58:28.4234908180 -0300" 'web/src/components/layout/header/Experiences.tsx'
-/usr/bin/touch -hcad "2024-07-01 14:58:38.9763821120 -0300" 'web/src/components/layout/header/Experiences.tsx'
-chown -h 1000:1000 'web/src/components/layout/header/Navbar.tsx'
-chmod 0664 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcmd "2024-07-01 14:58:05.7225113000 -0300" 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcad "2024-07-01 14:58:17.1705203420 -0300" 'web/src/components/layout/header/Navbar.tsx'
+/usr/bin/touch -hcmd "2024-07-01 15:25:06.4750239280 -0300" 'web/src/components/layout/header/Experiences.tsx'
+/usr/bin/touch -hcad "2024-07-01 15:25:15.2200701190 -0300" 'web/src/components/layout/header/Experiences.tsx'
 chown -h 1000:1000 'web/yarn.build.log.html5'
 chmod 0664 'web/yarn.build.log.html5'
-/usr/bin/touch -hcmd "2024-07-01 15:21:27.5736610370 -0300" 'web/yarn.build.log.html5'
-/usr/bin/touch -hcad "2024-07-01 15:21:35.4367179300 -0300" 'web/yarn.build.log.html5'
+/usr/bin/touch -hcmd "2024-07-01 15:32:53.3447427350 -0300" 'web/yarn.build.log.html5'
+/usr/bin/touch -hcad "2024-07-01 15:33:00.1504602890 -0300" 'web/yarn.build.log.html5'

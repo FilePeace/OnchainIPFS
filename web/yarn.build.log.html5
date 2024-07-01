@@ -9,18 +9,18 @@ Our <font color="#42E66C">Documentation</font> is located at <font color="#42E66
 <font color="#75D7EC">Tweet</font> us at <font color="#8BE9FD"><b>@nu_shell</b></font>
 
 It&apos;s been this long since <font color="#42E66C">Nushell</font>&apos;s first commit:
-5yr 1month 3wk 3day 58min 36sec 861ms 606µs 611ns
+5yr 1month 3wk 3day 1hr 25min 33sec 718ms 133µs 190ns
 
-Startup Time: 412ms 356µs 943ns
+Startup Time: 60ms 841µs 418ns
 
-<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>
+<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[⇡]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>
 <font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">bash</font>
 
-<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>
-<font color="#50FA7B"><b>❯</b></font> yarn &amp;&amp; yarn format &amp;&amp; yarn lint &amp;&amp; yarn build
+<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[⇡]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>
+<font color="#50FA7B"><b>❯</b></font> yarn &amp;&amp; yarn check &amp;&amp; yarn build
 <font color="#BD93F9">➤</font> YN0000: · <font color="#6E46A4"><b>Yarn 4.1.0</b></font>
 <font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: ┌ Resolution step
-<font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: └ Completed in 0s 388ms
+<font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: └ Completed in 0s 318ms
 <font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: ┌ Post-resolution validation
 <font color="#F1FA8C">➤</font> YN0060: │ <font color="#D7875F">permissionless</font> is listed by your project with version <font color="#87AFFF">0.1.26</font>, which doesn&apos;t satisfy what <font color="#D75F00">@coinbase/</font><font color="#D7875F">onchainkit</font> (<font color="#87AFFF">pe6920</font>) requests (<font color="#00AFAF">~0.1.29</font>).
 <font color="#F1FA8C">➤</font> YN0002: │ <font color="#D7875F">onchain-ipfs</font><font color="#87AFFF">@workspace:.</font> doesn&apos;t provide <font color="#D75F00">@babel/</font><font color="#D7875F">core</font> (<font color="#87AFFF">p1665e</font>), requested by <font color="#D7875F">babel-jest</font>.
@@ -33,11 +33,11 @@ Startup Time: 412ms 356µs 943ns
 <font color="#F1FA8C">➤</font> YN0086: │ Some peer dependencies are incorrectly met; run yarn explain peer-re<font color="#87AFFF">quirements &lt;hash&gt;</font> for details, where <font color="#87AFFF">&lt;hash&gt;</font> is the six-letter p-prefixed code.
 <font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: └ Completed
 <font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: ┌ Fetch step
-<font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: └ Completed in 4s 356ms
+<font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: └ Completed in 4s 209ms
 <font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: ┌ Link step
-<font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: └ Completed in 0s 744ms
-<font color="#F1FA8C">➤</font> YN0000: · Done with warnings in 5s 826ms
-<font color="#E356A7">(node:132016) Warning: To load an ES module, set &quot;type&quot;: &quot;module&quot; in the package.json or use the .mjs extension.</font>
+<font color="#BD93F9">➤</font> <font color="#7A7A7A">YN0000</font>: └ Completed in 0s 598ms
+<font color="#F1FA8C">➤</font> YN0000: · Done with warnings in 5s 239ms
+<font color="#E356A7">(node:145527) Warning: To load an ES module, set &quot;type&quot;: &quot;module&quot; in the package.json or use the .mjs extension.</font>
 <font color="#E356A7">(Use `node --trace-warnings ...` to show where the warning was created)</font>
 
 <font color="#75D7EC">./src/components/layout/header/AccountConnect.tsx</font>
@@ -47,6 +47,8 @@ Startup Time: 412ms 356µs 943ns
 <font color="#E4F34A">36</font>:<font color="#E4F34A">11</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
 
 <font color="#75D7EC">info</font>  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+<font color="#E356A7">(node:145616) [DEP0180] DeprecationWarning: fs.Stats constructor is deprecated.</font>
+<font color="#E356A7">(Use `node --trace-deprecation ...` to show where the warning was created)</font>
 &gt; [PWA] Compile server
 &gt; [PWA] Compile server
 &gt; [PWA] Compile client (static)
@@ -54,9 +56,9 @@ Startup Time: 412ms 356µs 943ns
 &gt; [PWA] Service worker: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/sw.js
 &gt; [PWA]   url: /sw.js
 &gt; [PWA]   scope: /
-<font color="#E356A7">(node:132484) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.</font>
+<font color="#E356A7">(node:145650) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.</font>
 <font color="#E356A7">(Use `node --trace-deprecation ...` to show where the warning was created)</font>
-<font color="#E356A7">(node:132484) Warning: To load an ES module, set &quot;type&quot;: &quot;module&quot; in the package.json or use the .mjs extension.</font>
+<font color="#E356A7">(node:145650) Warning: To load an ES module, set &quot;type&quot;: &quot;module&quot; in the package.json or use the .mjs extension.</font>
  <font color="#50FA7B"><b>✓</b></font> Creating an optimized production build    
  <font color="#50FA7B"><b>✓</b></font> Compiled successfully
 
@@ -70,9 +72,9 @@ Startup Time: 412ms 356µs 943ns
  <font color="#50FA7B"><b>✓</b></font> Linting and checking validity of types    
  <font color="#50FA7B"><b>✓</b></font> Collecting page data    
  <font color="#FFB86C"><b> </b></font> Generating static pages (2/7)  <font color="#75D7EC">[=   ]</font> 
-(node:132922) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:146274) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:132915) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:146281) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
  <font color="#50FA7B"><b>✓</b></font> Generating static pages (7/7) 
  <font color="#50FA7B"><b>✓</b></font> Collecting build traces    
  <font color="#50FA7B"><b>✓</b></font> Finalizing page optimization    
@@ -96,57 +98,6 @@ Startup Time: 412ms 356µs 943ns
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 
 
-<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[!]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>took <font color="#F1FA8C"><b>2m</b></font> 
-<font color="#50FA7B"><b>❯</b></font> yarn build
-&gt; [PWA] Compile server
-&gt; [PWA] Compile server
-&gt; [PWA] Compile client (static)
-&gt; [PWA] Auto register service worker with: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/node_modules/next-pwa/register.js
-&gt; [PWA] Service worker: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/sw.js
-&gt; [PWA]   url: /sw.js
-&gt; [PWA]   scope: /
-<font color="#E356A7">(node:136016) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.</font>
-<font color="#E356A7">(Use `node --trace-deprecation ...` to show where the warning was created)</font>
-<font color="#E356A7">(node:136016) Warning: To load an ES module, set &quot;type&quot;: &quot;module&quot; in the package.json or use the .mjs extension.</font>
- <font color="#50FA7B"><b>✓</b></font> Creating an optimized production build    
- <font color="#50FA7B"><b>✓</b></font> Compiled successfully
-
-<font color="#75D7EC">./src/components/layout/header/AccountConnect.tsx</font>
-<font color="#E4F34A">38</font>:<font color="#E4F34A">30</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in the</b></font> same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
-
-<font color="#75D7EC">./src/components/layout/header/Navbar.tsx</font>
-<font color="#E4F34A">36</font>:<font color="#E4F34A">11</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
-
-<font color="#75D7EC">info</font>  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
- <font color="#50FA7B"><b>✓</b></font> Linting and checking validity of types    
- <font color="#50FA7B"><b>✓</b></font> Collecting page data    
- <font color="#FFB86C"><b> </b></font> Generating static pages (3/7)  <font color="#75D7EC">[==  ]</font> 
-(node:136509) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-(Use `node --trace-deprecation ...` to show where the warning was created)
-(node:136516) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
- <font color="#50FA7B"><b>✓</b></font> Generating static pages (7/7) 
- <font color="#50FA7B"><b>✓</b></font> Collecting build traces    
- <font color="#50FA7B"><b>✓</b></font> Finalizing page optimization    
-
-<u style="text-decoration-style:solid">Route (app)</u>                              <u style="text-decoration-style:solid">Size</u>     <u style="text-decoration-style:solid">First Load JS</u>
-┌ ○ /                                    513 B           <font color="#FF79C6"><b>233 kB</b></font>
-├ ○ /_not-found                          882 B          <font color="#42E66C">84.9 kB</font>
-├ λ /api/chain/currentBlockNumber        0 B                <font color="#42E66C">0 B</font>
-├ λ /api/chains/supported                0 B                <font color="#42E66C">0 B</font>
-├ λ /api/paymaster-proxy                 0 B                <font color="#42E66C">0 B</font>
-├ λ /api/rpc                             0 B                <font color="#42E66C">0 B</font>
-└ ○ /buy-me-coffee                       164 kB          <font color="#FF79C6"><b>397 kB</b></font>
-+ First Load JS shared by all            <font color="#42E66C">84 kB</font>
-  ├ chunks/2472-c68c8abf88c11a99.js      27.6 kB
-  ├ chunks/fd9d1056-1877374a4beec023.js  51.1 kB
-  ├ chunks/main-app-0f5e70ea16a17ffc.js  237 B
-  └ chunks/webpack-cb2de6eeb864a137.js   5.12 kB
-
-
-λ  (Server)  server-side renders at runtime (uses <font color="#75D7EC">getInitialProps</font> or <font color="#75D7EC">getServerSideProps</font>)
-○  (Static)  automatically rendered as static HTML (uses no initial props)
-
-
-<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[!]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>took <font color="#F1FA8C"><b>1m28s</b></font> 
+<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[!⇡]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>took <font color="#F1FA8C"><b>1m50s</b></font> 
 <font color="#50FA7B"><b>❯</b></font> 
 </pre>
