@@ -1,12 +1,12 @@
-commit QmasS9He6xbgVfpxD8RHAzXUmiqgWT7ry6vssmMEb4Tzex
+commit QmPb7dHNWHnVGgJkTggktEhn8FCqF9ERRz1abevKJ3fjSS
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 4eee34d74de20a0fb8ba4e49fb2c0069be615ba1dce004b669ae3a12c23f7d5152c0886a050242516099f6f3c62195b47fdb81e90cee7cc7bf10e53401c03c7700
+Signature: af6fc15e04fa2555c00180ef075c67ca11c83359a026ef42406bfa4ecd9df9c528e1e041c3579dbb92a9f6c99fcec262dc03b70f5c100157ea0ecb149264c50900
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmQJf4aQHJGxDYysUDcjfgoqxvgeaVmgGVSL26kas4rMHh
-Commit CID if containing only file hashes: QmcNgiRMnrotgtBmP8kvBzPURYbGrk8kyvYkXdaJo1a1W2
+Commit CID if including git's SHA1: QmP6wnGycLH8aCa8i3NvbVmGgB1cB2dffRUT5qj1F2RhAL
+Commit CID if containing only file hashes: QmdKpkwW3LTRTdva12q5DgCrAXKgnHUgmWnRpQkprxAd4c
 
 ------------------------------
 
@@ -17,11 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/src/components/layout/header/Experiences.tsx'
-chmod 0664 'web/src/components/layout/header/Experiences.tsx'
-/usr/bin/touch -hcmd "2024-07-01 15:25:06.4750239280 -0300" 'web/src/components/layout/header/Experiences.tsx'
-/usr/bin/touch -hcad "2024-07-01 15:25:15.2200701190 -0300" 'web/src/components/layout/header/Experiences.tsx'
-chown -h 1000:1000 'web/yarn.build.log.html5'
-chmod 0664 'web/yarn.build.log.html5'
-/usr/bin/touch -hcmd "2024-07-01 15:32:53.3447427350 -0300" 'web/yarn.build.log.html5'
-/usr/bin/touch -hcad "2024-07-01 15:33:00.1504602890 -0300" 'web/yarn.build.log.html5'
+chown -h 1000:1000 'web/public/.well-known/walletconnect.txt'
+chmod 0664 'web/public/.well-known/walletconnect.txt'
+/usr/bin/touch -hcmd "2024-07-01 16:03:24.0356018360 -0300" 'web/public/.well-known/walletconnect.txt'
+/usr/bin/touch -hcad "2024-07-01 16:03:27.9261127350 -0300" 'web/public/.well-known/walletconnect.txt'
