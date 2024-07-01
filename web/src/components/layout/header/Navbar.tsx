@@ -33,7 +33,11 @@ export function NavbarTitle() {
     <div className="flex h-8 items-center justify-start gap-4">
       <NextLink href="/" passHref className="relative h-8 w-8" aria-label="Home page">
         <div className="absolute size-8 rounded-full">
-          <img src="/logo.svg" alt="Coffee Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <img
+            src="/logo.svg"
+            alt="Coffee Logo"
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          />
         </div>
       </NextLink>
       <NextLink

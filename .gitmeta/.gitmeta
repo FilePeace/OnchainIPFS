@@ -1,12 +1,12 @@
-commit QmNprgdmaRfFUT8LXZR9F5y5DZZNAh7Nv63wMrwXTNM3JX
+commit QmNdhqQH7sMJayiXQ3CHzuhNmPF5UfipboK9ScjF3ckJkx
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 045a724405f5044e142de2464f5560010767fae446e869b92eb9b53250fd06d404f7ebb10c75f057c5e7817833375949ba3e097ac0d10e0dc0be3496763cae5301
+Signature: 974d6c5ef7e9d7cc374ef135fe8a3a3c57728eb0b46ccf7a1b5b2281e7238b145ec5db2672ceef880e649ea440fe72fc64b5544b44f45d1b53e7691618b391a500
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmSZfZipkkkqhtqvVrP3gVys2J3KTX2QjJxcj1f6RGsU8q
-Commit CID if containing only file hashes: QmPVzdAqY6LH9ZstBxZ91nMs7DdWsHvfWZzDBdfVt5DLUx
+Commit CID if including git's SHA1: QmdYva3WXiDv1dqm3tEqYCyrX44wrk1ZpsvP5P5zYkhZv1
+Commit CID if containing only file hashes: QmNkyPkThdEPUEHYuwjsq8SN3J5yaUaJrTUCfpzYKHvbA9
 
 ------------------------------
 
@@ -17,63 +17,15 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 '.folderstamp1'
-chmod 0664 '.folderstamp1'
-/usr/bin/touch -hcmd "2024-07-01 13:49:59.0252129660 -0300" '.folderstamp1'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8888639270 -0300" '.folderstamp1'
-chown -h 1000:1000 'web/package.json'
-chmod 0664 'web/package.json'
-/usr/bin/touch -hcmd "2024-07-01 03:19:09.4952750280 -0300" 'web/package.json'
-/usr/bin/touch -hcad "2024-07-01 13:55:25.7558435200 -0300" 'web/package.json'
-chown -h 1000:1000 'web/public/.favicon.ico.log.html5'
-chmod 0664 'web/public/.favicon.ico.log.html5'
-/usr/bin/touch -hcmd "2024-07-01 11:58:39.6727020570 -0300" 'web/public/.favicon.ico.log.html5'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8888639270 -0300" 'web/public/.favicon.ico.log.html5'
-chown -h 1000:1000 'web/public/.well-known/walletconnect.txt'
-chmod 0664 'web/public/.well-known/walletconnect.txt'
-/usr/bin/touch -hcmd "2024-07-01 13:11:29.6339848380 -0300" 'web/public/.well-known/walletconnect.txt'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8898639360 -0300" 'web/public/.well-known/walletconnect.txt'
-chown -h 1000:1000 'web/public/favicon.ico'
-chmod 0664 'web/public/favicon.ico'
-/usr/bin/touch -hcmd "2024-07-01 11:58:11.5432451500 -0300" 'web/public/favicon.ico'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8618637010 -0300" 'web/public/favicon.ico'
-chown -h 1000:1000 'web/public/icons/.16x16.png.log.html5'
-chmod 0664 'web/public/icons/.16x16.png.log.html5'
-/usr/bin/touch -hcmd "2024-07-01 12:04:13.0408099020 -0300" 'web/public/icons/.16x16.png.log.html5'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8898639360 -0300" 'web/public/icons/.16x16.png.log.html5'
-chown -h 1000:1000 'web/public/icons/.48x48.png.log.html5'
-chmod 0664 'web/public/icons/.48x48.png.log.html5'
-/usr/bin/touch -hcmd "2024-07-01 12:04:13.0408099020 -0300" 'web/public/icons/.48x48.png.log.html5'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8908639440 -0300" 'web/public/icons/.48x48.png.log.html5'
-chown -h 1000:1000 'web/public/icons/.96x96.png.log.html5'
-chmod 0664 'web/public/icons/.96x96.png.log.html5'
-/usr/bin/touch -hcmd "2024-07-01 12:04:13.0408099020 -0300" 'web/public/icons/.96x96.png.log.html5'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8908639440 -0300" 'web/public/icons/.96x96.png.log.html5'
-chown -h 1000:1000 'web/public/icons/16x16.png'
-chmod 0664 'web/public/icons/16x16.png'
-/usr/bin/touch -hcmd "2024-07-01 12:03:43.7944416050 -0300" 'web/public/icons/16x16.png'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8708637760 -0300" 'web/public/icons/16x16.png'
-chown -h 1000:1000 'web/public/icons/48x48.png'
-chmod 0664 'web/public/icons/48x48.png'
-/usr/bin/touch -hcmd "2024-07-01 12:03:47.3043660150 -0300" 'web/public/icons/48x48.png'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8718637850 -0300" 'web/public/icons/48x48.png'
-chown -h 1000:1000 'web/public/icons/96x96.png'
-chmod 0664 'web/public/icons/96x96.png'
-/usr/bin/touch -hcmd "2024-07-01 12:03:50.4822975230 -0300" 'web/public/icons/96x96.png'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8728637930 -0300" 'web/public/icons/96x96.png'
-chown -h 1000:1000 'web/public/logo.svg'
-chmod 0755 'web/public/logo.svg'
-/usr/bin/touch -hcmd "2024-06-27 23:46:10.0000000000 -0300" 'web/public/logo.svg'
-/usr/bin/touch -hcad "2024-07-01 13:55:56.4200474800 -0300" 'web/public/logo.svg'
-chown -h 1000:1000 'web/public/manifest.json'
-chmod 0664 'web/public/manifest.json'
-/usr/bin/touch -hcmd "2024-07-01 12:05:34.5220292140 -0300" 'web/public/manifest.json'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8738638020 -0300" 'web/public/manifest.json'
+chown -h 1000:1000 'web/src/components/layout/header/Experiences.tsx'
+chmod 0664 'web/src/components/layout/header/Experiences.tsx'
+/usr/bin/touch -hcmd "2024-07-01 14:58:28.4234908180 -0300" 'web/src/components/layout/header/Experiences.tsx'
+/usr/bin/touch -hcad "2024-07-01 14:58:38.9763821120 -0300" 'web/src/components/layout/header/Experiences.tsx'
 chown -h 1000:1000 'web/src/components/layout/header/Navbar.tsx'
 chmod 0664 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcmd "2024-07-01 12:07:32.1834113480 -0300" 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcad "2024-07-01 14:11:26.8748638100 -0300" 'web/src/components/layout/header/Navbar.tsx'
-chown -h 1000:1000 'web/yarn.lock'
-chmod 0664 'web/yarn.lock'
-/usr/bin/touch -hcmd "2024-07-01 03:19:09.4952750280 -0300" 'web/yarn.lock'
-/usr/bin/touch -hcad "2024-07-01 13:55:29.4317441140 -0300" 'web/yarn.lock'
+/usr/bin/touch -hcmd "2024-07-01 14:58:05.7225113000 -0300" 'web/src/components/layout/header/Navbar.tsx'
+/usr/bin/touch -hcad "2024-07-01 14:58:17.1705203420 -0300" 'web/src/components/layout/header/Navbar.tsx'
+chown -h 1000:1000 'web/yarn.build.log.html5'
+chmod 0664 'web/yarn.build.log.html5'
+/usr/bin/touch -hcmd "2024-07-01 15:21:27.5736610370 -0300" 'web/yarn.build.log.html5'
+/usr/bin/touch -hcad "2024-07-01 15:21:35.4367179300 -0300" 'web/yarn.build.log.html5'
