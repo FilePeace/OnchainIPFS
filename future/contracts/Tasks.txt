@@ -1,4 +1,6 @@
-@OnChainKit-general @OnChainKit-provider @Foundry @Anvil @Base-SmartWallet @WAGMI-React @WAGMI-core @WAGMI-CLI @Viem @WalletConnect @Web
+- begin with modifying the BuyMeCoffee smart-contract, in a way owner can be changed only once, and any time owner can change the receiver!
+
+CursorIDE documentation mention: @OnChainKit-general @OnChainKit-provider @Foundry @Anvil @Base-SmartWallet @WAGMI-React @WAGMI-core @WAGMI-CLI @Viem @WalletConnect @Web
 
 Contracts:
 - First of all: make and use ERC-2350:

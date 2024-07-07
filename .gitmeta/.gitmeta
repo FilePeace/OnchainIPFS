@@ -1,12 +1,12 @@
-commit QmPb7dHNWHnVGgJkTggktEhn8FCqF9ERRz1abevKJ3fjSS
+commit QmP4VWihkCxoMpbLedMjWTohxqkXw6ZbLaUzWN5EzcxhaM
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: af6fc15e04fa2555c00180ef075c67ca11c83359a026ef42406bfa4ecd9df9c528e1e041c3579dbb92a9f6c99fcec262dc03b70f5c100157ea0ecb149264c50900
+Signature: 8cad59b9b36bcf8f2787e1877b70a4eefac1cdd8c69533744d94eb1b0ba0f8ec6b2d83be72c97472ce0e35f324427fc80731d638f48939d3df49fd9a1944377c00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmP6wnGycLH8aCa8i3NvbVmGgB1cB2dffRUT5qj1F2RhAL
-Commit CID if containing only file hashes: QmdKpkwW3LTRTdva12q5DgCrAXKgnHUgmWnRpQkprxAd4c
+Commit CID if including git's SHA1: QmdRcYp3wxFjkgHyP8oBbxPAe263MaES3rCgXX8hF8DpF5
+Commit CID if containing only file hashes: QmNtXhGfZHZGEv8yHZpQPavXkcQ8qsaFsyj1NraoC5FrD3
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/public/.well-known/walletconnect.txt'
-chmod 0664 'web/public/.well-known/walletconnect.txt'
-/usr/bin/touch -hcmd "2024-07-01 16:03:24.0356018360 -0300" 'web/public/.well-known/walletconnect.txt'
-/usr/bin/touch -hcad "2024-07-01 16:03:27.9261127350 -0300" 'web/public/.well-known/walletconnect.txt'
+chown -h 1000:1000 'future/contracts/Tasks.txt'
+chmod 0755 'future/contracts/Tasks.txt'
+/usr/bin/touch -hcmd "2024-07-07 15:03:42.3640503230 -0300" 'future/contracts/Tasks.txt'
+/usr/bin/touch -hcad "2024-07-07 15:03:47.7147453580 -0300" 'future/contracts/Tasks.txt'
