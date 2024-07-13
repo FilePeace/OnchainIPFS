@@ -1,12 +1,12 @@
-commit QmZBHcLRybKQyz5VM6cMQ49wbjtFYQr6bZwWytKLTiMJjD
+commit QmWjzb4rCcpVfpoy4B49fthRSdvmKc5Ta8vx2NxUhwTgqJ
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 340e86e631b716830452192356cd1c3102908a3efaf9b464e0089ceafc5c466561269cf24f72b3301f31664c742a82359519a1f385e30328148a4df50976a25000
+Signature: d7769ef8462bdce7419be4f62845c3a625738fe6fac61c04c1bf00167a36171d7f8978612f8c6ec7c4852f39255396c9b73ce1ec918c2d526e341d5181de7d9800
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmfKyF6K9wLU5hVCNrGFNrxfaThWi1QUsCfnr2V3C2YFxm
-Commit CID if containing only file hashes: QmPrevweAD7j4ojTq3Ka4fCa3vkZZMAKdxVWuJUp9jSqyj
+Commit CID if including git's SHA1: QmNaXQPyM9MZNSahHyVgykt7wKZfQJunyoS5NVauxkKoA3
+Commit CID if containing only file hashes: Qmbzy1mnuTFFU4k26bHisdGthkBexwn5nNymxi3ZJ5RacA
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'LICENSE.md'
-chmod 0664 'LICENSE.md'
-/usr/bin/touch -hcmd "2024-07-13 01:50:22.7776000600 -0300" 'LICENSE.md'
-/usr/bin/touch -hcad "2024-07-13 01:50:49.0196122790 -0300" 'LICENSE.md'
+chown -h 1000:1000 'web/src/components/layout/footer/Footer.tsx'
+chmod 0664 'web/src/components/layout/footer/Footer.tsx'
+/usr/bin/touch -hcmd "2024-07-13 01:53:59.7872064670 -0300" 'web/src/components/layout/footer/Footer.tsx'
+/usr/bin/touch -hcad "2024-07-13 01:53:59.8822009400 -0300" 'web/src/components/layout/footer/Footer.tsx'

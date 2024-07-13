@@ -33,9 +33,9 @@ export default function Footer() {
 
             <div className="mt-8 flex flex-col items-center justify-center">
               <p className="text-base font-normal leading-7 text-boat-footer-light-gray">
-                This project is licensed under the MIT License - see the{' '}
+                This project is licensed under the NonCommercial Creative Commons License - see the{' '}
                 <NextLink
-                  href="https://github.com/coinbase/build-onchain-apps/blob/main/LICENSE.md"
+                  href="https://github.com/danimesq/OnchainIPFS/blob/main/LICENSE.md"
                   className="underline"
                   target="_blank"
                 >
