@@ -67,7 +67,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
   return (
     <>
       <h2 className="mb-5 w-full text-center text-2xl font-semibold text-white lg:text-left">
-        Buy Me a Coffee!
+        🎂Buy Me a Cupcake!
       </h2>
       <form onSubmit={onSubmitTransaction} className="w-full">
         <div className="my-4 items-center lg:flex lg:gap-4">

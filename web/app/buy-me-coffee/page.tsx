@@ -28,7 +28,7 @@ export default function BuyMeCoffeePage() {
     <>
       <Header />
       <Main>
-        <Banner pageName="Buy Me A Coffee" pageUrl="buy-me-coffee" />
+        <Banner pageName="Buy Me A Cupcake" pageUrl="buy-me-coffee" />
         <BuyMeCoffeeContractDemo />
         <Guide />
       </Main>

@@ -32,7 +32,7 @@ export function NavbarTitle() {
   return (
     <div className="flex h-8 items-center justify-start gap-4">
       <NextLink href="/" passHref className="relative h-8 w-8" aria-label="Home page">
-        <div className="absolute size-8 rounded-full">
+        <div className="absolute size-8">
           <img
             src="/logo.svg"
             alt="Coffee Logo"
@@ -82,7 +82,7 @@ function Navbar() {
                   <NavigationMenu.Item>
                     <NavigationMenu.Trigger className="group flex h-16 items-center justify-start gap-1">
                       <span className="font-robotoMono text-center text-base font-normal text-white">
-                        Experiences
+                        Pages
                       </span>
                       <ChevronDownIcon
                         className="transform transition duration-200 ease-in-out group-data-[state=open]:rotate-180"

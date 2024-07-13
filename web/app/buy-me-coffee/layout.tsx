@@ -1,9 +1,9 @@
 import { generateMetadata } from '@/utils/generateMetadata';
 
 export const metadata = generateMetadata({
-  title: 'Buy me a coffee - BOAT',
+  title: 'Buy me a cupcake🎂 - Onchain IPFS',
   description:
-    'Save weeks of initial app setup and the hassle of integrating onchain components with web2 infrastructure.',
+    'Donate to Onchain IPFS: the service to store your files onchain and link them between IPFS, Arweave and Torrent.',
   images: 'themes.png',
   pathname: 'buy-me-coffee',
 });

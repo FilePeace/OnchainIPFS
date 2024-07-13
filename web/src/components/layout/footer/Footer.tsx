@@ -20,13 +20,13 @@ export default function Footer() {
                 passHref
                 className="font-robotoMono text-center text-xl font-medium text-white no-underline"
               >
-                BUILD ONCHAIN APPS
+                ONCHAIN IPFS
               </NextLink>
-              <NavbarLink href="https://github.com/coinbase/build-onchain-apps" target="_blank">
+              <NavbarLink href="https://github.com/danimesq/OnchainIPFS" target="_blank">
                 <GitHubLogoIcon
                   width="24"
                   height="24"
-                  aria-label="build-onchain-apps Github respository"
+                  aria-label="Onchain IPFS' Github respository"
                 />
               </NavbarLink>
             </div>
@@ -47,22 +47,27 @@ export default function Footer() {
           </div>
 
           <div className="font-robotoMono flex flex-col items-start justify-center gap-4 text-center text-xl font-medium text-white">
-            EXPERIENCES
-            <NavbarLink href="/buy-me-coffee">
+            <NextLink href="https://filepeace.github.io" target="_blank">
+            <img
+            src="https://filepeace.github.io/logotype.svg"
+            alt="FilePeace"
+            style={{ height: '32px' }}
+          /></NextLink>
+            <NavbarLink href="https://github.com/FilePeace/folderstamp" target="_blank">
               <span className="flex items-center gap-1 px-2">
-                Buy Me Coffee <ArrowTopRightIcon width="16" height="16" />
+                Folderstamp <ArrowTopRightIcon width="16" height="16" />
               </span>
             </NavbarLink>
-            <NavbarLink href="/mint">
+            <NavbarLink href="https://github.com/FilePeace/webpresent" target="_blank">
               <span className="flex items-center gap-1 px-2">
-                Mint NFT <ArrowTopRightIcon width="16" height="16" />
+                Webpresent <ArrowTopRightIcon width="16" height="16" />
               </span>
             </NavbarLink>
-            <NavbarLink href="/paymaster-bundler">
+            {/*<NavbarLink href="/paymaster-bundler">
               <span className="flex items-center gap-1 px-2">
                 Paymaster Bundler <ArrowTopRightIcon width="16" height="16" />
               </span>
-            </NavbarLink>
+            </NavbarLink>*/}
           </div>
         </div>
       </div>
