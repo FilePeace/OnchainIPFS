@@ -1,4 +1,4 @@
-- begin with modifying the BuyMeCoffee smart-contract, in a way owner can be changed only once, and any time owner can change the receiver!
+- begin with deploying BuyMeCoffee smart-contract and seeing if the page do work!
 
 CursorIDE documentation mention: @OnChainKit-general @OnChainKit-provider @Foundry @Anvil @Base-SmartWallet @WAGMI-React @WAGMI-core @WAGMI-CLI @Viem @WalletConnect @Web
 
