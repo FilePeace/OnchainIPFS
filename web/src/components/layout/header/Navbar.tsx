@@ -30,28 +30,18 @@ export function NavbarLink({
 
 export function NavbarTitle() {
   return (
-    <div className="flex h-8 items-center justify-start gap-4">
-      <NextLink href="/" passHref className="relative h-8 w-8" aria-label="Home page">
-        <div className="absolute size-8">
-          <img
-            src="/logo.svg"
-            alt="Onchain IPFS Logo"
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          />
-          {/*<img
-            src="/logotype.svg"
-            alt="Onchain IPFS Logo"
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          />*/}
-        </div>
-      </NextLink>
+    <div className="flex h-8 items-center justify-start gap-4" style={{borderRadius:'30px', background:'#0a0b0d',padding:'30px'}}>
       <NextLink
         href="/"
         passHref
         className="font-robotoMono text-center text-xl font-medium text-white no-underline"
         aria-label="build-onchain-apps Github repository"
       >
-        Onchain IPFS
+          <img
+            src="/logotype.svg"
+            alt="Onchain IPFS Logo"
+            style={{ height: '50px', objectFit: 'cover' }}
+          />
       </NextLink>
     </div>
   );
