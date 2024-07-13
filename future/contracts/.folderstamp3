@@ -1,0 +1,425 @@
+This folder: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/future/contracts
+
+folderstamp version: r5
+Method: Recursive
+
+  File: ./.folderstamp
+  Size: 127       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9322086     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:15:26.028092365 -0300
+Modify: 2024-07-13 02:15:26.054089849 -0300
+Change: 2024-07-13 02:15:26.054089849 -0300
+ Birth: 2024-07-13 02:15:26.028092365 -0300
+IPFS hash: QmPTrT9fZZLFaigHCaZZfcu1DXxMdsEKEUoNkGzC6MNerZ
+------------------------------
+  File: ./OnchainIPFS.3.claude.sol
+  Size: 8694      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407824     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:18.293637143 -0300
+Modify: 2024-07-01 01:36:15.038797300 -0300
+Change: 2024-07-01 13:53:35.611374405 -0300
+ Birth: 2024-07-01 13:53:35.610374442 -0300
+IPFS hash: QmV3jRhrDYDVhXb97Pbt1D2ciGMKukCBX1ib1qoxUFAcHi
+------------------------------
+  File: ./OnchainIPFS.2.cursor.sol
+  Size: 8884      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407829     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:18.354631998 -0300
+Modify: 2024-06-30 23:56:07.585434900 -0300
+Change: 2024-07-01 13:53:35.619374106 -0300
+ Birth: 2024-07-01 13:53:35.618374144 -0300
+IPFS hash: QmaLjKFvup1Jt3UEkDfMwbftxMccZw1adyvndYyjjJ5UJH
+------------------------------
+  File: ./Tasks.txt
+  Size: 6249      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,70	Inode: 9354494     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 01:33:15.527604173 -0300
+Modify: 2024-07-13 01:33:08.303510092 -0300
+Change: 2024-07-13 01:33:08.326507207 -0300
+ Birth: 2024-07-13 01:33:08.298510720 -0300
+IPFS hash: QmX1cQx6rpUiY2wq68vLmafhEoHtNZtAYsbVCuxJ378HTL
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/index.html
+  Size: 128534    	Blocks: 256        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235061    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.792985826 -0300
+ Birth: 2024-07-13 02:15:16.792985826 -0300
+IPFS hash: QmceWooWqcskcTVXE3Wxe1qt3CYBzu2YHHAMeVwpiFc9dc
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/manifest.json
+  Size: 1056      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235062    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.792985826 -0300
+ Birth: 2024-07-13 02:15:16.792985826 -0300
+IPFS hash: QmcymJmq5tmQS5fXLRd9W5FxjoZY1kwRAMqtcLc6ySossL
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_1.css
+  Size: 37806     	Blocks: 80         IO Block: 4096   regular file
+Device: 8,70	Inode: 10235072    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.804984666 -0300
+ Birth: 2024-07-13 02:15:16.804984666 -0300
+IPFS hash: QmRpre4UXXAeH9hSKPK38HrYiXjQujbjwEawEaDTVu5paa
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_0.css
+  Size: 39        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235071    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.804984666 -0300
+ Birth: 2024-07-13 02:15:16.804984666 -0300
+IPFS hash: QmNsSiNb6igEEdoR5UtLaxJDgHX3NSGfhs19eQvFfJfTf8
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/frames/1/index.html
+  Size: 515       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235076    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.804984666 -0300
+ Birth: 2024-07-13 02:15:16.804984666 -0300
+IPFS hash: QmRQ89Npy5gtxfk1nXTJvZXDXJBQqCbDqAitCYyYH9DKPJ
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/frames/1/manifest.json
+  Size: 86        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235077    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.804984666 -0300
+ Birth: 2024-07-13 02:15:16.804984666 -0300
+IPFS hash: QmQ8TMZNBU38mEkdHdVpptC6PBdbmuk5tQsFYtXPM7VRgo
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/frames/0/index.html
+  Size: 487       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235074    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.804984666 -0300
+ Birth: 2024-07-13 02:15:16.804984666 -0300
+IPFS hash: QmQ8aM2TS6YsdBdGuyb367LGSskRARvGDQ8fY71Xu37FRC
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/frames/0/manifest.json
+  Size: 86        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235075    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.804984666 -0300
+ Birth: 2024-07-13 02:15:16.804984666 -0300
+IPFS hash: QmQ8TMZNBU38mEkdHdVpptC6PBdbmuk5tQsFYtXPM7VRgo
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/images/8.ico
+  Size: 15086     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,70	Inode: 10235073    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.804984666 -0300
+ Birth: 2024-07-13 02:15:16.804984666 -0300
+IPFS hash: QmU1uqZja8knttdXdX7k2geciL5s7YTxMomVV1cbUoT3om
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/fonts/6.woff2
+  Size: 52382     	Blocks: 104        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235069    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.803984763 -0300
+ Birth: 2024-07-13 02:15:16.803984763 -0300
+IPFS hash: QmZy6APNoHhDUFE2DfedeBgpwA4qD5WEHV1QMX8JqjAg4A
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/fonts/7.woff2
+  Size: 54012     	Blocks: 112        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235070    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.803984763 -0300
+ Birth: 2024-07-13 02:15:16.803984763 -0300
+IPFS hash: QmNwSGAPZppQkY3ucL2MWsa9CKTX88m2tqXmervLHBt3Cq
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/fonts/1.otf
+  Size: 225876    	Blocks: 448        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235064    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.796985440 -0300
+ Birth: 2024-07-13 02:15:16.794985633 -0300
+IPFS hash: QmemN1A1Ev8W7udtw2BcM2m13XTyDyPuWhT8bbNvriYkWC
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/fonts/4.otf
+  Size: 230152    	Blocks: 456        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235067    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.801984956 -0300
+ Birth: 2024-07-13 02:15:16.799985150 -0300
+IPFS hash: QmPJUrRFgzyQhk7U4fDCdm1mqKtt14jxr3kwrZSMP1y1dL
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/fonts/3.otf
+  Size: 231032    	Blocks: 456        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235066    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.799985150 -0300
+ Birth: 2024-07-13 02:15:16.798985246 -0300
+IPFS hash: QmZC1FWJ58eNTy4koHLTw2tek3ug5mrogTvkcMCGJBf5mh
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/fonts/0.otf
+  Size: 225516    	Blocks: 448        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235063    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.794985633 -0300
+ Birth: 2024-07-13 02:15:16.792985826 -0300
+IPFS hash: QmZFg1oVz35GceiT9mnaPJXhiJRvQZYwJcQNPGRF7sZLoa
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/fonts/5.otf
+  Size: 232784    	Blocks: 456        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235068    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.803984763 -0300
+ Birth: 2024-07-13 02:15:16.801984956 -0300
+IPFS hash: Qmdt2eknqkNxq1HAguhSriEJHA9z7AtokcpfTLsbvifrKQ
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/fonts/2.otf
+  Size: 225156    	Blocks: 440        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235065    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:53.509000000 -0300
+Modify: 2024-07-13 00:48:53.509000000 -0300
+Change: 2024-07-13 02:15:16.798985246 -0300
+ Birth: 2024-07-13 02:15:16.796985440 -0300
+IPFS hash: QmQwYZ8dFqERdEbFimiVKKreN4EAqM1bfzHG61eQmBjFot
+------------------------------
+  File: ./OnchainIPFS.1.gpt4.sol
+  Size: 8883      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407825     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:18.534616818 -0300
+Modify: 2024-06-30 22:30:00.346688700 -0300
+Change: 2024-07-01 13:53:35.613374330 -0300
+ Birth: 2024-07-01 13:53:35.612374367 -0300
+IPFS hash: QmRkaCX5YLQqp4VnkCfujnsmKjktviqNomEqeEr8JWn4jS
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/index.html
+  Size: 89874     	Blocks: 176        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235046    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.780373852 -0300
+ Birth: 2024-07-13 02:15:12.780373852 -0300
+IPFS hash: QmaxRy46vnJ31hFTyA89r8j6ngK9LNPHXhaQcVJGzUh92c
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/manifest.json
+  Size: 1025      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235047    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.781373756 -0300
+ Birth: 2024-07-13 02:15:12.781373756 -0300
+IPFS hash: QmYwqSSvL47nBfpCJGvHtjkmXEHPk6vYExqsaiFGNB9eZQ
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_1.css
+  Size: 37720     	Blocks: 80         IO Block: 4096   regular file
+Device: 8,70	Inode: 10235057    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.792372692 -0300
+ Birth: 2024-07-13 02:15:12.791372789 -0300
+IPFS hash: QmepjUNpLAUJH9TTaG3qKAtoQDotCpthvzCUcpyLSJeXBL
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_0.css
+  Size: 39        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235056    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.791372789 -0300
+ Birth: 2024-07-13 02:15:12.791372789 -0300
+IPFS hash: QmNsSiNb6igEEdoR5UtLaxJDgHX3NSGfhs19eQvFfJfTf8
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/frames/0/index.html
+  Size: 515       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235059    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.792372692 -0300
+ Birth: 2024-07-13 02:15:12.792372692 -0300
+IPFS hash: QmRQ89Npy5gtxfk1nXTJvZXDXJBQqCbDqAitCYyYH9DKPJ
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/frames/0/manifest.json
+  Size: 86        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10235060    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.792372692 -0300
+ Birth: 2024-07-13 02:15:12.792372692 -0300
+IPFS hash: QmQ8TMZNBU38mEkdHdVpptC6PBdbmuk5tQsFYtXPM7VRgo
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/images/8.ico
+  Size: 15086     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,70	Inode: 10235058    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.792372692 -0300
+ Birth: 2024-07-13 02:15:12.792372692 -0300
+IPFS hash: QmU1uqZja8knttdXdX7k2geciL5s7YTxMomVV1cbUoT3om
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/fonts/6.woff2
+  Size: 52382     	Blocks: 104        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235054    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.791372789 -0300
+ Birth: 2024-07-13 02:15:12.791372789 -0300
+IPFS hash: QmZy6APNoHhDUFE2DfedeBgpwA4qD5WEHV1QMX8JqjAg4A
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/fonts/7.woff2
+  Size: 54012     	Blocks: 112        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235055    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.791372789 -0300
+ Birth: 2024-07-13 02:15:12.791372789 -0300
+IPFS hash: QmNwSGAPZppQkY3ucL2MWsa9CKTX88m2tqXmervLHBt3Cq
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/fonts/1.otf
+  Size: 225876    	Blocks: 448        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235049    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.784373466 -0300
+ Birth: 2024-07-13 02:15:12.782373659 -0300
+IPFS hash: QmemN1A1Ev8W7udtw2BcM2m13XTyDyPuWhT8bbNvriYkWC
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/fonts/4.otf
+  Size: 230152    	Blocks: 456        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235052    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.789372982 -0300
+ Birth: 2024-07-13 02:15:12.788373079 -0300
+IPFS hash: QmPJUrRFgzyQhk7U4fDCdm1mqKtt14jxr3kwrZSMP1y1dL
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/fonts/3.otf
+  Size: 231032    	Blocks: 456        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235051    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.788373079 -0300
+ Birth: 2024-07-13 02:15:12.786373272 -0300
+IPFS hash: QmZC1FWJ58eNTy4koHLTw2tek3ug5mrogTvkcMCGJBf5mh
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/fonts/0.otf
+  Size: 225516    	Blocks: 448        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235048    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.782373659 -0300
+ Birth: 2024-07-13 02:15:12.781373756 -0300
+IPFS hash: QmZFg1oVz35GceiT9mnaPJXhiJRvQZYwJcQNPGRF7sZLoa
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/fonts/5.otf
+  Size: 232784    	Blocks: 456        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235053    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.791372789 -0300
+ Birth: 2024-07-13 02:15:12.789372982 -0300
+IPFS hash: Qmdt2eknqkNxq1HAguhSriEJHA9z7AtokcpfTLsbvifrKQ
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/fonts/2.otf
+  Size: 225156    	Blocks: 440        IO Block: 4096   regular file
+Device: 8,70	Inode: 10235050    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 00:48:55.993000000 -0300
+Modify: 2024-07-13 00:48:55.993000000 -0300
+Change: 2024-07-13 02:15:12.786373272 -0300
+ Birth: 2024-07-13 02:15:12.784373466 -0300
+IPFS hash: QmQwYZ8dFqERdEbFimiVKKreN4EAqM1bfzHG61eQmBjFot
+------------------------------
+  File: ./OnchainIPFS.4.gpt4.sol
+  Size: 8851      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407828     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:18.605610830 -0300
+Modify: 2024-07-01 01:57:58.352271400 -0300
+Change: 2024-07-01 13:53:35.618374144 -0300
+ Birth: 2024-07-01 13:53:35.616374218 -0300
+IPFS hash: QmZm6AyuypQKn2zjLume4JFPBZunMMFxcQQ5Cp7kZah5W2
+------------------------------
+  File: ./OnchainIPFS.5.claude.sol
+  Size: 10274     	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407827     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:18.671605264 -0300
+Modify: 2024-07-01 02:29:39.924362600 -0300
+Change: 2024-07-01 13:53:35.616374218 -0300
+ Birth: 2024-07-01 13:53:35.615374256 -0300
+IPFS hash: QmT6hkyihMQrYhH89ZnLTqjJQTUz9sEp5tpJKa8mDkexwX
+------------------------------
+  File: ./PioneersQueue.txt
+  Size: 195       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9407830     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:18.804594048 -0300
+Modify: 2024-06-16 16:52:26.680000000 -0300
+Change: 2024-07-01 13:53:35.621374032 -0300
+ Birth: 2024-07-01 13:53:35.620374069 -0300
+IPFS hash: QmXeztSuHXQC2jMpSWCpvNdZVSkAWSY7m1Tk8KZdBJbgdj
+------------------------------
+  File: ./.folderstamp1
+  Size: 5050      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,70	Inode: 9312749     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:32.694419477 -0300
+Modify: 2024-07-13 02:02:18.815593120 -0300
+Change: 2024-07-13 02:02:23.212221962 -0300
+ Birth: 2024-07-13 02:02:18.147649455 -0300
+IPFS hash: QmeHwZopuZ5ioACL8ZGq9733bg28CCdibvdcroujP3UNBZ
+------------------------------
+  File: ./.folderstamp2
+  Size: 5511      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407187     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:32.085471097 -0300
+Modify: 2024-07-13 02:02:32.702418799 -0300
+Change: 2024-07-13 02:02:36.005138651 -0300
+ Birth: 2024-07-13 02:02:32.005477878 -0300
+IPFS hash: QmafQQmoF5jZ9gy9z99t63XWfGzNzMQ5mW29EMqRRyVetd
+------------------------------

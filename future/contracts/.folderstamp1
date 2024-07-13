@@ -1,0 +1,105 @@
+This folder: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/future/contracts
+
+folderstamp version: r5
+Method: Recursive
+
+  File: ./.folderstamp
+  Size: 127       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9312749     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 02:02:18.147649455 -0300
+Modify: 2024-07-13 02:02:18.181646588 -0300
+Change: 2024-07-13 02:02:18.181646588 -0300
+ Birth: 2024-07-13 02:02:18.147649455 -0300
+IPFS hash: QmPTrT9fZZLFaigHCaZZfcu1DXxMdsEKEUoNkGzC6MNerZ
+------------------------------
+  File: ./OnchainIPFS.3.claude.sol
+  Size: 8694      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407824     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-01 13:55:14.948142243 -0300
+Modify: 2024-07-01 01:36:15.038797300 -0300
+Change: 2024-07-01 13:53:35.611374405 -0300
+ Birth: 2024-07-01 13:53:35.610374442 -0300
+IPFS hash: QmV3jRhrDYDVhXb97Pbt1D2ciGMKukCBX1ib1qoxUFAcHi
+------------------------------
+  File: ./OnchainIPFS.2.cursor.sol
+  Size: 8884      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407829     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-01 13:55:14.948142243 -0300
+Modify: 2024-06-30 23:56:07.585434900 -0300
+Change: 2024-07-01 13:53:35.619374106 -0300
+ Birth: 2024-07-01 13:53:35.618374144 -0300
+IPFS hash: QmaLjKFvup1Jt3UEkDfMwbftxMccZw1adyvndYyjjJ5UJH
+------------------------------
+  File: ./Tasks.txt
+  Size: 6249      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,70	Inode: 9354494     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 01:33:15.527604173 -0300
+Modify: 2024-07-13 01:33:08.303510092 -0300
+Change: 2024-07-13 01:33:08.326507207 -0300
+ Birth: 2024-07-13 01:33:08.298510720 -0300
+IPFS hash: QmX1cQx6rpUiY2wq68vLmafhEoHtNZtAYsbVCuxJ378HTL
+------------------------------
+  File: ./Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM).zip.html
+  Size: 822782    	Blocks: 1608       IO Block: 4096   regular file
+Device: 8,70	Inode: 9263838     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 01:42:25.568548341 -0300
+Modify: 2024-07-13 00:48:56.286029900 -0300
+Change: 2024-07-13 01:34:28.239534137 -0300
+ Birth: 2024-07-13 00:48:56.284030109 -0300
+IPFS hash: QmTPi9ki9VwjpzC5mMWpF8Vts6ATSpiHzsB4iiaH9CBCp3
+------------------------------
+  File: ./OnchainIPFS.1.gpt4.sol
+  Size: 8883      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407825     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-01 13:55:14.948142243 -0300
+Modify: 2024-06-30 22:30:00.346688700 -0300
+Change: 2024-07-01 13:53:35.613374330 -0300
+ Birth: 2024-07-01 13:53:35.612374367 -0300
+IPFS hash: QmRkaCX5YLQqp4VnkCfujnsmKjktviqNomEqeEr8JWn4jS
+------------------------------
+  File: ./OnchainIPFS.4.gpt4.sol
+  Size: 8851      	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407828     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-01 13:55:14.948142243 -0300
+Modify: 2024-07-01 01:57:58.352271400 -0300
+Change: 2024-07-01 13:53:35.618374144 -0300
+ Birth: 2024-07-01 13:53:35.616374218 -0300
+IPFS hash: QmZm6AyuypQKn2zjLume4JFPBZunMMFxcQQ5Cp7kZah5W2
+------------------------------
+  File: ./OnchainIPFS.5.claude.sol
+  Size: 10274     	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407827     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-01 13:55:14.948142243 -0300
+Modify: 2024-07-01 02:29:39.924362600 -0300
+Change: 2024-07-01 13:53:35.616374218 -0300
+ Birth: 2024-07-01 13:53:35.615374256 -0300
+IPFS hash: QmT6hkyihMQrYhH89ZnLTqjJQTUz9sEp5tpJKa8mDkexwX
+------------------------------
+  File: ./Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM).zip.html
+  Size: 827791    	Blocks: 1624       IO Block: 4096   regular file
+Device: 8,70	Inode: 9263410     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 01:42:25.596544995 -0300
+Modify: 2024-07-13 00:48:53.813288142 -0300
+Change: 2024-07-13 01:34:28.240534013 -0300
+ Birth: 2024-07-13 00:48:53.807288769 -0300
+IPFS hash: QmSgcF7j4ygaSysjnoQwQmem1BqAeGQvtPvRBefAJG4GKE
+------------------------------
+  File: ./PioneersQueue.txt
+  Size: 195       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9407830     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-01 13:55:14.948142243 -0300
+Modify: 2024-06-16 16:52:26.680000000 -0300
+Change: 2024-07-01 13:53:35.621374032 -0300
+ Birth: 2024-07-01 13:53:35.620374069 -0300
+IPFS hash: QmXeztSuHXQC2jMpSWCpvNdZVSkAWSY7m1Tk8KZdBJbgdj
+------------------------------
