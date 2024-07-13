@@ -1,12 +1,12 @@
-commit QmRYaxFaxi4xZMBBbDmEuzLPKq9ndeFWxAsmkfabYJcTgq
+commit QmT2TpvgvDvzUcRoA9JG7uMcsxA5pjXjrxtVesg7AoPqcR
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 5beca0e4d2258e31e9648a68591ab7a0d710225bfb961136814633d00afb20087158f271ac32e744aed04ed86edfce2cc8f229870081c70efdbbbe8bd79be65000
+Signature: 8dc7f1202ebf1558d86941797846e64b612d527dc18bae66c733e3c1be5c48130541fb7a448624e3dd2ca0b2dfed2af671d5f8d7c7ce550b015eaf7952c3e82500
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmQm5QgKk7WN8Hu1VXykjo1PfexucjYVJkGdmhYiQ98mjb
-Commit CID if containing only file hashes: QmVsEbpG2iLWW3uq4Lyw3LvFgexRXNCyYnMCAgd5bkm3Vq
+Commit CID if including git's SHA1: QmNR76gGhKVgjmvzTyr5tcv6e4jwWKFtL4A3QUHDaZbdxh
+Commit CID if containing only file hashes: QmTbXGYWDyk5B9P6NMC4oGdpH5oYQgJ7Lm5MAAUmV9bhLj
 
 ------------------------------
 
@@ -17,35 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/images/8.ico'
-chmod 0664 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/images/8.ico'
-/usr/bin/touch -hcmd "2024-07-13 00:48:55.9930000000 -0300" 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/images/8.ico'
-/usr/bin/touch -hcad "2024-07-13 02:15:27.7799228170 -0300" 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/images/8.ico'
-chown -h 1000:1000 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/manifest.json'
-chmod 0664 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/manifest.json'
-/usr/bin/touch -hcmd "2024-07-13 00:48:55.9930000000 -0300" 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/manifest.json'
-/usr/bin/touch -hcad "2024-07-13 02:15:27.4809517540 -0300" 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/manifest.json'
-chown -h 1000:1000 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_0.css'
-chmod 0664 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_0.css'
-/usr/bin/touch -hcmd "2024-07-13 00:48:55.9930000000 -0300" 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_0.css'
-/usr/bin/touch -hcad "2024-07-13 02:15:27.6079394630 -0300" 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_0.css'
-chown -h 1000:1000 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_1.css'
-chmod 0664 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_1.css'
-/usr/bin/touch -hcmd "2024-07-13 00:48:55.9930000000 -0300" 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_1.css'
-/usr/bin/touch -hcad "2024-07-13 02:15:27.5449455600 -0300" 'future/contracts/Resolving _Stack Too Deep_ Error in Solidity Contract - Claude (7_13_2024 12_48_55 AM)/stylesheet_1.css'
-chown -h 1000:1000 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/images/8.ico'
-chmod 0664 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/images/8.ico'
-/usr/bin/touch -hcmd "2024-07-13 00:48:53.5090000000 -0300" 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/images/8.ico'
-/usr/bin/touch -hcad "2024-07-13 02:15:26.8150162060 -0300" 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/images/8.ico'
-chown -h 1000:1000 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/manifest.json'
-chmod 0664 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/manifest.json'
-/usr/bin/touch -hcmd "2024-07-13 00:48:53.5090000000 -0300" 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/manifest.json'
-/usr/bin/touch -hcad "2024-07-13 02:15:26.4110553020 -0300" 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/manifest.json'
-chown -h 1000:1000 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_0.css'
-chmod 0664 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_0.css'
-/usr/bin/touch -hcmd "2024-07-13 00:48:53.5090000000 -0300" 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_0.css'
-/usr/bin/touch -hcad "2024-07-13 02:15:26.5250442700 -0300" 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_0.css'
-chown -h 1000:1000 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_1.css'
-chmod 0664 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_1.css'
-/usr/bin/touch -hcmd "2024-07-13 00:48:53.5090000000 -0300" 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_1.css'
-/usr/bin/touch -hcad "2024-07-13 02:15:26.4680497860 -0300" 'future/contracts/Resolving _Undeclared identifier_ error in Remix IDE - Claude (7_13_2024 12_48_52 AM)/stylesheet_1.css'
+chown -h 1000:1000 'web/src/components/layout/header/Experiences.tsx'
+chmod 0664 'web/src/components/layout/header/Experiences.tsx'
+/usr/bin/touch -hcmd "2024-07-13 02:25:17.5372059260 -0300" 'web/src/components/layout/header/Experiences.tsx'
+/usr/bin/touch -hcad "2024-07-13 02:25:17.6072032410 -0300" 'web/src/components/layout/header/Experiences.tsx'
