@@ -35,9 +35,14 @@ export function NavbarTitle() {
         <div className="absolute size-8">
           <img
             src="/logo.svg"
-            alt="Coffee Logo"
+            alt="Onchain IPFS Logo"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
+          {/*<img
+            src="/logotype.svg"
+            alt="Onchain IPFS Logo"
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          />*/}
         </div>
       </NextLink>
       <NextLink
