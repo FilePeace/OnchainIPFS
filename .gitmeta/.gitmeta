@@ -1,12 +1,12 @@
-commit Qmb2oTYsBF9iBJNjzuFtvMQXg2Atiupo3xxZ1A6is9pBNy
+commit QmTytCbtsvuYfWJxh9YXG7RS4FJmG8H1iGWf6dyEpLBXv6
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: f392bde5642a0bbbc4b6bd368060bce04dd03554d603394e5d33caefb776a0413217df42a7010346664055d292230e198a0d3c9d877de908056cedf38bd09a8201
+Signature: d0c0422fdcc475826fc66cdf1db182d5d3f0e9010a008ff0acea01d8ce765810215cc4bc1ee626138757b3e4597b2441c230ef2ac9788b2927b62a0b13e199b400
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdKsHexj9bvo79J4pLVK8Wtxv4XGGQmqWM3xBvYEMMjB4
-Commit CID if containing only file hashes: QmXHwiSp4MWNZzXjK2tPDDzTXVoY7JcntBjSFrjNGs1aUo
+Commit CID if including git's SHA1: QmYHTAFDbZ5qQdEdqGrHKK1q5pN1x9nNvKvjGZX2oQWxuM
+Commit CID if containing only file hashes: QmX35LtoiDWkStc9QNmxZjEsAvTVK2Yr6Rjkbu3jaPUvgF
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/src/components/layout/footer/Footer.tsx'
-chmod 0664 'web/src/components/layout/footer/Footer.tsx'
-/usr/bin/touch -hcmd "2024-07-13 02:01:01.8999847580 -0300" 'web/src/components/layout/footer/Footer.tsx'
-/usr/bin/touch -hcad "2024-07-13 02:01:01.9819780530 -0300" 'web/src/components/layout/footer/Footer.tsx'
+chown -h 1000:1000 'web/app/home/HomePage.tsx'
+chmod 0664 'web/app/home/HomePage.tsx'
+/usr/bin/touch -hcmd "2024-07-13 02:12:25.7644160480 -0300" 'web/app/home/HomePage.tsx'
+/usr/bin/touch -hcad "2024-07-13 02:12:25.8524076590 -0300" 'web/app/home/HomePage.tsx'
