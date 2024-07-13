@@ -3,7 +3,7 @@
 import { GitHubLogoIcon, ArrowTopRightIcon } from '@radix-ui/react-icons';
 import NextLink from 'next/link';
 import { NavbarLink } from '@/components/layout/header/Navbar';
-import FooterIcon from './FooterIcon';
+{/*import FooterIcon from './FooterIcon';*/}
 
 export default function Footer() {
   return (
@@ -26,7 +26,7 @@ export default function Footer() {
                 <GitHubLogoIcon
                   width="24"
                   height="24"
-                  aria-label="Onchain IPFS' Github respository"
+                  aria-label="Onchain IPFS&apos; Github respository"
                 />
               </NavbarLink>
             </div>
@@ -55,7 +55,7 @@ export default function Footer() {
           /></NextLink>
             <NavbarLink href="/">
               <span className="flex items-center gap-1 px-2">
-                Onchain IPFS (you're here!)
+                Onchain IPFS (you&apos;re here!)
               </span>
             </NavbarLink>
             <NavbarLink href="https://github.com/FilePeace/folderstamp" target="_blank">

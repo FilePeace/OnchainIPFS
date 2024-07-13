@@ -23,7 +23,7 @@ export default function HomePage() {
         `rounded-lg border border-zinc-400 border-opacity-10 bg-neutral-900`,
       )}
     >
-    Make your files permanent by storing them onchain. Store files referenced by Ethereum L1, on L2! A 100% Ethereum-aligned alternative to Arweave. Helps Arweave itself to be linked to an IPFS CID. Currently, Filecoin and Arweave (two non-Ethereum L1s) are the only way to store NFT metadata and other IPFS files' contents onchain. On Arweave, it is harder to obtain the file content for those used to IPFS. Onchain IPFS come to solve both issues: onchain storage (using the Ethereum-aligned L2 Base) and linking: CID&lt;-&gt;Arweave TXID&lt;-&gt;Torrent URI.
+    Make your files permanent by storing them onchain. Store files referenced by Ethereum L1, on L2! A 100% Ethereum-aligned alternative to Arweave. Helps Arweave itself to be linked to an IPFS CID. Currently, Filecoin and Arweave (two non-Ethereum L1s) are the only way to store NFT metadata and other IPFS files&apos; contents onchain. On Arweave, it is harder to obtain the file content for those used to IPFS. Onchain IPFS come to solve both issues: onchain storage (using the Ethereum-aligned L2 Base) and linking: CID&lt;-&gt;Arweave TXID&lt;-&gt;Torrent URI.
     </section>
 
       <aside>
