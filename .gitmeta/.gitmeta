@@ -1,12 +1,12 @@
-commit QmP4VWihkCxoMpbLedMjWTohxqkXw6ZbLaUzWN5EzcxhaM
+commit QmNNRxnpauKSuQeqq885aNfZ8Qte9xbCWjugNQEyKKDZpB
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 8cad59b9b36bcf8f2787e1877b70a4eefac1cdd8c69533744d94eb1b0ba0f8ec6b2d83be72c97472ce0e35f324427fc80731d638f48939d3df49fd9a1944377c00
+Signature: 4ed179e80a673bbf0c02eb71228d72779dfdab49b3551715f78d2bc5240675ab793c4f69b9a49accb3d9f038e45ba961b10caab0ed113e67732f1f62ec7a456d01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdRcYp3wxFjkgHyP8oBbxPAe263MaES3rCgXX8hF8DpF5
-Commit CID if containing only file hashes: QmNtXhGfZHZGEv8yHZpQPavXkcQ8qsaFsyj1NraoC5FrD3
+Commit CID if including git's SHA1: Qmcbyo2uvRupAi38QA4GygX29s7eXs1KFdB1S9XSo115pQ
+Commit CID if containing only file hashes: QmdB65KiR6e2aHLMjNerfJeEaqfYGFPdBjfA3hbSDGeKkq
 
 ------------------------------
 
@@ -17,7 +17,55 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'future/contracts/Tasks.txt'
-chmod 0755 'future/contracts/Tasks.txt'
-/usr/bin/touch -hcmd "2024-07-07 15:03:42.3640503230 -0300" 'future/contracts/Tasks.txt'
-/usr/bin/touch -hcad "2024-07-07 15:03:47.7147453580 -0300" 'future/contracts/Tasks.txt'
+chown -h 1000:1000 'contracts/src/.folderstamp1'
+chmod 0664 'contracts/src/.folderstamp1'
+/usr/bin/touch -hcmd "2024-07-13 00:37:41.0778140730 -0300" 'contracts/src/.folderstamp1'
+/usr/bin/touch -hcad "2024-07-13 00:37:55.9527506490 -0300" 'contracts/src/.folderstamp1'
+chown -h 1000:1000 'contracts/src/.folderstamp2'
+chmod 0664 'contracts/src/.folderstamp2'
+/usr/bin/touch -hcmd "2024-07-13 00:37:55.9627492690 -0300" 'contracts/src/.folderstamp2'
+/usr/bin/touch -hcad "2024-07-13 00:38:09.7648526490 -0300" 'contracts/src/.folderstamp2'
+chown -h 1000:1000 'contracts/src/.folderstamp3'
+chmod 0664 'contracts/src/.folderstamp3'
+/usr/bin/touch -hcmd "2024-07-13 00:38:09.7738514180 -0300" 'contracts/src/.folderstamp3'
+/usr/bin/touch -hcad "2024-07-13 00:38:34.4485023690 -0300" 'contracts/src/.folderstamp3'
+chown -h 1000:1000 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/images/8.ico'
+chmod 0664 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/images/8.ico'
+/usr/bin/touch -hcmd "2024-07-13 00:34:59.4160000000 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/images/8.ico'
+/usr/bin/touch -hcad "2024-07-13 00:38:09.0739471820 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/images/8.ico'
+chown -h 1000:1000 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/index.html'
+chmod 0664 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/index.html'
+/usr/bin/touch -hcmd "2024-07-13 00:34:59.4160000000 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/index.html'
+/usr/bin/touch -hcad "2024-07-13 00:38:08.7069974150 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/index.html'
+chown -h 1000:1000 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/manifest.json'
+chmod 0664 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/manifest.json'
+/usr/bin/touch -hcmd "2024-07-13 00:34:59.4160000000 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/manifest.json'
+/usr/bin/touch -hcad "2024-07-13 00:38:08.7709886540 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/manifest.json'
+chown -h 1000:1000 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/stylesheet_0.css'
+chmod 0664 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/stylesheet_0.css'
+/usr/bin/touch -hcmd "2024-07-13 00:34:59.4160000000 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/stylesheet_0.css'
+/usr/bin/touch -hcad "2024-07-13 00:38:08.8889725010 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/stylesheet_0.css'
+chown -h 1000:1000 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/stylesheet_1.css'
+chmod 0664 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/stylesheet_1.css'
+/usr/bin/touch -hcmd "2024-07-13 00:34:59.4160000000 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/stylesheet_1.css'
+/usr/bin/touch -hcad "2024-07-13 00:38:08.8319803040 -0300" 'contracts/src/Donation Receiver Management Contract - Claude (7_13_2024 12_34_59 AM)/stylesheet_1.css'
+chown -h 1000:1000 'new/.folderstamp1'
+chmod 0664 'new/.folderstamp1'
+/usr/bin/touch -hcmd "2024-07-11 13:23:03.3534212000 -0300" 'new/.folderstamp1'
+/usr/bin/touch -hcad "2024-07-13 00:38:56.2085914880 -0300" 'new/.folderstamp1'
+chown -h 1000:1000 'new/.folderstamp2'
+chmod 0664 'new/.folderstamp2'
+/usr/bin/touch -hcmd "2024-07-11 13:23:20.1919448050 -0300" 'new/.folderstamp2'
+/usr/bin/touch -hcad "2024-07-12 02:32:00.0011487060 -0300" 'new/.folderstamp2'
+chown -h 1000:1000 'new/done/vectorize.svg'
+chmod 0755 'new/done/vectorize.svg'
+/usr/bin/touch -hcmd "2024-07-10 19:56:59.6434960000 -0300" 'new/done/vectorize.svg'
+/usr/bin/touch -hcad "2024-07-13 00:38:56.3165771420 -0300" 'new/done/vectorize.svg'
+chown -h 1000:1000 'web/public/logotype.png'
+chmod 0755 'web/public/logotype.png'
+/usr/bin/touch -hcmd "2024-07-11 01:23:33.2120297000 -0300" 'web/public/logotype.png'
+/usr/bin/touch -hcad "2024-07-12 02:30:59.6594934930 -0300" 'web/public/logotype.png'
+chown -h 1000:1000 'web/public/logotype.svg'
+chmod 0755 'web/public/logotype.svg'
+/usr/bin/touch -hcmd "2024-07-11 01:23:38.9181752000 -0300" 'web/public/logotype.svg'
+/usr/bin/touch -hcad "2024-07-12 02:31:10.1099320900 -0300" 'web/public/logotype.svg'
