@@ -53,6 +53,11 @@ export default function Footer() {
             alt="FilePeace"
             style={{ height: '32px' }}
           /></NextLink>
+            <NavbarLink href="/">
+              <span className="flex items-center gap-1 px-2">
+                Onchain IPFS (you're here!)
+              </span>
+            </NavbarLink>
             <NavbarLink href="https://github.com/FilePeace/folderstamp" target="_blank">
               <span className="flex items-center gap-1 px-2">
                 Folderstamp <ArrowTopRightIcon width="16" height="16" />
