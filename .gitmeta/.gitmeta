@@ -1,12 +1,12 @@
-commit QmfD86ZWosi2W4rQc3WvXArJTDFwZ7UDyEnFdPYLa78A6F
+commit QmdBQ4UhFfu2WbSGaDMz9Pr8dWQdLrFVbkdbxF63GcfYY2
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: e7efad1a5415784a5af91e21de3dc29e53d9b8b90ea1eb288b97ad3da5bfb2d91dc00c8cc33c947dd00edd97dcc1a722d627ee309680249efcc5a444d9fe700e00
+Signature: 09f311ffa3ec0d89103cfa6ffb4f8f4e4deee35c142d475e4dcc5101182a036a6ee940aa9fe95674da5b5e34480610a4ec469ce341f8af78bf6fb80e9522758100
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmWpSz11FvPB9G5vWadyAi4kXNkqVNr9DSsn3LCjMkmVBn
-Commit CID if containing only file hashes: QmWgzLQ9eAdF4FwTJFPduTzmaJxZqGYGcuuF7KLK2ZUU9G
+Commit CID if including git's SHA1: QmeeoUYyjEdfBQwJqbmQ2wwxRQbi7vtjNo7YfnDjNYRGq5
+Commit CID if containing only file hashes: QmTkAJyYjWriXnsXQfvn6mZueMwLHQHCLMvDF9qKvKVRAk
 
 ------------------------------
 
@@ -17,7 +17,15 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'future/contracts/Tasks.txt'
-chmod 0755 'future/contracts/Tasks.txt'
-/usr/bin/touch -hcmd "2024-07-13 00:49:18.0017684650 -0300" 'future/contracts/Tasks.txt'
-/usr/bin/touch -hcad "2024-07-13 00:50:28.0495483320 -0300" 'future/contracts/Tasks.txt'
+chown -h 1000:1000 'web/app/global.css'
+chmod 0664 'web/app/global.css'
+/usr/bin/touch -hcmd "2024-07-13 01:00:25.5140341510 -0300" 'web/app/global.css'
+/usr/bin/touch -hcad "2024-07-13 01:00:25.5780280740 -0300" 'web/app/global.css'
+chown -h 1000:1000 'web/public/logo.png'
+chmod 0755 'web/public/logo.png'
+/usr/bin/touch -hcmd "2024-06-27 23:46:02.0000000000 -0300" 'web/public/logo.png'
+/usr/bin/touch -hcad "2024-07-12 02:55:07.3462710270 -0300" 'web/public/logo.png'
+chown -h 1000:1000 'web/public/press/index.html'
+chmod 0755 'web/public/press/index.html'
+/usr/bin/touch -hcmd "2021-12-01 18:03:15.4196280000 -0300" 'web/public/press/index.html'
+/usr/bin/touch -hcad "2024-07-12 23:14:25.5943951680 -0300" 'web/public/press/index.html'
