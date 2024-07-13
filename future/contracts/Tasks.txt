@@ -84,6 +84,9 @@ https://www.quicknode.com/guides/ethereum-development/dapps/how-to-build-an-ethe
 Launch:
 - Little hand: Gitcoin, Orb's Build Club (https://orb.club/p/0xa68c-0x0757)
 
+Later improvements:
+- Navbar.tsx's logotype: get rid of inline style
+
 Later Iterations:
 - factory.tamigucho.com/mintables/{mintable}: add the "Onchain IPFS" button next to the Arweave button
 - Also come with a Bash script (ipfs-onchain) that will fetch Base to download a CID and locally validate the result. This script will be used by GIPFS' IPFS wrapper. So, GIPFS ipfs wrapper will fetch files using this priority: gateway, blockchain, IPFS network
