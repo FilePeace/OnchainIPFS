@@ -39,8 +39,8 @@ export function NavbarTitle() {
       >
           <img
             src="/logotype.svg"
-            alt="Onchain IPFS Logo"
-            style={{ height: '50px', objectFit: 'cover' }}
+            alt="Onchain IPFS Logotype"
+            style={{ height: '50px' }}
           />
       </NextLink>
     </div>
