@@ -1,12 +1,12 @@
-commit QmSKjP6xeYabfwZfNH4gydAFywXZVKsrQErTrqTnbFgaoz
+commit QmekNuk6X4zEurpKmWFG7W9xFdthLUctrzyz4rhsrFutEc
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 16f2689a465aaee99b6ecf7a0f760c9c70a2afab9bacfcd59868683577b043cd79b29cbe4a4b3d51a76da015ce20293e55d608357714d023d5058f4584a549ce00
+Signature: d23631ef00426ce2685c6761748548fa33caae8de6c40882bc57b6f219984a926c22c7c7f2081dba94918a8fcde31dc5a8c7acc71eaa13939af4ca097f9fff4701
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmXkLYbZuMHLQDiZEYDbtp2yYqb6Jk4LM8HA9o2bv7Zn1u
-Commit CID if containing only file hashes: QmY6pfEbmEPFrhjko8YCMosUhADj7UwtvUqEDNBq9M5P6W
+Commit CID if including git's SHA1: QmSYNxTBwWuDH6FYZhTFgghgYUbr2xCE5wc9imDZDxwkbc
+Commit CID if containing only file hashes: QmNVNKXvKUo1TuasaRwMWv4S5QMfwvaKyGfQLy6N6oLQPb
 
 ------------------------------
 
@@ -17,7 +17,15 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
+chown -h 1000:1000 'contracts/remappings.txt'
+chmod 0664 'contracts/remappings.txt'
+/usr/bin/touch -hcmd "2024-07-14 19:28:27.0547079130 -0300" 'contracts/remappings.txt'
+/usr/bin/touch -hcad "2024-07-14 19:34:59.4747166980 -0300" 'contracts/remappings.txt'
 chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
 chmod 0664 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcmd "2024-07-14 19:30:25.4106560180 -0300" 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcad "2024-07-14 19:33:01.9072445010 -0300" 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcmd "2024-07-14 19:36:13.9101442430 -0300" 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcad "2024-07-14 19:36:17.4661452670 -0300" 'contracts/src/BuyMeACoffee.sol'
+chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcmd "2024-07-14 19:37:42.6986942800 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcad "2024-07-14 19:38:14.3393118360 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
