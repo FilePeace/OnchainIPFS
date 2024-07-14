@@ -1,12 +1,12 @@
-commit QmYpzUFrEwDsUNfxQCArYg3LAsWCfUQpGkWuCEQKB7Usy5
+commit QmcJWyGxbQtYNzbRQpKFHfmnQouZq8SR5VybFJbVJ4T21h
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 78ba9976f1e94ff54f09e8e30966c4338b39004f77561ac0ce96a37d2df578402a23b7550b6c3cb89a69804691648cf609ffa2f672d0b2744059bb7e37b6401000
+Signature: 47ee4ab84e0fd259d5c62db1a1caa2f8269008ecb5114a04e21273980b7b614806fc7087f7f6028f76cf10744706372edeb6bbdb3ab8e2bc1168aca4223018bf01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdaFgcJxGJv6fLZVGXtLS4x1exqp6JkTthjJv3W99jwBJ
-Commit CID if containing only file hashes: QmYjtQNXx88oUyiJmwBWXyo2iW2HfhgKAfn3B5xm9Ltp62
+Commit CID if including git's SHA1: QmWXiZwPdjbTFJztREvvxHqs4vEjtEyJzVWqQCxCkyU9Sx
+Commit CID if containing only file hashes: 
 
 ------------------------------
 
@@ -17,7 +17,3 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
-chmod 0664 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcmd "2024-07-14 20:18:26.3026756500 -0300" 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcad "2024-07-14 20:19:56.4062198490 -0300" 'contracts/src/BuyMeACoffee.sol'
