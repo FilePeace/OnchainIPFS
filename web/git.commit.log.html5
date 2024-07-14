@@ -1,0 +1,92 @@
+<pre><font color="#42E66C">     __  ,</font>
+<font color="#42E66C"> .--()°&apos;.&apos; </font>Welcome to <font color="#42E66C">Nushell</font>,
+<font color="#42E66C">&apos;|, . ,&apos;   </font>based on the <font color="#42E66C">nu</font> language,
+<font color="#42E66C"> !_-(_\    </font>where all data is structured!
+
+Please join our <font color="#E64747">Discord</font> community at <font color="#E64747">https://discord.gg/NtAbbGn</font>
+Our <font color="#50FA7B"><b>GitHub</b></font> repository is at <font color="#50FA7B"><b>https://github.com/nushell/nushell</b></font>
+Our <font color="#42E66C">Documentation</font> is located at <font color="#42E66C">http://nushell.sh</font>
+<font color="#75D7EC">Tweet</font> us at <font color="#8BE9FD"><b>@nu_shell</b></font>
+
+It&apos;s been this long since <font color="#42E66C">Nushell</font>&apos;s first commit:
+5yr 2month 6day 5hr 15min 59sec 523ms 169µs 374ns
+
+Startup Time: 547ms 938µs 439ns
+
+<font color="#8BE9FD"><b>web/app/home</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!?]</b></font> 
+<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">git</font> <font color="#50FA7B"><b>add</b></font> <font color="#50FA7B"><b>.</b></font> ; <font color="#75D7EC">git</font> <font color="#50FA7B"><b>status</b></font>
+On branch main
+Your branch is up to date with &apos;origin/main&apos;.
+
+Changes to be committed:
+  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
+	<font color="#42E66C">modified:   HomePage.tsx</font>
+
+Changes not staged for commit:
+  (use &quot;git add/rm &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+	<font color="#E356A7">deleted:    ../../../contracts/foundry.forge.coverage.log.html5</font>
+	<font color="#E356A7">deleted:    ../../../contracts/foundry.forge.log.html5</font>
+	<font color="#E356A7">deleted:    ../../../contracts/script/AllowlistNFT.s.sol</font>
+	<font color="#E356A7">deleted:    ../../../contracts/script/BuyMeACoffee.s.sol</font>
+	<font color="#E356A7">deleted:    ../../../contracts/script/CustomERC1155.s.sol</font>
+	<font color="#E356A7">deleted:    ../../../contracts/src/AllowlistNFT.sol</font>
+	<font color="#E356A7">deleted:    ../../../contracts/src/BuyMeACoffee.sol</font>
+	<font color="#E356A7">deleted:    ../../../contracts/src/CustomERC1155.sol</font>
+	<font color="#E356A7">deleted:    ../../../contracts/test/AllowlistNFT.t.sol</font>
+	<font color="#E356A7">deleted:    ../../../contracts/test/BuyMeACoffee.t.sol</font>
+	<font color="#E356A7">deleted:    ../../../contracts/test/CustomERC1155.t.sol</font>
+	<font color="#E356A7">modified:   ../global.css</font>
+	<font color="#E356A7">modified:   ../../public/css/app-common.css</font>
+	<font color="#E356A7">modified:   ../../public/css/dark-common.css</font>
+	<font color="#E356A7">modified:   ../../public/css/page-common.css</font>
+	<font color="#E356A7">modified:   ../../public/css/page-custom.css</font>
+	<font color="#E356A7">modified:   ../../public/fonts/Cabin/font.css</font>
+	<font color="#E356A7">modified:   ../../public/fonts/Material Icons/font.css</font>
+	<font color="#E356A7">modified:   ../../public/fonts/Roboto/font.css</font>
+	<font color="#E356A7">modified:   ../../public/fonts/Text Me One/font.css</font>
+	<font color="#E356A7">modified:   ../../public/js/app.js</font>
+	<font color="#E356A7">modified:   ../../public/js/page-common.js</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/css/bootstrap-grid.css</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/css/bootstrap-grid.min.css</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/css/bootstrap-reboot.css</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/css/bootstrap-reboot.min.css</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/css/bootstrap.css</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/css/bootstrap.min.css</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/js/bootstrap.min.js</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/themes/material/css/material.min.css</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Bootstrap/themes/material/js/material.min.js</font>
+	<font color="#E356A7">modified:   ../../public/plugins/Popper.js/popper.min.js</font>
+	<font color="#E356A7">modified:   ../../public/plugins/jQuery/jquery.min.js</font>
+	<font color="#E356A7">modified:   ../../src/components/layout/footer/Footer.tsx</font>
+	<font color="#E356A7">modified:   ../../src/components/layout/header/Navbar.tsx</font>
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+	<font color="#E356A7">../../../contracts/foundry_pt1.log.html5</font>
+	<font color="#E356A7">../../../contracts/foundry_pt2.log.html5</font>
+	<font color="#E356A7">../../../contracts/foundry_pt3.log.html5.txt</font>
+	<font color="#E356A7">../../../contracts/script/BuyOnchainIPFSACupcake.s.sol</font>
+	<font color="#E356A7">../../../contracts/src/BuyOnchainIPFSACupcake.sol</font>
+	<font color="#E356A7">../../../contracts/test/BuyOnchainIPFSACupcake.t.sol</font>
+
+
+<font color="#8BE9FD"><b>web/app/home</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!+?]</b></font> 
+<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">git</font> <font color="#50FA7B"><b>commit</b></font> <font color="#50FA7B"><b>-m</b></font> <font color="#50FA7B"><b>&quot;improve Home&apos;s welcome text&quot;</b></font>
+🤓📝 Storing files&apos; timestamp, CID/hash; and other files/commit&apos;s metadata...
+[DEBUG]Current file: web/app/home/HomePage.tsx
+[01VCS] 🆔Commit ID: QmZ485YTnDNC7nQooaUbs7WpRax6rjZaqNhFB8Ha9he4MK
+💎 Found .git/hooks/.eth!
+🪄 Signing the commit QmZ485YTnDNC7nQooaUbs7WpRax6rjZaqNhFB8Ha9he4MK with your choosen ETH address 0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91...
+🔦 Verifying signature...
+Verified
+✅ Done. Meta has been preserved!
+🎉 Your snapshot/commit is done!
+[main 45608fb] improve Home&apos;s welcome text
+ 5 files changed, 49 insertions(+), 51 deletions(-)
+[<font color="#E4F34A">WARN</font>] - (starship::utils): Executing command &quot;/usr/bin/git&quot; timed out.
+[<font color="#E4F34A">WARN</font>] - (starship::utils): You can set command_timeout in your config to a higher value to allow longer-running commands to keep executing.
+
+<font color="#8BE9FD"><b>web/app/home</b></font> on <font color="#FF5555"><b> main</b></font> took <font color="#F1FA8C"><b>2h53m29s</b></font> 
+<font color="#50FA7B"><b>❯</b></font> 
+</pre>
