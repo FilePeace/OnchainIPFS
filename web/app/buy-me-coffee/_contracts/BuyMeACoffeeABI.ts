@@ -3,29 +3,16 @@
  * sake of minimizing bytes downloaded.
  */
 const abi = [
-  {
-    type: 'constructor',
-    inputs: [],
-    stateMutability: 'nonpayable',
-  },
-  {
-    type: 'receive',
-    stateMutability: 'payable',
-  },
+  { type: 'constructor', inputs: [], stateMutability: 'nonpayable' },
+  { type: 'receive', stateMutability: 'payable' },
   {
     type: 'function',
     name: 'buyCoffee',
     inputs: [
-      {
-        name: 'numCoffees',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-      {
-        name: 'message',
-        type: 'string',
-        internalType: 'string',
-      },
+      { name: 'numCoffees', type: 'uint256', internalType: 'uint256' },
+      { name: 'userName', type: 'string', internalType: 'string' },
+      { name: 'twitterHandle', type: 'string', internalType: 'string' },
+      { name: 'message', type: 'string', internalType: 'string' },
     ],
     outputs: [],
     stateMutability: 'payable',
@@ -34,16 +21,8 @@ const abi = [
     type: 'function',
     name: 'getMemos',
     inputs: [
-      {
-        name: 'index',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-      {
-        name: 'size',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
+      { name: 'index', type: 'uint256', internalType: 'uint256' },
+      { name: 'size', type: 'uint256', internalType: 'uint256' },
     ],
     outputs: [
       {
@@ -51,26 +30,12 @@ const abi = [
         type: 'tuple[]',
         internalType: 'struct Memo[]',
         components: [
-          {
-            name: 'numCoffees',
-            type: 'uint256',
-            internalType: 'uint256',
-          },
-          {
-            name: 'message',
-            type: 'string',
-            internalType: 'string',
-          },
-          {
-            name: 'time',
-            type: 'uint256',
-            internalType: 'uint256',
-          },
-          {
-            name: 'userAddress',
-            type: 'address',
-            internalType: 'address',
-          },
+          { name: 'numCoffees', type: 'uint256', internalType: 'uint256' },
+          { name: 'userName', type: 'string', internalType: 'string' },
+          { name: 'twitterHandle', type: 'string', internalType: 'string' },
+          { name: 'message', type: 'string', internalType: 'string' },
+          { name: 'time', type: 'uint256', internalType: 'uint256' },
+          { name: 'userAddress', type: 'address', internalType: 'address' },
         ],
       },
     ],
@@ -79,34 +44,14 @@ const abi = [
   {
     type: 'function',
     name: 'memos',
-    inputs: [
-      {
-        name: '',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-    ],
+    inputs: [{ name: '', type: 'uint256', internalType: 'uint256' }],
     outputs: [
-      {
-        name: 'numCoffees',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-      {
-        name: 'message',
-        type: 'string',
-        internalType: 'string',
-      },
-      {
-        name: 'time',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-      {
-        name: 'userAddress',
-        type: 'address',
-        internalType: 'address',
-      },
+      { name: 'numCoffees', type: 'uint256', internalType: 'uint256' },
+      { name: 'userName', type: 'string', internalType: 'string' },
+      { name: 'twitterHandle', type: 'string', internalType: 'string' },
+      { name: 'message', type: 'string', internalType: 'string' },
+      { name: 'time', type: 'uint256', internalType: 'uint256' },
+      { name: 'userAddress', type: 'address', internalType: 'address' },
     ],
     stateMutability: 'view',
   },
@@ -114,16 +59,8 @@ const abi = [
     type: 'function',
     name: 'modifyMemoMessage',
     inputs: [
-      {
-        name: 'index',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-      {
-        name: 'message',
-        type: 'string',
-        internalType: 'string',
-      },
+      { name: 'index', type: 'uint256', internalType: 'uint256' },
+      { name: 'message', type: 'string', internalType: 'string' },
     ],
     outputs: [],
     stateMutability: 'nonpayable',
@@ -132,103 +69,20 @@ const abi = [
     type: 'function',
     name: 'owner',
     inputs: [],
-    outputs: [
-      {
-        name: '',
-        type: 'address',
-        internalType: 'address',
-      },
-    ],
-    stateMutability: 'view',
-  },
-  {
-    type: 'function',
-    name: 'ownershipTransferred',
-    inputs: [],
-    outputs: [
-      {
-        name: '',
-        type: 'bool',
-        internalType: 'bool',
-      },
-    ],
+    outputs: [{ name: '', type: 'address', internalType: 'address payable' }],
     stateMutability: 'view',
   },
   {
     type: 'function',
     name: 'price',
     inputs: [],
-    outputs: [
-      {
-        name: '',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-    ],
-    stateMutability: 'view',
-  },
-  {
-    type: 'function',
-    name: 'receiver',
-    inputs: [],
-    outputs: [
-      {
-        name: '',
-        type: 'address',
-        internalType: 'address payable',
-      },
-    ],
+    outputs: [{ name: '', type: 'uint256', internalType: 'uint256' }],
     stateMutability: 'view',
   },
   {
     type: 'function',
     name: 'removeMemo',
-    inputs: [
-      {
-        name: 'index',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-    ],
-    outputs: [],
-    stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    name: 'setPriceForCoffee',
-    inputs: [
-      {
-        name: '_price',
-        type: 'uint256',
-        internalType: 'uint256',
-      },
-    ],
-    outputs: [],
-    stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    name: 'setReceiver',
-    inputs: [
-      {
-        name: '_receiver',
-        type: 'address',
-        internalType: 'address payable',
-      },
-    ],
-    outputs: [],
-    stateMutability: 'nonpayable',
-  },
-  {
-    type: 'function',
-    name: 'transferOwnership',
-    inputs: [
-      {
-        name: 'newOwner',
-        type: 'address',
-        internalType: 'address',
-      },
-    ],
+    inputs: [{ name: 'index', type: 'uint256', internalType: 'uint256' }],
     outputs: [],
     stateMutability: 'nonpayable',
   },
@@ -243,18 +97,8 @@ const abi = [
     type: 'event',
     name: 'BuyMeACoffeeEvent',
     inputs: [
-      {
-        name: 'buyer',
-        type: 'address',
-        indexed: true,
-        internalType: 'address',
-      },
-      {
-        name: 'price',
-        type: 'uint256',
-        indexed: false,
-        internalType: 'uint256',
-      },
+      { name: 'buyer', type: 'address', indexed: true, internalType: 'address' },
+      { name: 'price', type: 'uint256', indexed: false, internalType: 'uint256' },
     ],
     anonymous: false,
   },
@@ -262,102 +106,22 @@ const abi = [
     type: 'event',
     name: 'NewMemo',
     inputs: [
-      {
-        name: 'userAddress',
-        type: 'address',
-        indexed: true,
-        internalType: 'address',
-      },
-      {
-        name: 'time',
-        type: 'uint256',
-        indexed: false,
-        internalType: 'uint256',
-      },
-      {
-        name: 'numCoffees',
-        type: 'uint256',
-        indexed: false,
-        internalType: 'uint256',
-      },
-      {
-        name: 'message',
-        type: 'string',
-        indexed: false,
-        internalType: 'string',
-      },
+      { name: 'userAddress', type: 'address', indexed: true, internalType: 'address' },
+      { name: 'time', type: 'uint256', indexed: false, internalType: 'uint256' },
+      { name: 'numCoffees', type: 'uint256', indexed: false, internalType: 'uint256' },
+      { name: 'userName', type: 'string', indexed: false, internalType: 'string' },
+      { name: 'twitterHandle', type: 'string', indexed: false, internalType: 'string' },
+      { name: 'message', type: 'string', indexed: false, internalType: 'string' },
     ],
     anonymous: false,
   },
-  {
-    type: 'event',
-    name: 'OwnershipTransferred',
-    inputs: [
-      {
-        name: 'previousOwner',
-        type: 'address',
-        indexed: true,
-        internalType: 'address',
-      },
-      {
-        name: 'newOwner',
-        type: 'address',
-        indexed: true,
-        internalType: 'address',
-      },
-    ],
-    anonymous: false,
-  },
-  {
-    type: 'event',
-    name: 'ReceiverChanged',
-    inputs: [
-      {
-        name: 'previousReceiver',
-        type: 'address',
-        indexed: true,
-        internalType: 'address',
-      },
-      {
-        name: 'newReceiver',
-        type: 'address',
-        indexed: true,
-        internalType: 'address',
-      },
-    ],
-    anonymous: false,
-  },
-  {
-    type: 'error',
-    name: 'InsufficientFunds',
-    inputs: [],
-  },
+  { type: 'error', name: 'InsufficientFunds', inputs: [] },
   {
     type: 'error',
     name: 'InvalidArguments',
-    inputs: [
-      {
-        name: 'message',
-        type: 'string',
-        internalType: 'string',
-      },
-    ],
+    inputs: [{ name: 'message', type: 'string', internalType: 'string' }],
   },
-  {
-    type: 'error',
-    name: 'OnlyOwner',
-    inputs: [],
-  },
-  {
-    type: 'error',
-    name: 'OwnershipAlreadyTransferred',
-    inputs: [],
-  },
-  {
-    type: 'error',
-    name: 'WithdrawalFailed',
-    inputs: [],
-  },
+  { type: 'error', name: 'OnlyOwner', inputs: [] },
 ] as const;
 
 export default abi;

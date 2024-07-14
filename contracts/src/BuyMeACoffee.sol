@@ -1,5 +1,24 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
+/**
+ * ----------------------------------------------------------------------------------------------------------------
+ * ---------██████╗ ██╗   ██╗██╗██╗     ██████╗        ██████╗ ███╗   ██╗ ██████╗██╗  ██╗ █████╗ ██╗███╗   ██╗-----
+ * ---------██╔══██╗██║   ██║██║██║     ██╔══██╗      ██╔═══██╗████╗  ██║██╔════╝██║  ██║██╔══██╗██║████╗  ██║-----
+ * ---------██████╔╝██║   ██║██║██║     ██║  ██║█████╗██║   ██║██╔██╗ ██║██║     ███████║███████║██║██╔██╗ ██║-----
+ * ---------██╔══██╗██║   ██║██║██║     ██║  ██║╚════╝██║   ██║██║╚██╗██║██║     ██╔══██║██╔══██║██║██║╚██╗██║-----
+ * ---------██████╔╝╚██████╔╝██║███████╗██████╔╝      ╚██████╔╝██║ ╚████║╚██████╗██║  ██║██║  ██║██║██║ ╚████║-----
+ * ---------╚═════╝  ╚═════╝ ╚═╝╚══════╝╚═════╝        ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝-----
+ * ----------------------------------------------------------------------------------------------------------------
+ * https://github.com/coinbase/build-onchain-apps
+ *
+ * Disclaimer: The provided Solidity contracts are intended solely for educational purposes and are
+ *   not warranted for any specific use. They have not been audited and may contain vulnerabilities, hence should
+ *   not be deployed in production environments. Users are advised to seek professional review and conduct a
+ *   comprehensive security audit before any real-world application to mitigate risks of financial loss or other
+ *   consequences. The author(s) disclaim all liability for any damages arising from the use of these contracts.
+ *   Use at your own risk, acknowledging the inherent risks of smart contract technology on the blockchain.
+ *
+ */
 
 /**
  * @title Memos
@@ -17,35 +36,20 @@ struct Memo {
  * @dev BuyMeACoffee contract to accept donations and for our users to leave a memo for us
  */
 contract BuyMeACoffee {
-    address public owner;
-    address payable public receiver;
+    address payable public owner;
     uint256 public price;
     Memo[] public memos;
-    bool public ownershipTransferred;
 
     error InsufficientFunds();
     error InvalidArguments(string message);
     error OnlyOwner();
-    error OwnershipAlreadyTransferred();
-    error WithdrawalFailed();
 
     event BuyMeACoffeeEvent(address indexed buyer, uint256 price);
     event NewMemo(address indexed userAddress, uint256 time, uint256 numCoffees, string message);
-    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
-    event ReceiverChanged(address indexed previousReceiver, address indexed newReceiver);
 
     constructor() {
-        owner = msg.sender;
-        receiver = payable(msg.sender);
+        owner = payable(msg.sender);
         price = 0.00004 ether;
-        ownershipTransferred = false;
-    }
-
-    modifier onlyOwner() {
-        if (msg.sender != owner) {
-            revert OnlyOwner();
-        }
-        _;
     }
 
     /**
@@ -54,27 +58,32 @@ contract BuyMeACoffee {
 
     /**
      * @dev Function to buy a coffee
-     * @param numCoffees Number of coffees to buy
-     * @param message The message of the user
+     * @param  message The message of the user
+     * (Note: Using calldata for gas efficiency)
      */
     function buyCoffee(uint256 numCoffees, string calldata message) public payable {
         if (msg.value < price * numCoffees) {
             revert InsufficientFunds();
         }
 
-        if (bytes(message).length == 0 || bytes(message).length > 1024) {
-            revert InvalidArguments("Invalid message length");
+        emit BuyMeACoffeeEvent(msg.sender, msg.value);
+
+        if (bytes(message).length == 0) {
+            revert InvalidArguments("Invalid message");
+        }
+
+        if (bytes(message).length > 1024) {
+            revert InvalidArguments("Input parameter exceeds max length");
         }
 
         memos.push(Memo(numCoffees, message, block.timestamp, msg.sender));
 
-        emit BuyMeACoffeeEvent(msg.sender, msg.value);
         emit NewMemo(msg.sender, block.timestamp, numCoffees, message);
     }
 
     /**
      * @dev Function to remove a memo
-     * @param index The index of the memo
+     * @param  index The index of the memo
      */
     function removeMemo(uint256 index) public {
         if (index >= memos.length) {
@@ -83,84 +92,59 @@ contract BuyMeACoffee {
 
         Memo memory memo = memos[index];
 
-        if (memo.userAddress != msg.sender && msg.sender != owner) {
+        if (memo.userAddress != msg.sender || msg.sender != owner) {
             revert InvalidArguments("Operation not allowed");
         }
-
+        Memo memory indexMemo = memos[index];
         memos[index] = memos[memos.length - 1];
+        memos[memos.length - 1] = indexMemo;
         memos.pop();
     }
 
     /**
      * @dev Function to modify a memo
-     * @param index The index of the memo
-     * @param message The new message for the memo
+     * @param  index The index of the memo
+     * @param  message The message of the memo
      */
     function modifyMemoMessage(uint256 index, string memory message) public {
         if (index >= memos.length) {
             revert InvalidArguments("Invalid index");
         }
 
-        Memo storage memo = memos[index];
+        Memo memory memo = memos[index];
 
-        if (memo.userAddress != msg.sender && msg.sender != owner) {
+        if (memo.userAddress != msg.sender || msg.sender != owner) {
             revert InvalidArguments("Operation not allowed");
         }
 
-        if (bytes(message).length == 0 || bytes(message).length > 1024) {
-            revert InvalidArguments("Invalid message length");
-        }
-
-        memo.message = message;
+        memos[index].message = message;
     }
 
     /**
      * @dev Function to withdraw the balance
      */
-    function withdrawTips() public onlyOwner {
-        uint256 amount = address(this).balance;
-        if (amount == 0) {
+    function withdrawTips() public {
+        if (msg.sender != owner) {
+            revert OnlyOwner();
+        }
+
+        if (address(this).balance == 0) {
             revert InsufficientFunds();
         }
 
-        (bool success,) = receiver.call{value: amount}("");
-        if (!success) {
-            revert WithdrawalFailed();
-        }
+        (bool sent,) = owner.call{value: address(this).balance}("");
+        require(sent, "Failed to send Ether");
     }
 
     /**
-     * @dev Function to set the price of a coffee
-     * @param _price New price for a coffee
+     * @dev Function to get the price of a coffee
      */
-    function setPriceForCoffee(uint256 _price) public onlyOwner {
+    function setPriceForCoffee(uint256 _price) public {
+        if (msg.sender != owner) {
+            revert OnlyOwner();
+        }
+
         price = _price;
-    }
-
-    /**
-     * @dev Function to set the receiver of donations
-     * @param _receiver New receiver address
-     */
-    function setReceiver(address payable _receiver) public onlyOwner {
-        require(_receiver != address(0), "Invalid receiver address");
-        address previousReceiver = receiver;
-        receiver = _receiver;
-        emit ReceiverChanged(previousReceiver, _receiver);
-    }
-
-    /**
-     * @dev Function to transfer ownership of the contract
-     * @param newOwner Address of the new owner
-     */
-    function transferOwnership(address newOwner) public onlyOwner {
-        require(newOwner != address(0), "Invalid new owner address");
-        if (ownershipTransferred) {
-            revert OwnershipAlreadyTransferred();
-        }
-        address previousOwner = owner;
-        owner = newOwner;
-        ownershipTransferred = true;
-        emit OwnershipTransferred(previousOwner, newOwner);
     }
 
     /**
@@ -169,12 +153,10 @@ contract BuyMeACoffee {
 
     /**
      * @dev Function to get the memos
-     * @param index Starting index for the slice
-     * @param size Number of memos to return
      */
     function getMemos(uint256 index, uint256 size) public view returns (Memo[] memory) {
         if (memos.length == 0) {
-            return new Memo[](0);
+            return memos;
         }
 
         if (index >= memos.length) {
@@ -182,11 +164,12 @@ contract BuyMeACoffee {
         }
 
         if (size > 25) {
-            revert InvalidArguments("Size must be <= 25");
+            revert InvalidArguments("size must be <= 25");
         }
 
         uint256 effectiveSize = size;
         if (index + size > memos.length) {
+            // Adjust the size if it exceeds the array's bounds
             effectiveSize = memos.length - index;
         }
 
@@ -199,7 +182,7 @@ contract BuyMeACoffee {
     }
 
     /**
-     * @dev Receive function to accept ether
+     * @dev Recieve function to accept ether
      */
     receive() external payable {}
 }
