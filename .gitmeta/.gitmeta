@@ -1,12 +1,12 @@
-commit QmQK8rYirK5QUScT23NCj4Td8tBsKs5aZHgRJuQUoF5Rf4
+commit QmfUdUuMD5s98Mquyzioh3ddJAxLKgK9GB8xYaWxCvQ1C1
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 8fa2de2a4626089ad841ccc07dc10c6d3cb4c6a35e0612da6ea7bc6628052fb56a86ac6a774298d4fd0f911bb213eca91a78153b899b413c08311908758eb3bc00
+Signature: f35fb376109f8f636e1381d3c3031062e688582d8f07fd353108afbd69587bed6ae2ebb46539109b8d099814f53a96d29229ea7e8bd493f53c984127a5edc45a01
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qmbh8CifoX4c2whdVJ7YTZQhjf9HRiFkvPuwcCAgmPgxHY
-Commit CID if containing only file hashes: QmWQmyCT5f1WnV2ZKqgmTfm7BdZsEyYV4NfZRFJEStcCAZ
+Commit CID if including git's SHA1: QmPTe6JSQ54RmVx9293Svu15X5aWgYbqTsbjjBZFxjMYwU
+Commit CID if containing only file hashes: QmezGUd4LCt1tqN5wTxQTFTKsaqNokWRjKe43zcgLx1rXt
 
 ------------------------------
 
@@ -17,15 +17,15 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/script/BuyOnchainIPFSACupcake.s.sol'
-chmod 0664 'contracts/script/BuyOnchainIPFSACupcake.s.sol'
-/usr/bin/touch -hcmd "2024-07-13 13:17:56.6535037650 -0300" 'contracts/script/BuyOnchainIPFSACupcake.s.sol'
-/usr/bin/touch -hcad "2024-07-14 17:46:06.7228425210 -0300" 'contracts/script/BuyOnchainIPFSACupcake.s.sol'
-chown -h 1000:1000 'contracts/src/BuyOnchainIPFSACupcake.sol'
-chmod 0664 'contracts/src/BuyOnchainIPFSACupcake.sol'
-/usr/bin/touch -hcmd "2024-07-13 13:17:56.6555030000 -0300" 'contracts/src/BuyOnchainIPFSACupcake.sol'
-/usr/bin/touch -hcad "2024-07-14 17:46:06.7248422120 -0300" 'contracts/src/BuyOnchainIPFSACupcake.sol'
-chown -h 1000:1000 'contracts/test/BuyOnchainIPFSACupcake.t.sol'
-chmod 0664 'contracts/test/BuyOnchainIPFSACupcake.t.sol'
-/usr/bin/touch -hcmd "2024-07-13 13:17:56.6545033830 -0300" 'contracts/test/BuyOnchainIPFSACupcake.t.sol'
-/usr/bin/touch -hcad "2024-07-14 17:46:06.7258420570 -0300" 'contracts/test/BuyOnchainIPFSACupcake.t.sol'
+chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
+chmod 0664 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcmd "2024-07-14 18:03:07.0943423820 -0300" 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcad "2024-07-14 18:03:23.0725975900 -0300" 'contracts/src/BuyMeACoffee.sol'
+chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/BuyMeACoffeeABI.ts'
+chmod 0664 'web/app/buy-me-coffee/_contracts/BuyMeACoffeeABI.ts'
+/usr/bin/touch -hcmd "2024-07-14 18:14:43.9314382620 -0300" 'web/app/buy-me-coffee/_contracts/BuyMeACoffeeABI.ts'
+/usr/bin/touch -hcad "2024-07-14 18:15:40.7805327480 -0300" 'web/app/buy-me-coffee/_contracts/BuyMeACoffeeABI.ts'
+chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcmd "2024-07-14 18:23:11.6405663720 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcad "2024-07-14 18:23:11.7455600460 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'

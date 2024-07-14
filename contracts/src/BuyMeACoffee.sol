@@ -123,7 +123,7 @@ contract BuyMeACoffee {
             revert InsufficientFunds();
         }
 
-        (bool success, ) = receiver.call{value: amount}("");
+        (bool success,) = receiver.call{value: amount}("");
         if (!success) {
             revert WithdrawalFailed();
         }
