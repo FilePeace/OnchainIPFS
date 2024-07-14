@@ -1,12 +1,12 @@
-commit QmPgHsLNftSKfMk1f4ErLNB77HEyY14ERLuoLCYHgyNFE4
+commit Qmc9HoGctonc5a8FtciR4TinFJDWbexNUjzUPiXw622vyn
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 625785d09b036b541ac235d59de9947440f62c242fe08f45cb876222e107c73c3d62b0775501cc54c1347bc18a93d78d9eecfefc8a3036fd1bd1172c3430659100
+Signature: c1e0ab6c26a2f193bf22a38905a480d527cc2daf4c8faae01a1078afc73ef13d13934709f93f0546f7d7aa807b234dcffc7d6f84f213e9c41734635a080f1aaa00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmP4rmGwpmD8R1MG5hcVe691KdseF5UrcRodRr5QgC73Vs
-Commit CID if containing only file hashes: QmWRdvb5SSrpc7RkEeSv4XvUY9dps34nE837EuULZyypSj
+Commit CID if including git's SHA1: Qmdc5jteBeCgDrQGYdevWbpzbW9ZUhK4b2u6Zwapk5jXVA
+Commit CID if containing only file hashes: QmTotd7XGvrZU3mKQFwgtuDfLSVsP75Jcwhs9jT9dBpLCJ
 
 ------------------------------
 
@@ -17,27 +17,19 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/2.png'
-chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/2.png'
-/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/2.png'
-/usr/bin/touch -hcad "2024-07-14 19:52:18.1844493450 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/2.png'
-chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/5.jpg'
-chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/5.jpg'
-/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/5.jpg'
-/usr/bin/touch -hcad "2024-07-14 19:52:18.2944430340 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/5.jpg'
-chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/index.html'
-chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/index.html'
-/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/index.html'
-/usr/bin/touch -hcad "2024-07-14 19:52:17.7514741810 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/index.html'
-chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/manifest.json'
-chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/manifest.json'
-/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/manifest.json'
-/usr/bin/touch -hcad "2024-07-14 19:52:17.8064710270 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/manifest.json'
-chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_3.css'
-chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_3.css'
-/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_3.css'
-/usr/bin/touch -hcad "2024-07-14 19:52:18.4654332240 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_3.css'
-chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_4.css'
-chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_4.css'
-/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_4.css'
-/usr/bin/touch -hcad "2024-07-14 19:52:17.9984600160 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_4.css'
+chown -h 1000:1000 'contracts/src/.folderstamp1'
+chmod 0664 'contracts/src/.folderstamp1'
+/usr/bin/touch -hcmd "2024-07-14 19:51:54.3728095080 -0300" 'contracts/src/.folderstamp1'
+/usr/bin/touch -hcad "2024-07-14 19:52:05.8771538280 -0300" 'contracts/src/.folderstamp1'
+chown -h 1000:1000 'contracts/src/.folderstamp2'
+chmod 0664 'contracts/src/.folderstamp2'
+/usr/bin/touch -hcmd "2024-07-14 19:52:05.8851533720 -0300" 'contracts/src/.folderstamp2'
+/usr/bin/touch -hcad "2024-07-14 19:52:18.6934201440 -0300" 'contracts/src/.folderstamp2'
+chown -h 1000:1000 'contracts/src/.folderstamp3'
+chmod 0664 'contracts/src/.folderstamp3'
+/usr/bin/touch -hcmd "2024-07-14 19:52:18.7024196270 -0300" 'contracts/src/.folderstamp3'
+/usr/bin/touch -hcad "2024-07-14 19:52:44.5689288180 -0300" 'contracts/src/.folderstamp3'
+chown -h 1000:1000 'contracts/src/.folderstamp4'
+chmod 0664 'contracts/src/.folderstamp4'
+/usr/bin/touch -hcmd "2024-07-14 19:52:45.3138856890 -0300" 'contracts/src/.folderstamp4'
+/usr/bin/touch -hcad "2024-07-14 19:53:39.4407244610 -0300" 'contracts/src/.folderstamp4'
