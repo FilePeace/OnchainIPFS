@@ -1,12 +1,12 @@
-commit QmZ485YTnDNC7nQooaUbs7WpRax6rjZaqNhFB8Ha9he4MK
+commit QmaS6LkGK4XPBB16oUsACxKCr5iX6Si3rtaHYuYY5ifiZ5
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: a213b3ca866179eb07c6f944cb62f1b1fc1b7cdd26c2b04cd1149a1a33cdfcca407a83cf59ff1f3e776ffa2a20b445e3826b15b072f554fe68b723d0df151c5d01
+Signature: 6a611b8d46ad69e9d8c9e2a85a1f608003044ec79f419904d08f9bdfcbcac79224769f06f6df15e6e73f506c7ac1456da3475c5242ff76d1b49c7bc3e4860bda00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmQsPpYDXw17FgEtqKmyA3LbnaAUE19EAPYaLqxAoMDZ8r
-Commit CID if containing only file hashes: QmSfJgziP4LqLWzVYDc44zP86tAsHo5TiHb9w2uVsxCU2a
+Commit CID if including git's SHA1: QmaX8xrMiJAEdWg4seofuWeopMhner9UtjrXNwgEnN2j8v
+Commit CID if containing only file hashes: Qmc1mXF9PhpHJo1dgVDNELymgJvD4D35bN8CXEbtZqhNXk
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/home/HomePage.tsx'
-chmod 0664 'web/app/home/HomePage.tsx'
-/usr/bin/touch -hcmd "2024-07-13 19:14:49.0707790270 -0300" 'web/app/home/HomePage.tsx'
-/usr/bin/touch -hcad "2024-07-13 19:15:02.4509471410 -0300" 'web/app/home/HomePage.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcmd "2024-07-14 01:48:35.4805169520 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcad "2024-07-14 01:48:35.5805480400 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
