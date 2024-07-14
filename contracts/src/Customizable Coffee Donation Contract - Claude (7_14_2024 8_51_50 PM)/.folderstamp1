@@ -1,0 +1,85 @@
+This folder: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/contracts/src
+
+folderstamp version: r5
+Method: Recursive
+
+  File: ./.folderstamp
+  Size: 124       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9407464     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-14 20:52:19.844433417 -0300
+Modify: 2024-07-14 20:52:19.879430102 -0300
+Change: 2024-07-14 20:52:19.879430102 -0300
+ Birth: 2024-07-14 20:52:19.844433417 -0300
+IPFS hash: QmePwENEhAymDnL5Hdy5RMjgmJJkgUDKsrXuEDtXAkShAA
+------------------------------
+  File: ./BuyOnchainIPFSACupcake.sol
+  Size: 5788      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,70	Inode: 9311155     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-14 19:09:01.448646992 -0300
+Modify: 2024-07-14 19:09:01.416651398 -0300
+Change: 2024-07-14 19:09:01.416651398 -0300
+ Birth: 2024-07-13 12:57:05.809597621 -0300
+IPFS hash: QmPy8K2SQ2m6Jw8gzuvYU8DjnhcKhknCwqk8u1JqoSHUWt
+------------------------------
+  File: ./CustomERC1155.sol
+  Size: 3178      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9411113     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-14 19:09:01.448646992 -0300
+Modify: 2024-07-14 19:09:01.418651122 -0300
+Change: 2024-07-14 19:09:01.418651122 -0300
+ Birth: 2024-07-14 17:45:00.931260682 -0300
+IPFS hash: QmbNUECxQeJG85Gvt5CB4245Fvfr5TxiU5J78yiw7FcUhX
+------------------------------
+  File: ./LocalContract.sol
+  Size: 1741      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9321535     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-14 19:09:01.448646992 -0300
+Modify: 2024-07-14 19:09:01.416651398 -0300
+Change: 2024-07-14 19:09:01.416651398 -0300
+ Birth: 2024-07-01 03:18:20.176651136 -0300
+IPFS hash: QmSGrAWkGrHBbxBEppwfyrzH2CkRuP9itKeiWH7StsMwmm
+------------------------------
+  File: ./NFTUtilities.sol
+  Size: 903       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9321542     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-14 19:09:01.448646992 -0300
+Modify: 2024-07-14 19:09:01.415651535 -0300
+Change: 2024-07-14 19:09:01.415651535 -0300
+ Birth: 2024-07-01 03:18:20.176651136 -0300
+IPFS hash: QmbCQhFztdgscHLMW6xUbv2q8NeNYPna7Vogr74WiLYvG4
+------------------------------
+  File: ./AllowlistNFT.sol
+  Size: 10164     	Blocks: 24         IO Block: 4096   regular file
+Device: 8,70	Inode: 9411111     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-14 19:09:01.448646992 -0300
+Modify: 2024-07-14 19:09:01.417651260 -0300
+Change: 2024-07-14 19:09:01.417651260 -0300
+ Birth: 2024-07-14 17:45:00.929261006 -0300
+IPFS hash: QmeTJb6ZoGsEdnd7oaqSmwjo83H49bwZkb7T4uXHnNuSeJ
+------------------------------
+  File: ./Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM).zip.html
+  Size: 816601    	Blocks: 1600       IO Block: 4096   regular file
+Device: 8,70	Inode: 10234092    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-14 20:51:50.934179380 -0300
+Modify: 2024-07-14 20:51:50.937179094 -0300
+Change: 2024-07-14 20:52:14.043983194 -0300
+ Birth: 2024-07-14 20:51:50.934179380 -0300
+IPFS hash: QmSq6QbNbszxjUGjgen1rwPK5bUo6G8t7HVJhnyRjEiKbH
+------------------------------
+  File: ./BuyMeACoffee.sol
+  Size: 5901      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,70	Inode: 9387972     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-14 20:19:56.406219849 -0300
+Modify: 2024-07-14 20:18:26.302675650 -0300
+Change: 2024-07-14 20:18:26.306675317 -0300
+ Birth: 2024-07-14 20:18:26.298675983 -0300
+IPFS hash: QmV1ab18NB5PKDNwid35Rxg5AnB81kfK6BUbCT9LT4Ptoa
+------------------------------
