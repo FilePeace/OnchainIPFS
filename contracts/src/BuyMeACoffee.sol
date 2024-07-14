@@ -16,49 +16,39 @@ struct Memo {
 
 /**
  * @title BuyMeACoffee
- * @dev BuyMeACoffee contract to accept donations and for our users to leave memos
+ * @dev BuyMeACoffee contract to accept donations and for our users to leave a memo for us
  */
 contract BuyMeACoffee {
     address public owner;
-    address public receiver;
+    address payable public receiver;
+    uint256 public price;
+    Memo[] public memos;
     bool public ownershipTransferred;
 
-    Memo[] private memos;
-
-    /**
-     * ERRORS *************************
-     */
-    error OnlyOwner();
-    error InvalidArguments(string errorMessage);
     error InsufficientFunds();
+    error InvalidArguments(string message);
+    error OnlyOwner();
+    error OwnershipAlreadyTransferred();
 
-    /**
-     * EVENTS *************************
-     */
+    event BuyMeACoffeeEvent(address indexed buyer, uint256 price);
     event NewMemo(
+        address indexed userAddress,
+        uint256 time,
         uint256 numCoffees,
         string userName,
         string twitterHandle,
-        string message,
-        uint256 time,
-        address indexed userAddress
+        string message
     );
-
-    event Withdrawn(address to, uint256 amount);
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
-    event ReceiverSet(address indexed newReceiver);
+    event ReceiverUpdated(address indexed previousReceiver, address indexed newReceiver);
 
-    /**
-     * @dev Constructor sets the owner and receiver to the deployer's address
-     */
     constructor() {
         owner = msg.sender;
-        receiver = msg.sender;
+        receiver = payable(msg.sender);
+        price = 0.0001 ether;
+        ownershipTransferred = false;
     }
 
-    /**
-     * @dev Modifier to check if the caller is the owner
-     */
     modifier onlyOwner() {
         if (msg.sender != owner) {
             revert OnlyOwner();
@@ -67,70 +57,123 @@ contract BuyMeACoffee {
     }
 
     /**
-     * @dev Function to transfer ownership, can only be done once
+     * WRITE FUNCTIONS *************
+     */
+
+    /**
+     * @dev Function to buy a coffee
+     * @param  userName The name of the user
+     * @param  twitterHandle The Twitter handle of the user
+     * @param  message The message of the user
+     * (Note: Using calldata for gas efficiency)
+     */
+    function buyCoffee(
+        uint256 numCoffees,
+        string calldata userName,
+        string calldata twitterHandle,
+        string calldata message
+    ) public payable {
+        if (msg.value < price * numCoffees) {
+            revert InsufficientFunds();
+        }
+
+        emit BuyMeACoffeeEvent(msg.sender, msg.value);
+
+        if (bytes(userName).length == 0 && bytes(message).length == 0) {
+            revert InvalidArguments("Invalid userName or message");
+        }
+
+        if (bytes(userName).length > 75 || bytes(twitterHandle).length > 75 || bytes(message).length > 1024) {
+            revert InvalidArguments("Input parameter exceeds max length");
+        }
+
+        memos.push(Memo(numCoffees, userName, twitterHandle, message, block.timestamp, msg.sender));
+
+        emit NewMemo(msg.sender, block.timestamp, numCoffees, userName, twitterHandle, message);
+    }
+
+    /**
+     * @dev Function to remove a memo
+     * @param  index The index of the memo
+     */
+    function removeMemo(uint256 index) public {
+        if (index >= memos.length) {
+            revert InvalidArguments("Invalid index");
+        }
+
+        Memo memory memo = memos[index];
+
+        if (memo.userAddress != msg.sender && msg.sender != owner) {
+            revert InvalidArguments("Operation not allowed");
+        }
+        Memo memory indexMemo = memos[index];
+        memos[index] = memos[memos.length - 1];
+        memos[memos.length - 1] = indexMemo;
+        memos.pop();
+    }
+
+    /**
+     * @dev Function to modify a memo
+     * @param  index The index of the memo
+     * @param  message The message of the memo
+     */
+    function modifyMemoMessage(uint256 index, string memory message) public {
+        if (index >= memos.length) {
+            revert InvalidArguments("Invalid index");
+        }
+
+        Memo memory memo = memos[index];
+
+        if (memo.userAddress != msg.sender && msg.sender != owner) {
+            revert InvalidArguments("Operation not allowed");
+        }
+
+        memos[index].message = message;
+    }
+
+    /**
+     * @dev Function to withdraw the balance
+     */
+    function withdrawTips() public {
+        if (msg.sender != owner) {
+            revert OnlyOwner();
+        }
+
+        if (address(this).balance == 0) {
+            revert InsufficientFunds();
+        }
+
+        (bool sent,) = receiver.call{value: address(this).balance}("");
+        require(sent, "Failed to send Ether");
+    }
+
+    /**
+     * @dev Function to set the receiver of donations
+     * @param newReceiver The address of the new receiver
+     */
+    function setReceiver(address payable newReceiver) public onlyOwner {
+        address oldReceiver = receiver;
+        receiver = newReceiver;
+        emit ReceiverUpdated(oldReceiver, newReceiver);
+    }
+
+    /**
+     * @dev Function to transfer ownership of the contract
      * @param newOwner The address of the new owner
      */
     function transferOwnership(address newOwner) public onlyOwner {
         if (ownershipTransferred) {
-            revert InvalidArguments("Ownership can only be transferred once");
+            revert OwnershipAlreadyTransferred();
         }
-        if (newOwner == address(0)) {
-            revert InvalidArguments("Invalid new owner address");
-        }
-        emit OwnershipTransferred(owner, newOwner);
+        address oldOwner = owner;
         owner = newOwner;
         ownershipTransferred = true;
+        emit OwnershipTransferred(oldOwner, newOwner);
     }
 
     /**
-     * @dev Function to set the donation receiver
-     * @param newReceiver The address of the new receiver
+     * READ FUNCTIONS *************
      */
-    function setReceiver(address newReceiver) public onlyOwner {
-        if (newReceiver == address(0)) {
-            revert InvalidArguments("Invalid receiver address");
-        }
-        receiver = newReceiver;
-        emit ReceiverSet(newReceiver);
-    }
-
-    /**
-     * @dev Function to buy a coffee
-     * @param userName The name of the user
-     * @param twitterHandle The twitter handle of the user
-     * @param message The message of the user
-     */
-    function buyCoffee(string memory userName, string memory twitterHandle, string memory message) public payable {
-        if (msg.value == 0) {
-            revert InvalidArguments("Cannot buy a coffee with 0 value");
-        }
-
-        Memo memory newMemo = Memo({
-            numCoffees: 1,
-            userName: userName,
-            twitterHandle: twitterHandle,
-            message: message,
-            time: block.timestamp,
-            userAddress: msg.sender
-        });
-
-        memos.push(newMemo);
-        emit NewMemo(1, userName, twitterHandle, message, block.timestamp, msg.sender);
-    }
-
-    /**
-     * @dev Function to withdraw the balance to the receiver address
-     */
-    function withdrawTips() public onlyOwner {
-        uint256 balance = address(this).balance;
-        if (balance == 0) {
-            revert InsufficientFunds();
-        }
-
-        (bool sent, ) = receiver.call{value: balance}("");
-        require(sent, "Failed to send Ether");
-        emit Withdrawn(receiver, balance);
-    }
 
     /**
      * @dev Function to get the memos
@@ -150,6 +193,7 @@ contract BuyMeACoffee {
 
         uint256 effectiveSize = size;
         if (index + size > memos.length) {
+            // Adjust the size if it exceeds the array's bounds
             effectiveSize = memos.length - index;
         }
 
@@ -166,4 +210,3 @@ contract BuyMeACoffee {
      */
     receive() external payable {}
 }
-

@@ -1,12 +1,12 @@
-commit Qmcu2TNTj37beSwuAjV9yLYmwox5iqiuQsBdg3odw6qCq2
+commit QmYpzUFrEwDsUNfxQCArYg3LAsWCfUQpGkWuCEQKB7Usy5
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 128c6dc843bdcc77ad506b13391141c46988a50bfc86f50138d8b0060491b1706518a85e4f3ff2289703f21bb97ee14a2a3d1019e29f26cee2d1b981d067b8be01
+Signature: 78ba9976f1e94ff54f09e8e30966c4338b39004f77561ac0ce96a37d2df578402a23b7550b6c3cb89a69804691648cf609ffa2f672d0b2744059bb7e37b6401000
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdAWR3QWrU7RrYjmDUXi2xKbQdZ1svm668oNeEPaVrwJW
-Commit CID if containing only file hashes: QmWiGayrMZ7cTTEJqKN3XcUhGzbNWWuGcMpJfu78eAqNPL
+Commit CID if including git's SHA1: QmdaFgcJxGJv6fLZVGXtLS4x1exqp6JkTthjJv3W99jwBJ
+Commit CID if containing only file hashes: QmYjtQNXx88oUyiJmwBWXyo2iW2HfhgKAfn3B5xm9Ltp62
 
 ------------------------------
 
@@ -17,31 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp1'
-chmod 0664 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp1'
-/usr/bin/touch -hcmd "2024-07-14 20:52:20.3713835010 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp1'
-/usr/bin/touch -hcad "2024-07-14 20:52:48.7387031340 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp1'
-chown -h 1000:1000 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp2'
-chmod 0664 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp2'
-/usr/bin/touch -hcmd "2024-07-14 20:52:32.3602490790 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp2'
-/usr/bin/touch -hcad "2024-07-14 20:52:48.7996973850 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp2'
-chown -h 1000:1000 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp3'
-chmod 0664 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp3'
-/usr/bin/touch -hcmd "2024-07-14 20:52:48.8086965360 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp3'
-/usr/bin/touch -hcad "2024-07-14 20:53:22.2615522010 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/.folderstamp3'
-chown -h 1000:1000 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/images/8.ico'
-chmod 0664 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/images/8.ico'
-/usr/bin/touch -hcmd "2024-07-14 20:51:50.6020000000 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/images/8.ico'
-/usr/bin/touch -hcad "2024-07-14 20:52:48.1857552550 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/images/8.ico'
-chown -h 1000:1000 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/manifest.json'
-chmod 0664 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/manifest.json'
-/usr/bin/touch -hcmd "2024-07-14 20:51:50.6020000000 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/manifest.json'
-/usr/bin/touch -hcad "2024-07-14 20:52:47.7577955980 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/manifest.json'
-chown -h 1000:1000 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/stylesheet_0.css'
-chmod 0664 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/stylesheet_0.css'
-/usr/bin/touch -hcmd "2024-07-14 20:51:50.6020000000 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/stylesheet_0.css'
-/usr/bin/touch -hcad "2024-07-14 20:52:47.8817839090 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/stylesheet_0.css'
-chown -h 1000:1000 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/stylesheet_1.css'
-chmod 0664 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/stylesheet_1.css'
-/usr/bin/touch -hcmd "2024-07-14 20:51:50.6020000000 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/stylesheet_1.css'
-/usr/bin/touch -hcad "2024-07-14 20:52:47.8167900370 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/stylesheet_1.css'
+chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
+chmod 0664 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcmd "2024-07-14 20:18:26.3026756500 -0300" 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcad "2024-07-14 20:19:56.4062198490 -0300" 'contracts/src/BuyMeACoffee.sol'
