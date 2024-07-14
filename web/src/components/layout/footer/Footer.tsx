@@ -3,7 +3,9 @@
 import { GitHubLogoIcon, ArrowTopRightIcon } from '@radix-ui/react-icons';
 import NextLink from 'next/link';
 import { NavbarLink } from '@/components/layout/header/Navbar';
-{/*import FooterIcon from './FooterIcon';*/}
+{
+  /*import FooterIcon from './FooterIcon';*/
+}
 
 export default function Footer() {
   return (
@@ -13,7 +15,7 @@ export default function Footer() {
           <div className="flex flex-col justify-between">
             <div className="flex h-8 items-center justify-start gap-4">
               <NextLink href="/" passHref className="relative h-8 w-8" aria-label="Home page">
-               <img src="/logo.svg" alt="Onchain IPFS Logo"/>
+                <img src="/logo.svg" alt="Onchain IPFS Logo" />
               </NextLink>
               <NextLink
                 href="/"
@@ -26,7 +28,7 @@ export default function Footer() {
                 <GitHubLogoIcon
                   width="24"
                   height="24"
-                  aria-label="Onchain IPFS&apos; Github respository"
+                  aria-label="Onchain IPFS' Github respository"
                 />
               </NavbarLink>
             </div>
@@ -48,15 +50,14 @@ export default function Footer() {
 
           <div className="font-robotoMono flex flex-col items-start justify-center gap-4 text-center text-xl font-medium text-white">
             <NextLink href="https://filepeace.github.io" target="_blank">
-            <img
-            src="https://filepeace.github.io/logotype.svg"
-            alt="FilePeace"
-            style={{ height: '32px' }}
-          /></NextLink>
+              <img
+                src="https://filepeace.github.io/logotype.svg"
+                alt="FilePeace"
+                style={{ height: '32px' }}
+              />
+            </NextLink>
             <NavbarLink href="/">
-              <span className="flex items-center gap-1 px-2">
-                Onchain IPFS (you&apos;re here!)
-              </span>
+              <span className="flex items-center gap-1 px-2">Onchain IPFS (you&apos;re here!)</span>
             </NavbarLink>
             <NavbarLink href="https://github.com/FilePeace/folderstamp" target="_blank">
               <span className="flex items-center gap-1 px-2">
