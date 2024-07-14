@@ -1,12 +1,12 @@
-commit QmQpTYzuFcZp6JyV6quBsgbA4BU2N6kibNaCwYFfXM7Xkp
+commit QmQK8rYirK5QUScT23NCj4Td8tBsKs5aZHgRJuQUoF5Rf4
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 94517f6ef0d18ae2168050a1f7998f809c8b28665e1fd58d109093675ac8715e19fbb9e7c9192aa5a5b1f1bd0d8b3c3bcb4e37ffb248bf554b33ca02ebef2a7f00
+Signature: 8fa2de2a4626089ad841ccc07dc10c6d3cb4c6a35e0612da6ea7bc6628052fb56a86ac6a774298d4fd0f911bb213eca91a78153b899b413c08311908758eb3bc00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmVwfxWz7Lo6rtRZchHMUn2SVbNLTFRGbmgbSuxP7WAL3u
-Commit CID if containing only file hashes: QmfPUCbMfpo1buketYsbvsgobJ2Y8QkfPzdQY8s4d6Fd49
+Commit CID if including git's SHA1: Qmbh8CifoX4c2whdVJ7YTZQhjf9HRiFkvPuwcCAgmPgxHY
+Commit CID if containing only file hashes: QmWQmyCT5f1WnV2ZKqgmTfm7BdZsEyYV4NfZRFJEStcCAZ
 
 ------------------------------
 
@@ -17,15 +17,15 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/global.css'
-chmod 0664 'web/app/global.css'
-/usr/bin/touch -hcmd "2024-07-13 17:03:14.7316237700 -0300" 'web/app/global.css'
-/usr/bin/touch -hcad "2024-07-14 17:31:34.1934203390 -0300" 'web/app/global.css'
-chown -h 1000:1000 'web/src/components/layout/footer/Footer.tsx'
-chmod 0664 'web/src/components/layout/footer/Footer.tsx'
-/usr/bin/touch -hcmd "2024-07-13 17:03:18.3953072370 -0300" 'web/src/components/layout/footer/Footer.tsx'
-/usr/bin/touch -hcad "2024-07-14 17:31:34.2354171270 -0300" 'web/src/components/layout/footer/Footer.tsx'
-chown -h 1000:1000 'web/src/components/layout/header/Navbar.tsx'
-chmod 0664 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcmd "2024-07-13 17:03:18.6742831320 -0300" 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcad "2024-07-14 17:34:31.4134278100 -0300" 'web/src/components/layout/header/Navbar.tsx'
+chown -h 1000:1000 'contracts/script/BuyOnchainIPFSACupcake.s.sol'
+chmod 0664 'contracts/script/BuyOnchainIPFSACupcake.s.sol'
+/usr/bin/touch -hcmd "2024-07-13 13:17:56.6535037650 -0300" 'contracts/script/BuyOnchainIPFSACupcake.s.sol'
+/usr/bin/touch -hcad "2024-07-14 17:46:06.7228425210 -0300" 'contracts/script/BuyOnchainIPFSACupcake.s.sol'
+chown -h 1000:1000 'contracts/src/BuyOnchainIPFSACupcake.sol'
+chmod 0664 'contracts/src/BuyOnchainIPFSACupcake.sol'
+/usr/bin/touch -hcmd "2024-07-13 13:17:56.6555030000 -0300" 'contracts/src/BuyOnchainIPFSACupcake.sol'
+/usr/bin/touch -hcad "2024-07-14 17:46:06.7248422120 -0300" 'contracts/src/BuyOnchainIPFSACupcake.sol'
+chown -h 1000:1000 'contracts/test/BuyOnchainIPFSACupcake.t.sol'
+chmod 0664 'contracts/test/BuyOnchainIPFSACupcake.t.sol'
+/usr/bin/touch -hcmd "2024-07-13 13:17:56.6545033830 -0300" 'contracts/test/BuyOnchainIPFSACupcake.t.sol'
+/usr/bin/touch -hcad "2024-07-14 17:46:06.7258420570 -0300" 'contracts/test/BuyOnchainIPFSACupcake.t.sol'
