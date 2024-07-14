@@ -6,7 +6,7 @@ pragma solidity 0.8.25;
  * @dev Memo struct
  */
 struct Memo {
-    uint256 numCoffees;
+    uint256 numCupcakes;
     string userName;
     string twitterHandle;
     string message;
@@ -15,10 +15,10 @@ struct Memo {
 }
 
 /**
- * @title BuyMeACoffee
- * @dev BuyMeACoffee contract to accept donations and for our users to leave memos
+ * @title BuyMeACupcake
+ * @dev BuyMeACupcake contract to accept donations and for our users to leave memos
  */
-contract BuyMeACoffee {
+contract BuyMeACupcake {
     address public owner;
     address public receiver;
     bool public ownershipTransferred;
@@ -36,7 +36,7 @@ contract BuyMeACoffee {
      * EVENTS *************************
      */
     event NewMemo(
-        uint256 numCoffees,
+        uint256 numCupcakes,
         string userName,
         string twitterHandle,
         string message,
@@ -95,18 +95,18 @@ contract BuyMeACoffee {
     }
 
     /**
-     * @dev Function to buy a coffee
+     * @dev Function to buy a cupcake
      * @param userName The name of the user
      * @param twitterHandle The twitter handle of the user
      * @param message The message of the user
      */
-    function buyCoffee(string memory userName, string memory twitterHandle, string memory message) public payable {
+    function buyCupcake(string memory userName, string memory twitterHandle, string memory message) public payable {
         if (msg.value == 0) {
-            revert InvalidArguments("Cannot buy a coffee with 0 value");
+            revert InvalidArguments("Cannot buy a cupcake with 0 value");
         }
 
         Memo memory newMemo = Memo({
-            numCoffees: 1,
+            numCupcakes: 1,
             userName: userName,
             twitterHandle: twitterHandle,
             message: message,
