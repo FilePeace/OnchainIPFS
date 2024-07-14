@@ -1,12 +1,12 @@
-commit QmcJWyGxbQtYNzbRQpKFHfmnQouZq8SR5VybFJbVJ4T21h
+commit QmW7L5nQKhKcQz9fDm48a6KWWPDdhHh2Uh2rHq5akMMn5A
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 47ee4ab84e0fd259d5c62db1a1caa2f8269008ecb5114a04e21273980b7b614806fc7087f7f6028f76cf10744706372edeb6bbdb3ab8e2bc1168aca4223018bf01
+Signature: 349368cd03e97ce9e6c0ace3d1b4a71847348dc891d815c4d91bb7688f032ccb5fe7fce6c2f893c8ae87490661dfe174966987599f25f8cf03c4a18391964cfc00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmWXiZwPdjbTFJztREvvxHqs4vEjtEyJzVWqQCxCkyU9Sx
-Commit CID if containing only file hashes: 
+Commit CID if including git's SHA1: QmWjCEHdkft2HcU5phB69Np3XyCLiydSfDCxPmdXEEvpwV
+Commit CID if containing only file hashes: QmR3BvR92kfbX5V1VKPBcZen9eyKjwiuCAG1qQUHFHmB9R
 
 ------------------------------
 
@@ -17,3 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
+chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcmd "2024-07-14 20:21:04.0966825940 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcad "2024-07-14 20:21:04.2026739630 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
