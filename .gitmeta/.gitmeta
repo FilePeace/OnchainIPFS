@@ -1,12 +1,12 @@
-commit QmekNuk6X4zEurpKmWFG7W9xFdthLUctrzyz4rhsrFutEc
+commit QmPgHsLNftSKfMk1f4ErLNB77HEyY14ERLuoLCYHgyNFE4
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: d23631ef00426ce2685c6761748548fa33caae8de6c40882bc57b6f219984a926c22c7c7f2081dba94918a8fcde31dc5a8c7acc71eaa13939af4ca097f9fff4701
+Signature: 625785d09b036b541ac235d59de9947440f62c242fe08f45cb876222e107c73c3d62b0775501cc54c1347bc18a93d78d9eecfefc8a3036fd1bd1172c3430659100
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmSYNxTBwWuDH6FYZhTFgghgYUbr2xCE5wc9imDZDxwkbc
-Commit CID if containing only file hashes: QmNVNKXvKUo1TuasaRwMWv4S5QMfwvaKyGfQLy6N6oLQPb
+Commit CID if including git's SHA1: QmP4rmGwpmD8R1MG5hcVe691KdseF5UrcRodRr5QgC73Vs
+Commit CID if containing only file hashes: QmWRdvb5SSrpc7RkEeSv4XvUY9dps34nE837EuULZyypSj
 
 ------------------------------
 
@@ -17,15 +17,27 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/remappings.txt'
-chmod 0664 'contracts/remappings.txt'
-/usr/bin/touch -hcmd "2024-07-14 19:28:27.0547079130 -0300" 'contracts/remappings.txt'
-/usr/bin/touch -hcad "2024-07-14 19:34:59.4747166980 -0300" 'contracts/remappings.txt'
-chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
-chmod 0664 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcmd "2024-07-14 19:36:13.9101442430 -0300" 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcad "2024-07-14 19:36:17.4661452670 -0300" 'contracts/src/BuyMeACoffee.sol'
-chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-/usr/bin/touch -hcmd "2024-07-14 19:37:42.6986942800 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-/usr/bin/touch -hcad "2024-07-14 19:38:14.3393118360 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/2.png'
+chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/2.png'
+/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/2.png'
+/usr/bin/touch -hcad "2024-07-14 19:52:18.1844493450 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/2.png'
+chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/5.jpg'
+chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/5.jpg'
+/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/5.jpg'
+/usr/bin/touch -hcad "2024-07-14 19:52:18.2944430340 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/images/5.jpg'
+chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/index.html'
+chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/index.html'
+/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/index.html'
+/usr/bin/touch -hcad "2024-07-14 19:52:17.7514741810 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/index.html'
+chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/manifest.json'
+chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/manifest.json'
+/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/manifest.json'
+/usr/bin/touch -hcad "2024-07-14 19:52:17.8064710270 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/manifest.json'
+chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_3.css'
+chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_3.css'
+/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_3.css'
+/usr/bin/touch -hcad "2024-07-14 19:52:18.4654332240 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_3.css'
+chown -h 1000:1000 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_4.css'
+chmod 0664 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_4.css'
+/usr/bin/touch -hcmd "2024-07-14 19:51:35.5300000000 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_4.css'
+/usr/bin/touch -hcad "2024-07-14 19:52:17.9984600160 -0300" 'contracts/src/ChatGPT (14_07_2024 19_51_34)/stylesheet_4.css'
