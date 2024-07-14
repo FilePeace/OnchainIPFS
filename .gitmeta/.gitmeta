@@ -1,12 +1,12 @@
-commit QmQPTRYduMfcbQy8R8WMN24Dq2gCkuvhNMjnfd1sg9rmLo
+commit QmUgW3J6seNTgMpytaPfPRq1XgqNmPZsfoWL94Lmbx3rmz
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: c8ba12e8b288052f183d1994206ec9f561ea1ea88372917d679bf4f6cb182d10224d9d5a77bfb695e80df164d96403765cfec19c488f821e81f51d422803611301
+Signature: 881afff8a5de67e4acd3aad9f9373edb5e38bcc902df00aeb6ea0421d57d2b2676c9a5038fbd5f3e6cb03dbd0d7195c36a4f0fd934fcf7c2f974412fd42ce8fe01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmTJCTjUcrQuuaJQ5PZScBgDq6akbBUZ1heyZyhR5DZMHp
-Commit CID if containing only file hashes: QmXmLKTEWx53QXxkXt3m8sL6cMZn3HQnr9oGfyPjUZu1YM
+Commit CID if including git's SHA1: QmQgLTamUdvHW2e4FmBqk9e5wx1ZSsFGe6K1KQcnn4nnNJ
+Commit CID if containing only file hashes: QmYGKqxUSGrFVbqc4tRnYKNNCJQh9FwvwRPDXC7cEkT3Ju
 
 ------------------------------
 
@@ -17,11 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
-chmod 0664 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcmd "2024-07-14 19:57:01.3415246350 -0300" 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcad "2024-07-14 19:57:14.4717125640 -0300" 'contracts/src/BuyMeACoffee.sol'
-chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol.cupcake'
-chmod 0664 'contracts/src/BuyMeACoffee.sol.cupcake'
-/usr/bin/touch -hcmd "2024-07-14 19:51:20.4477264420 -0300" 'contracts/src/BuyMeACoffee.sol.cupcake'
-/usr/bin/touch -hcad "2024-07-14 19:57:14.4757123170 -0300" 'contracts/src/BuyMeACoffee.sol.cupcake'
+chown -h 1000:1000 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/index.html'
+chmod 0664 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/index.html'
+/usr/bin/touch -hcmd "2024-07-14 20:51:50.6020000000 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/index.html'
+/usr/bin/touch -hcad "2024-07-14 20:52:47.6978012540 -0300" 'contracts/src/Customizable Coffee Donation Contract - Claude (7_14_2024 8_51_50 PM)/index.html'
