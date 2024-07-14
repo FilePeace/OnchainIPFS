@@ -39,20 +39,20 @@ export default function NavbarMobile() {
         <div>
           <ul className="mx-2 flex flex-col gap-4">
             <li className="flex">
-              <NavbarLink href="https://github.com/coinbase/build-onchain-apps" target="_blank">
+              <NavbarLink href="https://github.com/danimesq/OnchainIPFS" target="_blank">
                 <GitHubLogoIcon width="24" height="24" />
               </NavbarLink>
             </li>
-            <li className="flex">
+            {/*<li className="flex">
               <NavbarLink href="/#get-started">Get Started</NavbarLink>
-            </li>
+            </li>*/}
             <li className="flex">
               <NavigationMenu.Root className="relative flex flex-grow flex-col">
                 <NavigationMenu.List className={clsx('flex flex-row space-x-2')}>
                   <NavigationMenu.Item>
                     <NavigationMenu.Trigger className="group flex items-center justify-start gap-1">
                       <span className="font-robotoMono text-center text-base font-normal text-white">
-                        Experiences
+                        Pages
                       </span>
                       <ChevronDownIcon
                         className="transform transition duration-200 ease-in-out group-data-[state=open]:rotate-180"

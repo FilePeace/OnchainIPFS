@@ -4,7 +4,7 @@ export function Experiences() {
   return (
     <>
       <ListItem href="/">Home</ListItem>
-      <ListItem href="/buy-me-coffee">Buy Me A Cupcake 🎂</ListItem>
+      <ListItem href="/buy-me-coffee">Buy Us A Cupcake 🧁</ListItem>
     </>
   );
 }

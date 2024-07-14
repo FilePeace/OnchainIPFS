@@ -33,6 +33,14 @@ export default function BuyMeCoffeeContractDemo() {
           <FormBuyCoffee refetchMemos={refetchMemos} />
         </div>
       </aside>
+          <section
+            className={clsx(
+              'flex flex-col items-center justify-between gap-6 p-6 md:flex-row md:gap-0',
+              `rounded-lg border border-zinc-400 border-opacity-10 bg-white bg-opacity-10 p-4 backdrop-blur-2xl`,
+            )}
+          >
+            Donate and help the development of Onchain IPFS: the service to store your files onchain and link them between IPFS, Arweave and Torrent.
+          </section>
     </div>
   );
 }

@@ -67,11 +67,11 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
   return (
     <>
       <h2 className="mb-5 w-full text-center text-2xl font-semibold text-white lg:text-left">
-        🎂Buy Me a Cupcake!
+        Buy Us a Cupcake!
       </h2>
       <form onSubmit={onSubmitTransaction} className="w-full">
         <div className="my-4 items-center lg:flex lg:gap-4">
-          <div className="text-center text-4xl lg:text-left">☕</div>
+          <div className="text-center text-4xl lg:text-left">🧁</div>
           <div className="mb-4 mt-2 text-center font-sans text-xl lg:my-0 lg:text-left">X</div>
           <div className="mx-auto flex max-w-[300px] gap-3 lg:max-w-max">
             {COFFEE_COUNT.map((count) => (
@@ -137,7 +137,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
           <Button
             buttonContent={
               <>
-                Send {fields.coffeeCount} coffee{fields.coffeeCount > 1 ? 's' : null} for{' '}
+                Send {fields.coffeeCount} cupcake{fields.coffeeCount > 1 ? 's' : null} for{' '}
                 {String((GAS_COST * fields.coffeeCount).toFixed(4))} ETH
               </>
             }

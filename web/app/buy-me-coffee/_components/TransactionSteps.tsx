@@ -19,8 +19,8 @@ export default function TransactionSteps({
   if (transactionStep === TransactionStates.START) {
     return (
       <TransactionStep
-        status="Coffee brewing..."
-        icon="☕"
+        status="Cupcake cooking..."
+        icon="🧁"
         helpText="Please confirm transaction in your wallet"
       >
         <Button
@@ -35,11 +35,11 @@ export default function TransactionSteps({
   if (transactionStep === TransactionStates.COMPLETE) {
     return (
       <TransactionStep
-        status={`You bought ${coffeeCount} coffee${coffeeCount > 1 ? 's' : ''}!`}
+        status={`You bought us ${coffeeCount} cupcake${coffeeCount > 1 ? 's' : ''}!`}
         icon="🎁"
         helpText="Thank you for supporting this endeavor!"
       >
-        <Button buttonContent="Send another coffee" onClick={resetContractForms} />
+        <Button buttonContent="📨🧁 Send another cupcake" onClick={resetContractForms} />
       </TransactionStep>
     );
   }

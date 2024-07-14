@@ -1,12 +1,12 @@
-commit QmW7L5nQKhKcQz9fDm48a6KWWPDdhHh2Uh2rHq5akMMn5A
+commit QmS8weSDZ2za7mtDEyvfBRk73rDbTGTFcZZH6Hcx2r3jJX
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 349368cd03e97ce9e6c0ace3d1b4a71847348dc891d815c4d91bb7688f032ccb5fe7fce6c2f893c8ae87490661dfe174966987599f25f8cf03c4a18391964cfc00
+Signature: 4891b0985877bf05c723890f4acf3c2eb13df93676c0368800b9a06fc8e281ba2bb58216e10952633efe07dacbe3e50b38035610e3d71f01a88801a5e684ba8801
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmWjCEHdkft2HcU5phB69Np3XyCLiydSfDCxPmdXEEvpwV
-Commit CID if containing only file hashes: QmR3BvR92kfbX5V1VKPBcZen9eyKjwiuCAG1qQUHFHmB9R
+Commit CID if including git's SHA1: QmPcDr5kTm1cj349yF2t2EXZ2ZfRLWG1DJcp5CcrneDLYD
+Commit CID if containing only file hashes: Qme9BaovAG6gHcPjpz1jTW7nkD9CFknuLSLAso7oqytjhJ
 
 ------------------------------
 
@@ -17,7 +17,35 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-/usr/bin/touch -hcmd "2024-07-14 20:21:04.0966825940 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-/usr/bin/touch -hcad "2024-07-14 20:21:04.2026739630 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chown -h 1000:1000 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
+chmod 0664 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
+/usr/bin/touch -hcmd "2024-07-14 20:32:06.7132566830 -0300" 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
+/usr/bin/touch -hcad "2024-07-14 20:32:06.8002499310 -0300" 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/_components/FormBuyCoffee.tsx'
+chmod 0664 'web/app/buy-me-coffee/_components/FormBuyCoffee.tsx'
+/usr/bin/touch -hcmd "2024-07-14 20:46:53.7274553340 -0300" 'web/app/buy-me-coffee/_components/FormBuyCoffee.tsx'
+/usr/bin/touch -hcad "2024-07-14 20:46:53.7924486740 -0300" 'web/app/buy-me-coffee/_components/FormBuyCoffee.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
+chmod 0664 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
+/usr/bin/touch -hcmd "2024-07-14 20:36:57.0823540720 -0300" 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
+/usr/bin/touch -hcad "2024-07-14 20:36:57.1933386800 -0300" 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/layout.tsx'
+chmod 0664 'web/app/buy-me-coffee/layout.tsx'
+/usr/bin/touch -hcmd "2024-07-14 20:25:44.4531914440 -0300" 'web/app/buy-me-coffee/layout.tsx'
+/usr/bin/touch -hcad "2024-07-14 20:25:44.5111868500 -0300" 'web/app/buy-me-coffee/layout.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/page.tsx'
+chmod 0664 'web/app/buy-me-coffee/page.tsx'
+/usr/bin/touch -hcmd "2024-07-14 20:27:20.5436058490 -0300" 'web/app/buy-me-coffee/page.tsx'
+/usr/bin/touch -hcad "2024-07-14 20:27:20.6166001050 -0300" 'web/app/buy-me-coffee/page.tsx'
+chown -h 1000:1000 'web/app/home/HomePage.tsx'
+chmod 0664 'web/app/home/HomePage.tsx'
+/usr/bin/touch -hcmd "2024-07-14 20:33:22.0524175150 -0300" 'web/app/home/HomePage.tsx'
+/usr/bin/touch -hcad "2024-07-14 20:33:22.1764079170 -0300" 'web/app/home/HomePage.tsx'
+chown -h 1000:1000 'web/src/components/layout/header/Experiences.tsx'
+chmod 0664 'web/src/components/layout/header/Experiences.tsx'
+/usr/bin/touch -hcmd "2024-07-14 20:47:54.4882863010 -0300" 'web/src/components/layout/header/Experiences.tsx'
+/usr/bin/touch -hcad "2024-07-14 20:47:56.3061034220 -0300" 'web/src/components/layout/header/Experiences.tsx'
+chown -h 1000:1000 'web/src/components/layout/header/NavbarMobile.tsx'
+chmod 0664 'web/src/components/layout/header/NavbarMobile.tsx'
+/usr/bin/touch -hcmd "2024-07-14 20:46:09.1270582440 -0300" 'web/src/components/layout/header/NavbarMobile.tsx'
+/usr/bin/touch -hcad "2024-07-14 20:46:09.2200485780 -0300" 'web/src/components/layout/header/NavbarMobile.tsx'

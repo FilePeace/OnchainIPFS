@@ -31,13 +31,13 @@ export default function HomePage() {
             CID&lt;-&gt;Arweave TXID&lt;-&gt;Torrent URI.
           </section>
 
-          <aside>
-            <div
-              className={clsx([
-                'mt-10 rounded-lg border border-solid border-boat-color-palette-line',
-                'bg-boat-color-palette-backgroundalternate p-10 md:mt-0',
-              ])}
-            >
+      <aside>
+        <div
+          className={clsx([
+            'mt-10 rounded-lg border border-solid border-boat-color-palette-line',
+            'bg-boat-color-palette-backgroundalternate p-10 md:mt-0',
+          ])}
+        >
               <h2 className="text-xl">Developer information</h2>
               <br />
               <h3 className="text-lg">Account</h3>
