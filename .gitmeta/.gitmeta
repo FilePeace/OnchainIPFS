@@ -1,12 +1,12 @@
-commit Qmc9HoGctonc5a8FtciR4TinFJDWbexNUjzUPiXw622vyn
+commit QmfK6ieDDLFaepAHJTYx2cwyT2Non6JGk2aXn4zvLfePTV
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: c1e0ab6c26a2f193bf22a38905a480d527cc2daf4c8faae01a1078afc73ef13d13934709f93f0546f7d7aa807b234dcffc7d6f84f213e9c41734635a080f1aaa00
+Signature: 1dcd14e5afb9878f6426a90bea96e450fe1b7b90f236031e95db9728d0f534c1563e730d64d292684aa28b0629705bac3a67852ea406c136042aee9c15629c5c00
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qmdc5jteBeCgDrQGYdevWbpzbW9ZUhK4b2u6Zwapk5jXVA
-Commit CID if containing only file hashes: QmTotd7XGvrZU3mKQFwgtuDfLSVsP75Jcwhs9jT9dBpLCJ
+Commit CID if including git's SHA1: QmdqWTQrMgP84LxsEWxnJbrMUHd8dDVwHKgM3S1sywSVq5
+Commit CID if containing only file hashes: QmTYsWHdbLsUKNuNgsbRFtUxVsYrAMPBzW6mwMnMAsEig7
 
 ------------------------------
 
@@ -17,19 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/src/.folderstamp1'
-chmod 0664 'contracts/src/.folderstamp1'
-/usr/bin/touch -hcmd "2024-07-14 19:51:54.3728095080 -0300" 'contracts/src/.folderstamp1'
-/usr/bin/touch -hcad "2024-07-14 19:52:05.8771538280 -0300" 'contracts/src/.folderstamp1'
-chown -h 1000:1000 'contracts/src/.folderstamp2'
-chmod 0664 'contracts/src/.folderstamp2'
-/usr/bin/touch -hcmd "2024-07-14 19:52:05.8851533720 -0300" 'contracts/src/.folderstamp2'
-/usr/bin/touch -hcad "2024-07-14 19:52:18.6934201440 -0300" 'contracts/src/.folderstamp2'
-chown -h 1000:1000 'contracts/src/.folderstamp3'
-chmod 0664 'contracts/src/.folderstamp3'
-/usr/bin/touch -hcmd "2024-07-14 19:52:18.7024196270 -0300" 'contracts/src/.folderstamp3'
-/usr/bin/touch -hcad "2024-07-14 19:52:44.5689288180 -0300" 'contracts/src/.folderstamp3'
-chown -h 1000:1000 'contracts/src/.folderstamp4'
-chmod 0664 'contracts/src/.folderstamp4'
-/usr/bin/touch -hcmd "2024-07-14 19:52:45.3138856890 -0300" 'contracts/src/.folderstamp4'
-/usr/bin/touch -hcad "2024-07-14 19:53:39.4407244610 -0300" 'contracts/src/.folderstamp4'
+chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
+chmod 0664 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcmd "2024-07-14 19:51:20.4477264420 -0300" 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcad "2024-07-14 19:51:54.3648099630 -0300" 'contracts/src/BuyMeACoffee.sol'
