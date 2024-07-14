@@ -16,3 +16,10 @@ docs/
 # Code Coverage
 lcov.info
 report/
+
+# Experimental local workaround
+lib/ERC721A/
+lib/forge-std/
+lib/murky/
+lib/openzeppelin-contracts/
+lib/solady/

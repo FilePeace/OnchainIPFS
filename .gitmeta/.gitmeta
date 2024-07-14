@@ -1,12 +1,12 @@
-commit QmXcfzJmmPdq3aFYFUM3ZyQBLvvfaQjcF3kywd55uGDw1D
+commit QmZKRLWauVGWNiqaWzqnksyKqyKxhoiX4TqqCQtPeVP7dW
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 6de4a5b1f544c14c2e6bb5d8ecc5d8d892b4cfd8410e67b836fc43a09e8d197a6253c0414d433d67a8d812c26eb1844326e31fa716a59096cfa6cc0b6d09d3f600
+Signature: e92dff082b4b8d20d91082c34fb93fe8c3e4363ed5130510247d14c91b6ec2fe33400b94edc8dd9746bff723b9988fbba2ac9ec914da3bc77a241e4338846b2900
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmTLCv2jT6kXigcR7tBRyLKPxtM5j4Nq7rb6z91nEZvrLz
-Commit CID if containing only file hashes: QmToX7DxBFtTuvJCk2hVNwxkyJqAqUmbjxtjzpsc2vFkS2
+Commit CID if including git's SHA1: QmZ9qyoFkZxwTPGUR9yZaaWuSpQxYRFyuHY6pQdzcR6Avc
+Commit CID if containing only file hashes: QmQi1pVYCANZKbnwcnkWerPpgsXcWGUt7FQRgYAvfzT6f2
 
 ------------------------------
 
@@ -17,19 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
-chmod 0664 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcmd "2024-07-14 19:09:01.4196509840 -0300" 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcad "2024-07-14 19:09:01.4486469920 -0300" 'contracts/src/BuyMeACoffee.sol'
-chown -h 1000:1000 'contracts/src/forge.log.html5'
-chmod 0664 'contracts/src/forge.log.html5'
-/usr/bin/touch -hcmd "2024-07-14 19:11:31.0455124330 -0300" 'contracts/src/forge.log.html5'
-/usr/bin/touch -hcad "2024-07-14 19:12:39.9015159500 -0300" 'contracts/src/forge.log.html5'
-chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/BuyMeACoffeeABI.ts'
-chmod 0664 'web/app/buy-me-coffee/_contracts/BuyMeACoffeeABI.ts'
-/usr/bin/touch -hcmd "2024-07-14 19:05:07.4733270140 -0300" 'web/app/buy-me-coffee/_contracts/BuyMeACoffeeABI.ts'
-/usr/bin/touch -hcad "2024-07-14 19:05:07.7672825600 -0300" 'web/app/buy-me-coffee/_contracts/BuyMeACoffeeABI.ts'
-chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-/usr/bin/touch -hcmd "2024-07-14 19:11:03.0162196930 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-/usr/bin/touch -hcad "2024-07-14 19:11:03.1212057570 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chown -h 1000:1000 'contracts/.gitignore'
+chmod 0664 'contracts/.gitignore'
+/usr/bin/touch -hcmd "2024-07-14 19:22:58.3213299740 -0300" 'contracts/.gitignore'
+/usr/bin/touch -hcad "2024-07-14 19:32:26.3149932290 -0300" 'contracts/.gitignore'
