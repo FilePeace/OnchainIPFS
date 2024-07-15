@@ -1,12 +1,12 @@
-commit QmS8weSDZ2za7mtDEyvfBRk73rDbTGTFcZZH6Hcx2r3jJX
+commit QmcPDG8x7iHe4V6oEQz5uvRVYJTPHP7UvXY56XDLbHuanw
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 4891b0985877bf05c723890f4acf3c2eb13df93676c0368800b9a06fc8e281ba2bb58216e10952633efe07dacbe3e50b38035610e3d71f01a88801a5e684ba8801
+Signature: 3dbf1386b5eb6c7f60e7fba7ec8734959004a1fc15240360d9aea876a53f47625b19af8a9d6ea8e8a4854ba60e3c6c72ca77daae2fb4c15994387b4f8824829d00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmPcDr5kTm1cj349yF2t2EXZ2ZfRLWG1DJcp5CcrneDLYD
-Commit CID if containing only file hashes: Qme9BaovAG6gHcPjpz1jTW7nkD9CFknuLSLAso7oqytjhJ
+Commit CID if including git's SHA1: QmWMUfDHJjiQaZQnAKDKYdt7GH7Gd26VsvD8cgYH8NyEM9
+Commit CID if containing only file hashes: QmcvLHsjT5vnu73gzXfayRMkFSBj2w2vyqjctBjsrKKDix
 
 ------------------------------
 
@@ -17,35 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
-chmod 0664 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
-/usr/bin/touch -hcmd "2024-07-14 20:32:06.7132566830 -0300" 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
-/usr/bin/touch -hcad "2024-07-14 20:32:06.8002499310 -0300" 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
-chown -h 1000:1000 'web/app/buy-me-coffee/_components/FormBuyCoffee.tsx'
-chmod 0664 'web/app/buy-me-coffee/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcmd "2024-07-14 20:46:53.7274553340 -0300" 'web/app/buy-me-coffee/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcad "2024-07-14 20:46:53.7924486740 -0300" 'web/app/buy-me-coffee/_components/FormBuyCoffee.tsx'
-chown -h 1000:1000 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
-chmod 0664 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
-/usr/bin/touch -hcmd "2024-07-14 20:36:57.0823540720 -0300" 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
-/usr/bin/touch -hcad "2024-07-14 20:36:57.1933386800 -0300" 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
-chown -h 1000:1000 'web/app/buy-me-coffee/layout.tsx'
-chmod 0664 'web/app/buy-me-coffee/layout.tsx'
-/usr/bin/touch -hcmd "2024-07-14 20:25:44.4531914440 -0300" 'web/app/buy-me-coffee/layout.tsx'
-/usr/bin/touch -hcad "2024-07-14 20:25:44.5111868500 -0300" 'web/app/buy-me-coffee/layout.tsx'
-chown -h 1000:1000 'web/app/buy-me-coffee/page.tsx'
-chmod 0664 'web/app/buy-me-coffee/page.tsx'
-/usr/bin/touch -hcmd "2024-07-14 20:27:20.5436058490 -0300" 'web/app/buy-me-coffee/page.tsx'
-/usr/bin/touch -hcad "2024-07-14 20:27:20.6166001050 -0300" 'web/app/buy-me-coffee/page.tsx'
-chown -h 1000:1000 'web/app/home/HomePage.tsx'
-chmod 0664 'web/app/home/HomePage.tsx'
-/usr/bin/touch -hcmd "2024-07-14 20:33:22.0524175150 -0300" 'web/app/home/HomePage.tsx'
-/usr/bin/touch -hcad "2024-07-14 20:33:22.1764079170 -0300" 'web/app/home/HomePage.tsx'
-chown -h 1000:1000 'web/src/components/layout/header/Experiences.tsx'
-chmod 0664 'web/src/components/layout/header/Experiences.tsx'
-/usr/bin/touch -hcmd "2024-07-14 20:47:54.4882863010 -0300" 'web/src/components/layout/header/Experiences.tsx'
-/usr/bin/touch -hcad "2024-07-14 20:47:56.3061034220 -0300" 'web/src/components/layout/header/Experiences.tsx'
-chown -h 1000:1000 'web/src/components/layout/header/NavbarMobile.tsx'
-chmod 0664 'web/src/components/layout/header/NavbarMobile.tsx'
-/usr/bin/touch -hcmd "2024-07-14 20:46:09.1270582440 -0300" 'web/src/components/layout/header/NavbarMobile.tsx'
-/usr/bin/touch -hcad "2024-07-14 20:46:09.2200485780 -0300" 'web/src/components/layout/header/NavbarMobile.tsx'
+chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
+chmod 0664 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcmd "2024-07-14 21:00:38.5197545980 -0300" 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcad "2024-07-14 21:02:27.6070450930 -0300" 'contracts/src/BuyMeACoffee.sol'

@@ -24,11 +24,14 @@ contract BuyMeACoffee {
     uint256 public price;
     Memo[] public memos;
     bool public ownershipTransferred;
+    bool private _locked; // Reentrancy guard
 
     error InsufficientFunds();
     error InvalidArguments(string message);
     error OnlyOwner();
+    error OnlyReceiver();
     error OwnershipAlreadyTransferred();
+    error ReentrancyGuard();
 
     event BuyMeACoffeeEvent(address indexed buyer, uint256 price);
     event NewMemo(
@@ -41,6 +44,9 @@ contract BuyMeACoffee {
     );
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
     event ReceiverUpdated(address indexed previousReceiver, address indexed newReceiver);
+    event PriceUpdated(uint256 oldPrice, uint256 newPrice);
+    event MemoRemoved(uint256 indexed index);
+    event MemoModified(uint256 indexed index, string newMessage);
 
     constructor() {
         owner = msg.sender;
@@ -56,16 +62,32 @@ contract BuyMeACoffee {
         _;
     }
 
+    modifier onlyReceiver() {
+        if (msg.sender != receiver) {
+            revert OnlyReceiver();
+        }
+        _;
+    }
+
+    modifier nonReentrant() {
+        if (_locked) {
+            revert ReentrancyGuard();
+        }
+        _locked = true;
+        _;
+        _locked = false;
+    }
+
     /**
      * WRITE FUNCTIONS *************
      */
 
     /**
      * @dev Function to buy a coffee
+     * @param  numCoffees The number of coffees to buy
      * @param  userName The name of the user
      * @param  twitterHandle The Twitter handle of the user
      * @param  message The message of the user
-     * (Note: Using calldata for gas efficiency)
      */
     function buyCoffee(
         uint256 numCoffees,
@@ -73,11 +95,13 @@ contract BuyMeACoffee {
         string calldata twitterHandle,
         string calldata message
     ) public payable {
-        if (msg.value < price * numCoffees) {
+        if (numCoffees == 0) {
+            revert InvalidArguments("Number of coffees must be greater than zero");
+        }
+        uint256 totalPrice = price * numCoffees;
+        if (msg.value < totalPrice) {
             revert InsufficientFunds();
         }
-
-        emit BuyMeACoffeeEvent(msg.sender, msg.value);
 
         if (bytes(userName).length == 0 && bytes(message).length == 0) {
             revert InvalidArguments("Invalid userName or message");
@@ -89,6 +113,7 @@ contract BuyMeACoffee {
 
         memos.push(Memo(numCoffees, userName, twitterHandle, message, block.timestamp, msg.sender));
 
+        emit BuyMeACoffeeEvent(msg.sender, msg.value);
         emit NewMemo(msg.sender, block.timestamp, numCoffees, userName, twitterHandle, message);
     }
 
@@ -110,40 +135,45 @@ contract BuyMeACoffee {
         memos[index] = memos[memos.length - 1];
         memos[memos.length - 1] = indexMemo;
         memos.pop();
+
+        emit MemoRemoved(index);
     }
 
     /**
      * @dev Function to modify a memo
      * @param  index The index of the memo
-     * @param  message The message of the memo
+     * @param  message The new message of the memo
      */
     function modifyMemoMessage(uint256 index, string memory message) public {
         if (index >= memos.length) {
             revert InvalidArguments("Invalid index");
         }
 
-        Memo memory memo = memos[index];
+        Memo storage memo = memos[index];
 
         if (memo.userAddress != msg.sender && msg.sender != owner) {
             revert InvalidArguments("Operation not allowed");
         }
 
-        memos[index].message = message;
+        if (bytes(message).length > 1024) {
+            revert InvalidArguments("Message exceeds max length");
+        }
+
+        memo.message = message;
+
+        emit MemoModified(index, message);
     }
 
     /**
      * @dev Function to withdraw the balance
      */
-    function withdrawTips() public {
-        if (msg.sender != owner) {
-            revert OnlyOwner();
-        }
-
-        if (address(this).balance == 0) {
+    function withdrawTips() public onlyReceiver nonReentrant {
+        uint256 amount = address(this).balance;
+        if (amount == 0) {
             revert InsufficientFunds();
         }
 
-        (bool sent,) = receiver.call{value: address(this).balance}("");
+        (bool sent,) = receiver.call{value: amount}("");
         require(sent, "Failed to send Ether");
     }
 
@@ -152,6 +182,7 @@ contract BuyMeACoffee {
      * @param newReceiver The address of the new receiver
      */
     function setReceiver(address payable newReceiver) public onlyOwner {
+        require(newReceiver != address(0), "Invalid receiver address");
         address oldReceiver = receiver;
         receiver = newReceiver;
         emit ReceiverUpdated(oldReceiver, newReceiver);
@@ -162,6 +193,7 @@ contract BuyMeACoffee {
      * @param newOwner The address of the new owner
      */
     function transferOwnership(address newOwner) public onlyOwner {
+        require(newOwner != address(0), "Invalid owner address");
         if (ownershipTransferred) {
             revert OwnershipAlreadyTransferred();
         }
@@ -169,6 +201,17 @@ contract BuyMeACoffee {
         owner = newOwner;
         ownershipTransferred = true;
         emit OwnershipTransferred(oldOwner, newOwner);
+    }
+
+    /**
+     * @dev Function to set the price of a coffee
+     * @param newPrice The new price of a coffee
+     */
+    function setPrice(uint256 newPrice) public onlyOwner {
+        require(newPrice > 0, "Price must be greater than zero");
+        uint256 oldPrice = price;
+        price = newPrice;
+        emit PriceUpdated(oldPrice, newPrice);
     }
 
     /**
@@ -180,7 +223,7 @@ contract BuyMeACoffee {
      */
     function getMemos(uint256 index, uint256 size) public view returns (Memo[] memory) {
         if (memos.length == 0) {
-            return memos;
+            return new Memo[](0);
         }
 
         if (index >= memos.length) {
