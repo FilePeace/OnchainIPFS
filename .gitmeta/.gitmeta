@@ -1,12 +1,12 @@
-commit QmcPDG8x7iHe4V6oEQz5uvRVYJTPHP7UvXY56XDLbHuanw
+commit QmWdrB2fn9Ju3UB3xLubxCEWgok1kD8RHrUD46QEZzsZKD
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 3dbf1386b5eb6c7f60e7fba7ec8734959004a1fc15240360d9aea876a53f47625b19af8a9d6ea8e8a4854ba60e3c6c72ca77daae2fb4c15994387b4f8824829d00
+Signature: 1ab7baec9fe6d0fe451a373376d715c55feedaadc9a6d79907a11e82488d6d753d13975f85c664a1b36e4b68522a85884f8945f8adf2dcce721af11ebf28277301
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmWMUfDHJjiQaZQnAKDKYdt7GH7Gd26VsvD8cgYH8NyEM9
-Commit CID if containing only file hashes: QmcvLHsjT5vnu73gzXfayRMkFSBj2w2vyqjctBjsrKKDix
+Commit CID if including git's SHA1: QmZUYYfB9NfbLQz3roSgke6qGRchF9T4LnGyNCmPMa7koG
+Commit CID if containing only file hashes: QmeQasHmV4GRmi3VwqsHTUgx8KzYsuEitji3a9aYgePQET
 
 ------------------------------
 
@@ -17,7 +17,11 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
-chmod 0664 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcmd "2024-07-14 21:00:38.5197545980 -0300" 'contracts/src/BuyMeACoffee.sol'
-/usr/bin/touch -hcad "2024-07-14 21:02:27.6070450930 -0300" 'contracts/src/BuyMeACoffee.sol'
+chown -h 1000:1000 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
+chmod 0664 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
+/usr/bin/touch -hcmd "2024-07-14 21:08:06.7456796850 -0300" 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
+/usr/bin/touch -hcad "2024-07-14 21:08:06.8516619500 -0300" 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcmd "2024-07-14 21:03:49.4468020140 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+/usr/bin/touch -hcad "2024-07-14 21:04:06.4353023360 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'

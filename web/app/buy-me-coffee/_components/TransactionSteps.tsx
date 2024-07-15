@@ -35,7 +35,7 @@ export default function TransactionSteps({
   if (transactionStep === TransactionStates.COMPLETE) {
     return (
       <TransactionStep
-        status={`You bought us ${coffeeCount} cupcake${coffeeCount > 1 ? 's' : ''}!`}
+        status={`You bought us ${coffeeCount} cupcake${coffeeCount > 1 ? 's' : ''}💝`}
         icon="🎁"
         helpText="Thank you for supporting this endeavor!"
       >
