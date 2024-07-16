@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
 
           <div className="font-robotoMono flex flex-col items-start justify-center gap-4 text-center text-xl font-medium text-white">
-            <div class="flex h-8 items-center justify-start gap-4"><NextLink href="https://filepeace.github.io" target="_blank">
+            <div className="flex h-8 items-center justify-start gap-4"><NextLink href="https://filepeace.github.io" target="_blank">
               <img
                 src="https://filepeace.github.io/logotype.svg"
                 alt="FilePeace"
