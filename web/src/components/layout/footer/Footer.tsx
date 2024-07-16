@@ -1,6 +1,6 @@
 'use client';
 
-import { GitHubLogoIcon, ArrowTopRightIcon } from '@radix-ui/react-icons';
+import { GitHubLogoIcon, TwitterLogoIcon, ArrowTopRightIcon } from '@radix-ui/react-icons';
 import NextLink from 'next/link';
 import { NavbarLink } from '@/components/layout/header/Navbar';
 {
@@ -49,13 +49,19 @@ export default function Footer() {
           </div>
 
           <div className="font-robotoMono flex flex-col items-start justify-center gap-4 text-center text-xl font-medium text-white">
-            <NextLink href="https://filepeace.github.io" target="_blank">
+            <div class="flex h-8 items-center justify-start gap-4"><NextLink href="https://filepeace.github.io" target="_blank">
               <img
                 src="https://filepeace.github.io/logotype.svg"
                 alt="FilePeace"
                 style={{ height: '32px' }}
               />
-            </NextLink>
+            </NextLink>               <NavbarLink href="https://twitter.com/FilePeace" target="_blank">
+                <TwitterLogoIcon
+                  width="24"
+                  height="24"
+                  aria-label="Onchain IPFS' Github respository"
+                />
+              </NavbarLink></div>
             <NavbarLink href="/">
               <span className="flex items-center gap-1 px-2">Onchain IPFS (you&apos;re here!)</span>
             </NavbarLink>
