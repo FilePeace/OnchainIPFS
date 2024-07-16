@@ -1,12 +1,12 @@
-commit QmWdrB2fn9Ju3UB3xLubxCEWgok1kD8RHrUD46QEZzsZKD
+commit QmSn6wCXjNYvXp9KyZrS7d4xLgrf9t5aDFqqppvKeB2dHT
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 1ab7baec9fe6d0fe451a373376d715c55feedaadc9a6d79907a11e82488d6d753d13975f85c664a1b36e4b68522a85884f8945f8adf2dcce721af11ebf28277301
+Signature: 4773c9d1f1bf828c2b95d8ce0787931fc7e890ce2a45a853b68fbc8271f89a274913094cb6da59e21efc5c2d40cd3e557412000c7fab52fcdc42714bcb5e081600
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmZUYYfB9NfbLQz3roSgke6qGRchF9T4LnGyNCmPMa7koG
-Commit CID if containing only file hashes: QmeQasHmV4GRmi3VwqsHTUgx8KzYsuEitji3a9aYgePQET
+Commit CID if including git's SHA1: QmQCYMthion6WGpV2FyWst2ApYC8Vh3j6V7eFkkgZER6Zr
+Commit CID if containing only file hashes: QmZPmgxfkzYP65VbGfJbKZgkK1MzhFnQ6cwGLMBQaxN2zQ
 
 ------------------------------
 
@@ -17,11 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
-chmod 0664 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
-/usr/bin/touch -hcmd "2024-07-14 21:08:06.7456796850 -0300" 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
-/usr/bin/touch -hcad "2024-07-14 21:08:06.8516619500 -0300" 'web/app/buy-me-coffee/_components/TransactionSteps.tsx'
-chown -h 1000:1000 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-chmod 0664 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-/usr/bin/touch -hcmd "2024-07-14 21:03:49.4468020140 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
-/usr/bin/touch -hcad "2024-07-14 21:04:06.4353023360 -0300" 'web/app/buy-me-coffee/_contracts/useBuyMeACoffeeContract.ts'
+chown -h 1000:1000 'contracts/src/BuyMeACoffee.sol'
+chmod 0664 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcmd "2024-07-15 23:37:38.0191064850 -0300" 'contracts/src/BuyMeACoffee.sol'
+/usr/bin/touch -hcad "2024-07-15 23:37:46.2639969850 -0300" 'contracts/src/BuyMeACoffee.sol'
