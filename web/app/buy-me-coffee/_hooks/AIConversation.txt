@@ -1,0 +1,26 @@
+./app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts
+45:5  Warning: React Hook useMemo has a missing dependency: 'pageSize'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+
+
+The warning you're seeing is from the ESLint `react-hooks/exhaustive-deps` rule, which helps ensure that all variables used inside `useMemo`, `useEffect`, and similar hooks are properly listed in the dependency array. This is to ensure that the hook correctly re-runs when any of those dependencies change.
+
+In your `useOnchainCoffeeMemos` hook, you're using `pageSize` inside the `useMemo` but it's not included in the dependency array. To resolve the warning, you should add `pageSize` to the dependency array of `useMemo`.
+
+Here's the corrected part of your code:
+
+```typescript:./app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts
+return useMemo(
+  () => ({
+    memos:
+      contractReadResult.status === 'success' ? (contractReadResult.data as CoffeeMemo[]) : [],
+    refetchMemos: contractReadResult.refetch,
+    currentPage,
+    goToNextPage,
+    goToPreviousPage,
+    pageSize,
+  }),
+  [contractReadResult, currentPage, goToNextPage, goToPreviousPage, pageSize], // Added pageSize here
+);
+```
+
+This change ensures that if `pageSize` changes, the memoized value will be recalculated.

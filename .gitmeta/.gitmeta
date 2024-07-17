@@ -1,12 +1,12 @@
-commit Qmc4Xk3cXJ1hxR1GwmHAQzHbi98dMyAExaSLvGdZNQp4e2
+commit Qmcd7LrGmQ6RVnit57PszviJNh3dAjetcwW8ef9BcLF3CY
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 4967ef72014263b69cc72e573c81994af283c492b8751554d4c21aad5a43a5723db3b00eb092204f9c131151314e9a914ef3bda393c2538b6aaef8286d7df8c300
+Signature: 0c12b7ce3968aefe7c18ad916f2197268b564899d91ce3309f6e2fe5084608eb63711405e9d4b550cce2035fe603eb8f29d6f25d663a892ee5477b3e1de0877700
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmZ7hTdDJMtH4krPpHGtu8MVtFZg8py1S4ZrH7mviNX8ST
-Commit CID if containing only file hashes: QmV78Y29TosEpM1ijr3QSzJkppz35GeBuJ7hAsFmJgavrd
+Commit CID if including git's SHA1: Qmeoc1RkL2cvfxqn4wK5jVvny5qc9R6gaXQCAQ42xWxad1
+Commit CID if containing only file hashes: QmWZ3MenbAysrAKAt3RhmH3vF7cCDHAvJQfjUGgN3hNX3B
 
 ------------------------------
 
@@ -17,11 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/src/components/layout/footer/Footer.tsx'
-chmod 0664 'web/src/components/layout/footer/Footer.tsx'
-/usr/bin/touch -hcmd "2024-07-17 12:14:42.3406144810 -0300" 'web/src/components/layout/footer/Footer.tsx'
-/usr/bin/touch -hcad "2024-07-17 12:15:12.1462077600 -0300" 'web/src/components/layout/footer/Footer.tsx'
-chown -h 1000:1000 'web/src/components/layout/header/Navbar.tsx'
-chmod 0664 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcmd "2024-07-17 12:14:42.3406144810 -0300" 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcad "2024-07-17 12:15:16.6665947800 -0300" 'web/src/components/layout/header/Navbar.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/_hooks/AIConversation.txt'
+chmod 0664 'web/app/buy-me-coffee/_hooks/AIConversation.txt'
+/usr/bin/touch -hcmd "2024-07-17 12:26:19.8170751480 -0300" 'web/app/buy-me-coffee/_hooks/AIConversation.txt'
+/usr/bin/touch -hcad "2024-07-17 12:26:35.7179135220 -0300" 'web/app/buy-me-coffee/_hooks/AIConversation.txt'
