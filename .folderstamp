@@ -1,0 +1,117 @@
+This folder: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs
+
+folderstamp version: r5
+Method: Non-recursive
+Current Git Branch: main
+First Git Remote: origin - URL: https://github.com/danimesq/OnchainIPFS.git
+
+  File: ./contracts
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,70	Inode: 9413847     Links: 7
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-16 16:21:53.973111150 -0300
+Modify: 2024-07-16 16:21:53.641114048 -0300
+Change: 2024-07-16 16:21:53.641114048 -0300
+ Birth: 2024-07-01 13:53:35.470379663 -0300
+IPFS hash: 
+------------------------------
+  File: ./future
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,70	Inode: 9421479     Links: 8
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-16 16:21:53.973111150 -0300
+Modify: 2024-07-16 16:21:53.645114013 -0300
+Change: 2024-07-16 16:21:53.645114013 -0300
+ Birth: 2024-07-16 16:21:53.642114040 -0300
+IPFS hash: 
+------------------------------
+  File: ./LICENSE.md
+  Size: 1928      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9321548     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-16 16:21:53.759113018 -0300
+Modify: 2024-07-16 16:21:53.634114110 -0300
+Change: 2024-07-16 16:21:53.634114110 -0300
+ Birth: 2024-07-16 16:21:53.634114110 -0300
+IPFS hash: QmVgmDDBrCNhVjKq3vQjJSuRiNcjsrkHA8xoTacFmDRBMK
+------------------------------
+  File: ./logo.png
+  Size: 28973     	Blocks: 64         IO Block: 4096   regular file
+Device: 8,70	Inode: 9321869     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-16 16:21:53.769112931 -0300
+Modify: 2024-07-16 16:21:53.645114013 -0300
+Change: 2024-07-16 16:21:53.645114013 -0300
+ Birth: 2024-07-16 16:21:53.645114013 -0300
+IPFS hash: QmTaVhwnynau37s75HY9GqCM6YwDtxDMQoiXTMpJQReDTc
+------------------------------
+  File: ./logo.svg
+  Size: 4478      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,70	Inode: 9321870     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-16 16:21:53.770112922 -0300
+Modify: 2024-07-16 16:21:53.646114005 -0300
+Change: 2024-07-16 16:21:53.646114005 -0300
+ Birth: 2024-07-16 16:21:53.646114005 -0300
+IPFS hash: QmUCGun2TFxCu7AvuKMh46NyH2DTCPSaK6pQjAe7ygC8eT
+------------------------------
+  File: ./Presentation-1.pptx
+  Size: 45255     	Blocks: 96         IO Block: 4096   regular file
+Device: 8,70	Inode: 9479666     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-11 15:31:18.802505084 -0300
+Modify: 2024-07-10 19:56:52.845549500 -0300
+Change: 2024-07-11 14:22:47.885678732 -0300
+ Birth: 2024-07-11 13:23:09.850851952 -0300
+IPFS hash: QmREyUJdwW1xBqmSPvj9DBJC8sSnWbaGF9s7NfzA8NuNhV
+------------------------------
+  File: ./Presentation-2.pptx
+  Size: 93905     	Blocks: 184        IO Block: 4096   regular file
+Device: 8,70	Inode: 9479698     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-11 15:31:18.798505349 -0300
+Modify: 2024-07-11 01:24:21.282341400 -0300
+Change: 2024-07-11 14:22:47.885678732 -0300
+ Birth: 2024-07-11 13:23:09.853851689 -0300
+IPFS hash: QmVUf89RXuZeYNEHxeXB7xLnpZ53T5SNX1Vh3oQhvuCyQe
+------------------------------
+  File: ./Presentation.pptx
+  Size: 38716     	Blocks: 80         IO Block: 4096   regular file
+Device: 8,70	Inode: 9407977     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 14:02:45.865463626 -0300
+Modify: 2024-06-27 23:31:34.000000000 -0300
+Change: 2024-07-01 13:53:37.246313584 -0300
+ Birth: 2024-07-01 13:53:37.223314438 -0300
+IPFS hash: QmPaJrmKVq4TXjNLzVAXAok47mV4w8v6nKvrZZ1uDn5DJP
+------------------------------
+  File: ./Presentation.pptx_FILES
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,70	Inode: 9421359     Links: 5
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 14:02:50.137745276 -0300
+Modify: 2024-07-17 14:02:47.713585701 -0300
+Change: 2024-07-17 14:02:47.713585701 -0300
+ Birth: 2024-07-16 16:21:53.634114110 -0300
+IPFS hash: 
+------------------------------
+  File: ./README.md
+  Size: 947       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9315160     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-16 16:21:53.761113001 -0300
+Modify: 2024-07-16 16:21:53.638114075 -0300
+Change: 2024-07-16 16:21:53.638114075 -0300
+ Birth: 2024-07-16 16:21:53.638114075 -0300
+IPFS hash: QmZyzJ5di9FVixffP1i6cyz7vgEAAVw3tjgdfYtTriYoRR
+------------------------------
+  File: ./web
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,70	Inode: 9421487     Links: 8
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 14:00:37.478993555 -0300
+Modify: 2024-07-17 14:00:37.433989863 -0300
+Change: 2024-07-17 14:00:37.433989863 -0300
+ Birth: 2024-07-01 13:53:35.849365529 -0300
+IPFS hash: 
+------------------------------
