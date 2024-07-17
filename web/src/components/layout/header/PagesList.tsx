@@ -1,6 +1,6 @@
 import { ListItem } from './ListItem';
 
-export function Experiences() {
+export function PagesList() {
   return (
     <>
       <ListItem href="/">Home</ListItem>

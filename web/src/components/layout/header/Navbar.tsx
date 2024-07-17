@@ -4,7 +4,7 @@ import { clsx } from 'clsx';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import AccountConnect from './AccountConnect';
-import { Experiences } from './Experiences';
+import { PagesList } from './PagesList';
 
 export function NavbarLink({
   href,
@@ -91,7 +91,7 @@ function Navbar() {
                         'rounded-lg bg-neutral-900 p-6 shadow backdrop-blur-2xl',
                       )}
                     >
-                      <Experiences />
+                      <PagesList />
                     </NavigationMenu.Content>
                   </NavigationMenu.Item>
                 </NavigationMenu.List>
