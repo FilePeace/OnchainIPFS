@@ -1,12 +1,12 @@
-commit QmdP2ZCBnscPdZoRKU3ov9Kr1dLcnhwxAT3VqYbeCm459v
+commit QmPDzofBbgSdnM3X7CL85q3C4wfw3RLya6KVd2V2YfQmXi
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: ed4deb7eaa39d2eb40fa11a4e993db27e4124cb7ef1fc81a97cfc1db3d04bd61212f9c4ef4875c0d239adf0dd3f5ac383f20885fe6eb36a59dd6d4ed040f235c00
+Signature: 30d5681477840dda114f6337023ff40c39d4b9214bb93a8bb54f31bb0ced90743a2a7498834de1e014c27d78709edfc7314f0eb5c41d3c1fe8d0d040553d0f2f01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdBPkwm7mwDfKbZbtsT1CGM26pkaDRaH8mPCewb5BZQex
-Commit CID if containing only file hashes: QmTxXFgRz92xnJxWiFnhSZuv7PRXpvcq2DWQNwHCfMD18k
+Commit CID if including git's SHA1: Qmbsn5azptaJBWArRLijnnn4FSZvJk9ZiaUdLW7FpFiVKZ
+Commit CID if containing only file hashes: QmV8UNPYBcHAeGzo6oNruTLn8TbVxoycXciZY3o4mWJZia
 
 ------------------------------
 
@@ -17,11 +17,11 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
-chmod 0664 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
-/usr/bin/touch -hcmd "2024-07-17 11:19:17.5193217890 -0300" 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
-/usr/bin/touch -hcad "2024-07-17 11:27:09.5628169160 -0300" 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
-chown -h 1000:1000 'web/src/utils/generateMetadata.ts'
-chmod 0664 'web/src/utils/generateMetadata.ts'
-/usr/bin/touch -hcmd "2024-07-17 11:27:04.3079093010 -0300" 'web/src/utils/generateMetadata.ts'
-/usr/bin/touch -hcad "2024-07-17 11:27:59.6329384580 -0300" 'web/src/utils/generateMetadata.ts'
+chown -h 1000:1000 'web/package.json'
+chmod 0664 'web/package.json'
+/usr/bin/touch -hcmd "2024-07-17 11:35:19.1973299690 -0300" 'web/package.json'
+/usr/bin/touch -hcad "2024-07-17 11:35:19.1983299520 -0300" 'web/package.json'
+chown -h 1000:1000 'web/yarn.lock'
+chmod 0664 'web/yarn.lock'
+/usr/bin/touch -hcmd "2024-07-17 11:35:19.2033298660 -0300" 'web/yarn.lock'
+/usr/bin/touch -hcad "2024-07-17 11:43:03.9171722010 -0300" 'web/yarn.lock'
