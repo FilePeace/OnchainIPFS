@@ -1,43 +1,27 @@
-commit QmZ33SQkuPRz7i1ug1NZCLhv4NMqMLqrkWsLeu4JLWRjwZ
+commit QmdP2ZCBnscPdZoRKU3ov9Kr1dLcnhwxAT3VqYbeCm459v
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 8426442ba5df6e86e868e714a2ca90d89133b03757bd9fa3e524edb1622fe1730e6775d7ce290374da7bc586f747753ebd5d633e5f104e4802577665f8f7e84e01
+Signature: ed4deb7eaa39d2eb40fa11a4e993db27e4124cb7ef1fc81a97cfc1db3d04bd61212f9c4ef4875c0d239adf0dd3f5ac383f20885fe6eb36a59dd6d4ed040f235c00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmNuf8R4tusd2JqsaUHPytCGweWKDLwjWAsRsSrxNYEKoB
-Commit CID if containing only file hashes: QmRq6UpyNjENtJFdELAV4GNivVLwvypsFDnkZyxUDbGCrV
+Commit CID if including git's SHA1: QmdBPkwm7mwDfKbZbtsT1CGM26pkaDRaH8mPCewb5BZQex
+Commit CID if containing only file hashes: QmTxXFgRz92xnJxWiFnhSZuv7PRXpvcq2DWQNwHCfMD18k
 
 ------------------------------
 
 .gitmeta version: r8
 Local folder: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs
-Remote Name: cherrymerge
-Remote URL: /home/daniella/Desktop/Untitled Folder 2/build-onchain-apps
+Remote Name: origin
+Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'template/web/src/utils/ipfs.ts'
-chmod 0664 'template/web/src/utils/ipfs.ts'
-/usr/bin/touch -hcmd "2024-07-16 15:42:13.4455257390 -0300" 'template/web/src/utils/ipfs.ts'
-/usr/bin/touch -hcad "2024-07-16 16:07:03.4962191190 -0300" 'template/web/src/utils/ipfs.ts'
-chown -h 1000:1000 'template/web/src/utils/test/ipfsToHTTP.test.ts'
-chmod 0664 'template/web/src/utils/test/ipfsToHTTP.test.ts'
-/usr/bin/touch -hcmd "2024-07-16 15:42:13.4455257390 -0300" 'template/web/src/utils/test/ipfsToHTTP.test.ts'
-/usr/bin/touch -hcad "2024-07-16 16:07:12.8131282170 -0300" 'template/web/src/utils/test/ipfsToHTTP.test.ts'
-chown -h 1000:1000 'web/package.json'
-chmod 0664 'web/package.json'
-/usr/bin/touch -hcmd "2024-07-16 16:04:14.3239110530 -0300" 'web/package.json'
-/usr/bin/touch -hcad "2024-07-16 16:05:51.4749293190 -0300" 'web/package.json'
-chown -h 1000:1000 'web/src/utils/ipfs.ts'
-chmod 0664 'web/src/utils/ipfs.ts'
-/usr/bin/touch -hcmd "2024-07-16 16:04:41.6826315670 -0300" 'web/src/utils/ipfs.ts'
-/usr/bin/touch -hcad "2024-07-16 16:05:51.4769292990 -0300" 'web/src/utils/ipfs.ts'
-chown -h 1000:1000 'web/src/utils/test/ipfsToHTTP.test.ts'
-chmod 0664 'web/src/utils/test/ipfsToHTTP.test.ts'
-/usr/bin/touch -hcmd "2024-07-16 16:05:12.2873217980 -0300" 'web/src/utils/test/ipfsToHTTP.test.ts'
-/usr/bin/touch -hcad "2024-07-16 16:06:13.3637120110 -0300" 'web/src/utils/test/ipfsToHTTP.test.ts'
-chown -h 1000:1000 'web/yarn.lock'
-chmod 0664 'web/yarn.lock'
-/usr/bin/touch -hcmd "2024-07-16 16:03:55.6061037360 -0300" 'web/yarn.lock'
-/usr/bin/touch -hcad "2024-07-16 16:05:51.4769292990 -0300" 'web/yarn.lock'
+chown -h 1000:1000 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
+chmod 0664 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
+/usr/bin/touch -hcmd "2024-07-17 11:19:17.5193217890 -0300" 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
+/usr/bin/touch -hcad "2024-07-17 11:27:09.5628169160 -0300" 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
+chown -h 1000:1000 'web/src/utils/generateMetadata.ts'
+chmod 0664 'web/src/utils/generateMetadata.ts'
+/usr/bin/touch -hcmd "2024-07-17 11:27:04.3079093010 -0300" 'web/src/utils/generateMetadata.ts'
+/usr/bin/touch -hcad "2024-07-17 11:27:59.6329384580 -0300" 'web/src/utils/generateMetadata.ts'

@@ -15,11 +15,11 @@ const defaultUrl = deployUrl
   : `http://localhost:${process.env.PORT ?? 3000}`;
 
 export const generateMetadata = ({
-  title = 'Build Onchain Apps',
-  description = 'The easier way to build onchain apps.',
+  title = 'Onchain IPFS',
+  description = 'The service to store your files onchain and link them between IPFS, Arweave and Torrent.',
   frame = {},
   images,
-  url = 'https://github.com/coinbase/build-onchain-apps',
+  url = 'https://github.com/danimesq/OnchainIPFS',
   pathname,
 }: MetaTagsProps): Metadata => {
   const i = Array.isArray(images) ? images : [images];

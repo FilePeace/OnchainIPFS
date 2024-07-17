@@ -9,7 +9,7 @@ import type { CoffeeMemo } from '../_components/types';
  * offers a refetch function to refetch the data.
  * @returns The memos, a function to refetch them, and paging functions.
  */
-function useOnchainCoffeeMemos(pageSize: number = 5) {
+function useOnchainCoffeeMemos(pageSize = 5) {
   const contract = useBuyMeACoffeeContract();
   const [currentPage, setCurrentPage] = useState(0);
 
