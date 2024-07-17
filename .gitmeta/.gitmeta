@@ -1,12 +1,12 @@
-commit QmVY9TeXh2wauUpqVteSCNJtyQp95G7sJbPfaC2CeQJvwD
+commit QmNnEyx66hssSmMwNqdsoYUkYQEwF5tMuMdNbmyegXba2A
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 59c9dcc7e0f36358ffedcfc0893cb21e59ea4cf25b912e9809ca8739ba4aa1966beff98888fc3bd673f9fa129500307c354dc3405c8faacaf059b76ba81e0bd700
+Signature: 26a26881bf2c0761a5a106b115762444ac3148a96916360abe5d18da4b3452e63b9ac0b8166a02d71b9cb04abc583c56fc6992e5bc90ac3ef2c0d73cd3943fbf00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmRRT3UkdS1V9CB4HMK7fXZ3BMWpcBKHvvmDXjZNZZRvkk
-Commit CID if containing only file hashes: QmbTH4xnQQnC4E83zEL3z7txXsGEvpKQxxhrne3J6oVGJ3
+Commit CID if including git's SHA1: Qma5BTFwtdLRwWHj31tydo6LTS1qBxBjgLWgwwyxYpiYas
+Commit CID if containing only file hashes: QmQJ2ZDiXsHAfHedRC26aoezYKrcFCjYnmsv1UivyNSm3M
 
 ------------------------------
 
@@ -17,87 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'Presentation.pptx_FILES/[Content_Types].xml'
-chmod 0664 'Presentation.pptx_FILES/[Content_Types].xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/[Content_Types].xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5167740370 -0300" 'Presentation.pptx_FILES/[Content_Types].xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/docProps/app.xml'
-chmod 0664 'Presentation.pptx_FILES/docProps/app.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/docProps/app.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5207742600 -0300" 'Presentation.pptx_FILES/docProps/app.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/docProps/core.xml'
-chmod 0664 'Presentation.pptx_FILES/docProps/core.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/docProps/core.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5217743160 -0300" 'Presentation.pptx_FILES/docProps/core.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/_rels/presentation.xml.rels'
-chmod 0664 'Presentation.pptx_FILES/ppt/_rels/presentation.xml.rels'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/_rels/presentation.xml.rels'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5227743720 -0300" 'Presentation.pptx_FILES/ppt/_rels/presentation.xml.rels'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/presentation.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/presentation.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/presentation.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5237744280 -0300" 'Presentation.pptx_FILES/ppt/presentation.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout1.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout1.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout1.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5257745400 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout1.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout10.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout10.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout10.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5267745960 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout10.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout11.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout11.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout11.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5267745960 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout11.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout2.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout2.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout2.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5277746520 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout2.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout3.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout3.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout3.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5287747080 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout3.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout4.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout4.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout4.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5297747640 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout4.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout5.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout5.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout5.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5307748200 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout5.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout6.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout6.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout6.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5317748760 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout6.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout7.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout7.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout7.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5327749320 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout7.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout8.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout8.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout8.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5337749880 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout8.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout9.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout9.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout9.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5347750440 -0300" 'Presentation.pptx_FILES/ppt/slideLayouts/slideLayout9.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slideMasters/slideMaster1.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slideMasters/slideMaster1.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slideMasters/slideMaster1.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5367751560 -0300" 'Presentation.pptx_FILES/ppt/slideMasters/slideMaster1.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slides/_rels/slide3.xml.rels'
-chmod 0664 'Presentation.pptx_FILES/ppt/slides/_rels/slide3.xml.rels'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slides/_rels/slide3.xml.rels'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5457756590 -0300" 'Presentation.pptx_FILES/ppt/slides/_rels/slide3.xml.rels'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slides/slide2.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slides/slide2.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slides/slide2.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5387752680 -0300" 'Presentation.pptx_FILES/ppt/slides/slide2.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/slides/slide3.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/slides/slide3.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/slides/slide3.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5457756590 -0300" 'Presentation.pptx_FILES/ppt/slides/slide3.xml'
-chown -h 1000:1000 'Presentation.pptx_FILES/ppt/viewProps.xml'
-chmod 0664 'Presentation.pptx_FILES/ppt/viewProps.xml'
-/usr/bin/touch -hcmd "1980-01-01 00:00:00.0000000000 -0300" 'Presentation.pptx_FILES/ppt/viewProps.xml'
-/usr/bin/touch -hcad "2024-07-17 14:04:29.5447756030 -0300" 'Presentation.pptx_FILES/ppt/viewProps.xml'
+chown -h 1000:1000 'web/src/store/createWagmiConfig.ts'
+chmod 0664 'web/src/store/createWagmiConfig.ts'
+/usr/bin/touch -hcmd "2024-07-17 15:04:20.6344349970 -0300" 'web/src/store/createWagmiConfig.ts'
+/usr/bin/touch -hcad "2024-07-17 15:04:20.6754295700 -0300" 'web/src/store/createWagmiConfig.ts'
