@@ -15,12 +15,12 @@ function MemoCard({ numCoffees, twitterHandle, message, userAddress, time }: Cof
   const numCoffeesInt = Number(numCoffees);
 
   return (
-    <li className="flex w-full flex-col items-start gap-4 rounded-2xl border-2 backdrop-blur-[20px]">
-      <div className="w-full grow items-center justify-between lg:flex">
+    <li className="flex w-full flex-col items-start gap-4 rounded-2xl border-[color:var(--boat-color-foregroundMuted,#000)] border-2 backdrop-blur-[20px]">
+      <div className="w-full grow items-center justify-between lg:flex bg-boat-color-palette-backgroundalternate rounded-2xl border-2">
         <div className="flex items-center gap-3">
           <Avatar address={userAddress} />
           <div className="inline-flex items-start gap-1 md:flex">
-            <span className="text-3 text-bold truncate text-wrap font-bold text-black">
+            <span className="text-3 text-bold truncate text-wrap font-bold text-white">
               <Name address={userAddress} />
             </span>
             <span className="text-3 line-clamp-1 flex-1 truncate text-wrap break-all font-normal text-boat-color-palette-foregroundmuted">

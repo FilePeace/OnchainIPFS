@@ -1,12 +1,12 @@
-commit QmdC8ZncNPTJkq3d1AXruwm7yYsbuhY9YFSbKVyfVWsxX8
+commit QmYytVhbyAzvLBkkZ5RbCSwrTQhUZB9Qeu3Mws9hQrFU1V
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 3ad0d40a61a4a120c982546e842fe3b1e02802c23ca36465826ad62de48146ab204f357f14542371044d5e3359748eab66a3a9483fb26081b52743d7a07ed64600
+Signature: 4125e61a9d3a45d014a990794d2c0eb96cf691654b95aeee9919592c5d97cd1474d6b12da4c38448e1a88ca07cacbb7eee46117f8017dc1c046ec672aa216c3400
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmZ1NPTw55BhX1CKd9CvzL2eHGeaDqdtQbVUEB2R8us2Ah
-Commit CID if containing only file hashes: QmZmkVxC2eGZx8Dqti7GGQ98r8ff4Bkc1b4ykmrSAF3G5q
+Commit CID if including git's SHA1: QmeP9oUvg6KTDXVtDTSiHRf4YWvbEoRQUZXe3zaSmnhYNz
+Commit CID if containing only file hashes: QmNjCZDRSdzmdvW3UyYk3Sfpqg2HqMqSpk3BnK7NGGnfnX
 
 ------------------------------
 
@@ -17,15 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/src/components/layout/header/Navbar.tsx'
-chmod 0664 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcmd "2024-07-17 20:21:18.2303217190 -0300" 'web/src/components/layout/header/Navbar.tsx'
-/usr/bin/touch -hcad "2024-07-17 20:21:18.3033189960 -0300" 'web/src/components/layout/header/Navbar.tsx'
-chown -h 1000:1000 'web/src/components/layout/header/NavbarMobile.tsx'
-chmod 0664 'web/src/components/layout/header/NavbarMobile.tsx'
-/usr/bin/touch -hcmd "2024-07-17 20:21:39.3465485050 -0300" 'web/src/components/layout/header/NavbarMobile.tsx'
-/usr/bin/touch -hcad "2024-07-17 20:21:39.4655442310 -0300" 'web/src/components/layout/header/NavbarMobile.tsx'
-chown -h 1000:1000 'web/src/components/layout/header/PagesList.tsx'
-chmod 0664 'web/src/components/layout/header/PagesList.tsx'
-/usr/bin/touch -hcmd "2024-07-17 20:20:54.2362367160 -0300" 'web/src/components/layout/header/PagesList.tsx'
-/usr/bin/touch -hcad "2024-07-17 20:20:54.3102338340 -0300" 'web/src/components/layout/header/PagesList.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/_components/MemoCard.tsx'
+chmod 0664 'web/app/buy-me-coffee/_components/MemoCard.tsx'
+/usr/bin/touch -hcmd "2024-07-17 20:49:07.0565327990 -0300" 'web/app/buy-me-coffee/_components/MemoCard.tsx'
+/usr/bin/touch -hcad "2024-07-17 20:49:07.1135300980 -0300" 'web/app/buy-me-coffee/_components/MemoCard.tsx'
