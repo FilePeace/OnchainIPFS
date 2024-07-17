@@ -1,0 +1,45 @@
+This folder: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/img/Pages/buy-me-cupcake
+
+folderstamp version: r5
+Method: Recursive
+
+  File: ./.folderstamp
+  Size: 146       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10668676    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 19:40:32.737671530 -0300
+Modify: 2024-07-17 19:40:32.761674281 -0300
+Change: 2024-07-17 19:40:32.761674281 -0300
+ Birth: 2024-07-17 19:40:32.737671530 -0300
+IPFS hash: QmbJXpoEFzxCLuFyraMafqUWPyRiiVkXnPQT6AkasneL5x
+------------------------------
+  File: ./Untitled Document
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 8,70	Inode: 10670871    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 19:40:00.568880007 -0300
+Modify: 2024-07-17 19:39:57.678528735 -0300
+Change: 2024-07-17 19:39:57.678528735 -0300
+ Birth: 2024-07-17 19:39:57.678528735 -0300
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+------------------------------
+  File: ./_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg
+  Size: 116551    	Blocks: 232        IO Block: 4096   regular file
+Device: 8,70	Inode: 10732588    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 19:40:13.811466794 -0300
+Modify: 2024-07-17 19:40:09.726981304 -0300
+Change: 2024-07-17 19:40:27.670088345 -0300
+ Birth: 2024-07-17 19:40:09.725981184 -0300
+IPFS hash: QmVUgH3NZpC6NRmXbvfXBbA1Z8i2wgYUAjcR83c8wCAvYu
+------------------------------
+  File: ./OIG4.R_OKOvi7R6NCwcL.jpeg
+  Size: 116551    	Blocks: 232        IO Block: 4096   regular file
+Device: 8,70	Inode: 9282571     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 19:39:55.190224894 -0300
+Modify: 2024-07-17 19:39:44.081852073 -0300
+Change: 2024-07-17 19:39:54.884187437 -0300
+ Birth: 2024-07-17 19:39:44.080851949 -0300
+IPFS hash: QmVUgH3NZpC6NRmXbvfXBbA1Z8i2wgYUAjcR83c8wCAvYu
+------------------------------

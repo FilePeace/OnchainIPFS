@@ -1,4 +1,5 @@
 import { clsx } from 'clsx';
+import Image from 'next/image';
 import Button from '@/components/Button/Button';
 import useOnchainCoffeeMemos from '../_hooks/useOnchainCoffeeMemos';
 import FormBuyCoffee from './FormBuyCoffee';
@@ -19,10 +20,12 @@ export default function BuyMeCoffeeContractDemo() {
       <section
         className={clsx([
           'rounded-lg border border-solid border-boat-color-palette-line',
-          'bg-boat-color-palette-backgroundalternate p-10',
-        ])}
+          'p-10',
+        ])} style={{ background: 'url(./img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg)' }}
       >
+        <Image src="./img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg" width="264" height="50" />
         <h2 className="mb-5 w-fit text-2xl font-semibold text-white">💌 Messages from supporters</h2>
+       </div>
 
         {memos?.length > 0 && <Memos memos={memos} />}
         <div className="mt-4 flex flex items-center justify-between">
