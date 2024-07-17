@@ -1,12 +1,12 @@
-commit QmZNaVCKhwGb2uZLFA6We69WT3GY4Dc1gyh5JXt9SXA5XB
+commit QmPhCk3hf4BPh9sJqj2WXmjEUPrjFF286hgK5C3w6hZRAW
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 91d7f0b81c793b3397a5e3e3b6fe353e07d9db0691f519ac1ecedf80e7b1f031288e8671a64af5d718f20b245f7861f611994333cfca7aa550afebc86c57bc5801
+Signature: 32628798a0abf6d780654fd7361518073b934ee2d70a42f7a32841052041228018ab0a1dd361538b4c23829b5f488efa958e0cc7cc6c5f370c85574c12d54b5000
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmaiRq1NAvbXjdD7Te5Mg1v7wducRBCoZQ5xuYtXHkeJwV
-Commit CID if containing only file hashes: QmdxCtC2wXKzDCZKrMR1KTP6LtpEoJRmTeT6PySboyQqqg
+Commit CID if including git's SHA1: QmVhaBYqAXDtxxdFJ8We57G8AwzWJdC6s9Bvc4mXje2Q2Y
+Commit CID if containing only file hashes: QmbfL8JENMv43tcSzogzm2tbcQLAFSAcByMfZnLJW1bBkr
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/src/components/layout/header/AIConversation.txt'
-chmod 0664 'web/src/components/layout/header/AIConversation.txt'
-/usr/bin/touch -hcmd "2024-07-17 13:01:54.6978799750 -0300" 'web/src/components/layout/header/AIConversation.txt'
-/usr/bin/touch -hcad "2024-07-17 13:02:24.1127586110 -0300" 'web/src/components/layout/header/AIConversation.txt'
+chown -h 1000:1000 'web/src/components/layout/header/AccountConnect.tsx'
+chmod 0664 'web/src/components/layout/header/AccountConnect.tsx'
+/usr/bin/touch -hcmd "2024-07-17 12:58:36.0224974940 -0300" 'web/src/components/layout/header/AccountConnect.tsx'
+/usr/bin/touch -hcad "2024-07-17 12:58:36.1024994030 -0300" 'web/src/components/layout/header/AccountConnect.tsx'
