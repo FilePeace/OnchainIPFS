@@ -1,12 +1,12 @@
-commit QmWBA9FBGWU56mANa2BK62xSt4y7prc61SCkKGv1gGFFYd
+commit QmVofRD9nbgozpabddj3SqbsuWdJmoEaZE74cvrTALJhtB
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: b9764be40d353481caf68a03f425225f9d26eb7f8f6774c435187fcae88d3aa4168262728a9e04db9defe02bf85727d2d0e1dfccc2d6b1334c44ed98feb5086501
+Signature: a82791775ec9586abc214363314849419c70a7b542044382268f3b5968a37a7c72ce2c0c153863a80cfc2695985ca1b16acef65412492250f882d9a36da598dd01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmPmiDa7v7APjEhw1ta3ePyYuapaU2GrT9MzztCfrW321r
-Commit CID if containing only file hashes: QmRHPPZVjr8FJ8eWBu9zEMkmXqSApEwZwyyRwncBeq3mvh
+Commit CID if including git's SHA1: QmTpeQMdV4J8knixTyWntWxdzV1ttQKvBmMA59W32iQYNT
+Commit CID if containing only file hashes: QmTbJ4ktZvLCNqqrtPEM772F9ZrnbJCmTBbEWTN9nkCQgK
 
 ------------------------------
 
@@ -19,5 +19,9 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 chown -h 1000:1000 'web/src/store/createWagmiConfig.ts'
 chmod 0664 'web/src/store/createWagmiConfig.ts'
-/usr/bin/touch -hcmd "2024-07-17 15:05:08.5693925320 -0300" 'web/src/store/createWagmiConfig.ts'
-/usr/bin/touch -hcad "2024-07-17 15:05:08.6123873730 -0300" 'web/src/store/createWagmiConfig.ts'
+/usr/bin/touch -hcmd "2024-07-17 18:15:20.2299653080 -0300" 'web/src/store/createWagmiConfig.ts'
+/usr/bin/touch -hcad "2024-07-17 18:15:20.3019636310 -0300" 'web/src/store/createWagmiConfig.ts'
+chown -h 1000:1000 'web/src/utils/wagmi.ts'
+chmod 0664 'web/src/utils/wagmi.ts'
+/usr/bin/touch -hcmd "2024-07-17 18:08:59.6929506600 -0300" 'web/src/utils/wagmi.ts'
+/usr/bin/touch -hcad "2024-07-17 18:13:30.8325908180 -0300" 'web/src/utils/wagmi.ts'
