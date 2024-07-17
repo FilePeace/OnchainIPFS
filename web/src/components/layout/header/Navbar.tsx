@@ -1,6 +1,7 @@
 import { ChevronDownIcon, GitHubLogoIcon } from '@radix-ui/react-icons';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import { clsx } from 'clsx';
+import Image from 'next/image';
 import NextLink from 'next/link';
 import AccountConnect from './AccountConnect';
 import { Experiences } from './Experiences';
@@ -40,7 +41,7 @@ export function NavbarTitle() {
         className="font-robotoMono text-center text-xl font-medium text-white no-underline"
         aria-label="build-onchain-apps Github repository"
       >
-        <img src="/logotype.svg" alt="Onchain IPFS Logotype" style={{ height: '50px' }} />
+        <Image src="/logotype.svg" alt="Onchain IPFS Logotype" width="264" height="50" />
       </NextLink>
     </div>
   );

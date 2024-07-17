@@ -1,12 +1,12 @@
-commit QmPDzofBbgSdnM3X7CL85q3C4wfw3RLya6KVd2V2YfQmXi
+commit Qmc4Xk3cXJ1hxR1GwmHAQzHbi98dMyAExaSLvGdZNQp4e2
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 30d5681477840dda114f6337023ff40c39d4b9214bb93a8bb54f31bb0ced90743a2a7498834de1e014c27d78709edfc7314f0eb5c41d3c1fe8d0d040553d0f2f01
+Signature: 4967ef72014263b69cc72e573c81994af283c492b8751554d4c21aad5a43a5723db3b00eb092204f9c131151314e9a914ef3bda393c2538b6aaef8286d7df8c300
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qmbsn5azptaJBWArRLijnnn4FSZvJk9ZiaUdLW7FpFiVKZ
-Commit CID if containing only file hashes: QmV8UNPYBcHAeGzo6oNruTLn8TbVxoycXciZY3o4mWJZia
+Commit CID if including git's SHA1: QmZ7hTdDJMtH4krPpHGtu8MVtFZg8py1S4ZrH7mviNX8ST
+Commit CID if containing only file hashes: QmV78Y29TosEpM1ijr3QSzJkppz35GeBuJ7hAsFmJgavrd
 
 ------------------------------
 
@@ -17,11 +17,11 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/package.json'
-chmod 0664 'web/package.json'
-/usr/bin/touch -hcmd "2024-07-17 11:35:19.1973299690 -0300" 'web/package.json'
-/usr/bin/touch -hcad "2024-07-17 11:35:19.1983299520 -0300" 'web/package.json'
-chown -h 1000:1000 'web/yarn.lock'
-chmod 0664 'web/yarn.lock'
-/usr/bin/touch -hcmd "2024-07-17 11:35:19.2033298660 -0300" 'web/yarn.lock'
-/usr/bin/touch -hcad "2024-07-17 11:43:03.9171722010 -0300" 'web/yarn.lock'
+chown -h 1000:1000 'web/src/components/layout/footer/Footer.tsx'
+chmod 0664 'web/src/components/layout/footer/Footer.tsx'
+/usr/bin/touch -hcmd "2024-07-17 12:14:42.3406144810 -0300" 'web/src/components/layout/footer/Footer.tsx'
+/usr/bin/touch -hcad "2024-07-17 12:15:12.1462077600 -0300" 'web/src/components/layout/footer/Footer.tsx'
+chown -h 1000:1000 'web/src/components/layout/header/Navbar.tsx'
+chmod 0664 'web/src/components/layout/header/Navbar.tsx'
+/usr/bin/touch -hcmd "2024-07-17 12:14:42.3406144810 -0300" 'web/src/components/layout/header/Navbar.tsx'
+/usr/bin/touch -hcad "2024-07-17 12:15:16.6665947800 -0300" 'web/src/components/layout/header/Navbar.tsx'
