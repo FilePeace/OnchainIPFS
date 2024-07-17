@@ -15,12 +15,12 @@ function MemoCard({ numCoffees, twitterHandle, message, userAddress, time }: Cof
   const numCoffeesInt = Number(numCoffees);
 
   return (
-    <li className="flex w-full flex-col items-start gap-4">
+    <li className="flex w-full flex-col items-start gap-4 rounded-2xl border-2 backdrop-blur-[20px]">
       <div className="w-full grow items-center justify-between lg:flex">
         <div className="flex items-center gap-3">
           <Avatar address={userAddress} />
           <div className="inline-flex items-start gap-1 md:flex">
-            <span className="text-3 text-bold truncate text-wrap font-bold text-boat-color-palette-foreground">
+            <span className="text-3 text-bold truncate text-wrap font-bold text-black">
               <Name address={userAddress} />
             </span>
             <span className="text-3 line-clamp-1 flex-1 truncate text-wrap break-all font-normal text-boat-color-palette-foregroundmuted">
@@ -45,7 +45,7 @@ function MemoCard({ numCoffees, twitterHandle, message, userAddress, time }: Cof
           <span
             className={clsx([
               'truncate whitespace-nowrap text-wrap text-base ',
-              'font-normal not-italic leading-6 text-boat-color-palette-foreground',
+              'font-normal not-italic leading-6 text-black',
             ])}
           >
             {message}

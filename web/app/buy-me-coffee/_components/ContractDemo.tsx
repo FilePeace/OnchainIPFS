@@ -23,8 +23,9 @@ export default function BuyMeCoffeeContractDemo() {
           'p-10',
         ])} style={{ background: 'url(./img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg)' }}
       >
-        <Image src="./img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg" width="264" height="50" />
-        <h2 className="mb-5 w-fit text-2xl font-semibold text-white">💌 Messages from supporters</h2>
+       <div className="flex items-center justify-start gap-4">
+        <Image src="/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg" width="150" height="150" />
+        <h2 className="mb-5 w-fit text-2xl font-semibold text-black">💌 Messages from supporters</h2>
        </div>
 
         {memos?.length > 0 && <Memos memos={memos} />}
@@ -36,7 +37,7 @@ export default function BuyMeCoffeeContractDemo() {
             buttonContent={<span>Read older messages</span>}
           />
 
-          <div>Page {currentPage + 1}</div>
+          <div className="text-black">Page {currentPage + 1}</div>
 
           <Button
             className="w-auto px-10"
