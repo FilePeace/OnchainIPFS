@@ -42,7 +42,7 @@ function useOnchainCoffeeMemos(pageSize = 5) {
       goToPreviousPage,
       pageSize,
     }),
-    [contractReadResult, currentPage, goToNextPage, goToPreviousPage],
+    [contractReadResult, currentPage, goToNextPage, goToPreviousPage, pageSize],
   );
 }
 

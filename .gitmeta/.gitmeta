@@ -1,12 +1,12 @@
-commit Qmcd7LrGmQ6RVnit57PszviJNh3dAjetcwW8ef9BcLF3CY
+commit QmRJhb9kYHRypKWUJ6sW6MBXeHrz6n2uKtA87hRo36HYXq
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 0c12b7ce3968aefe7c18ad916f2197268b564899d91ce3309f6e2fe5084608eb63711405e9d4b550cce2035fe603eb8f29d6f25d663a892ee5477b3e1de0877700
+Signature: 7faea0356231fb1fb8d7e553d4ce3bfdf955c0fdf0b961769c054dabc1e8316521770b72eac8ba201a692283f275c890419886f37925cc655e5a3d41ae8a9a8901
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qmeoc1RkL2cvfxqn4wK5jVvny5qc9R6gaXQCAQ42xWxad1
-Commit CID if containing only file hashes: QmWZ3MenbAysrAKAt3RhmH3vF7cCDHAvJQfjUGgN3hNX3B
+Commit CID if including git's SHA1: QmTzCEw2hofDfUsiP2F2Z5ZycgiKg4y75RJ2QAzbLYpVqq
+Commit CID if containing only file hashes: QmeXcHX86SZYAxCQii9NpMvGFxP1vKE7Rx9R81TY8zjZbq
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-me-coffee/_hooks/AIConversation.txt'
-chmod 0664 'web/app/buy-me-coffee/_hooks/AIConversation.txt'
-/usr/bin/touch -hcmd "2024-07-17 12:26:19.8170751480 -0300" 'web/app/buy-me-coffee/_hooks/AIConversation.txt'
-/usr/bin/touch -hcad "2024-07-17 12:26:35.7179135220 -0300" 'web/app/buy-me-coffee/_hooks/AIConversation.txt'
+chown -h 1000:1000 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
+chmod 0664 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
+/usr/bin/touch -hcmd "2024-07-17 12:21:50.4181461870 -0300" 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
+/usr/bin/touch -hcad "2024-07-17 12:21:50.4361576230 -0300" 'web/app/buy-me-coffee/_hooks/useOnchainCoffeeMemos.ts'
