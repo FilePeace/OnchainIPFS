@@ -5,7 +5,7 @@ import useOnchainCoffeeMemos from '../_hooks/useOnchainCoffeeMemos';
 import FormBuyCoffee from './FormBuyCoffee';
 import Memos from './Memos';
 
-export default function BuyMeCoffeeContractDemo() {
+export default function BuyUsCupcakePage() {
   const pageSize = 5;
   const { memos, refetchMemos, currentPage, goToPreviousPage, goToNextPage } =
     useOnchainCoffeeMemos(pageSize);
