@@ -1,12 +1,12 @@
-commit QmYytVhbyAzvLBkkZ5RbCSwrTQhUZB9Qeu3Mws9hQrFU1V
+commit QmP1mnCn2LNATxRa6TBJj8PjNUhfbqQEmPbnHaoYuZFddb
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 4125e61a9d3a45d014a990794d2c0eb96cf691654b95aeee9919592c5d97cd1474d6b12da4c38448e1a88ca07cacbb7eee46117f8017dc1c046ec672aa216c3400
+Signature: c140f0cba8aeb2ff42c240fc10a8275f8dbd4688f6a9255af94f179a0204e2fb1d201f14a50a6a7df1cca828246bd78744757a8db9a2644ed8431aa1c516dbb001
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmeP9oUvg6KTDXVtDTSiHRf4YWvbEoRQUZXe3zaSmnhYNz
-Commit CID if containing only file hashes: QmNjCZDRSdzmdvW3UyYk3Sfpqg2HqMqSpk3BnK7NGGnfnX
+Commit CID if including git's SHA1: QmVvPPG899m8L3cdBdcp1r4N96Jxy2UJFmLCnGFxKMgCMA
+Commit CID if containing only file hashes: QmZvQV993jVk6Erw4CoXsv54qPWm6X57i6pUei7Y3T64sZ
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-me-coffee/_components/MemoCard.tsx'
-chmod 0664 'web/app/buy-me-coffee/_components/MemoCard.tsx'
-/usr/bin/touch -hcmd "2024-07-17 20:49:07.0565327990 -0300" 'web/app/buy-me-coffee/_components/MemoCard.tsx'
-/usr/bin/touch -hcad "2024-07-17 20:49:07.1135300980 -0300" 'web/app/buy-me-coffee/_components/MemoCard.tsx'
+chown -h 1000:1000 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
+chmod 0664 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
+/usr/bin/touch -hcmd "2024-07-17 23:45:47.6487172720 -0300" 'web/app/buy-me-coffee/_components/ContractDemo.tsx'
+/usr/bin/touch -hcad "2024-07-17 23:45:47.7277161140 -0300" 'web/app/buy-me-coffee/_components/ContractDemo.tsx'

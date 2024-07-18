@@ -24,7 +24,7 @@ export default function BuyMeCoffeeContractDemo() {
         ])} style={{ background: 'url(./img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg)' }}
       >
        <div className="flex items-center justify-start gap-4">
-        <Image src="/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg" width="150" height="150" />
+        <Image src="/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg" width="200" height="200" />
         <h2 className="mb-5 w-fit text-2xl font-semibold text-black">💌 Messages from supporters</h2>
        </div>
 
