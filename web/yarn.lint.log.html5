@@ -9,37 +9,11 @@ Our <font color="#42E66C">Documentation</font> is located at <font color="#42E66
 <font color="#75D7EC">Tweet</font> us at <font color="#8BE9FD"><b>@nu_shell</b></font>
 
 It&apos;s been this long since <font color="#42E66C">Nushell</font>&apos;s first commit:
-5yr 2month 1wk 4day 13hr 58min 19sec 868ms 416µs 167ns
+5yr 2month 1wk 5day 54min 36sec 653ms 60µs 2ns
 
-Startup Time: 60ms 102µs 995ns
+Startup Time: 63ms 469µs 353ns
 
-<font color="#8BE9FD"><b>Pages/buy-me-cupcake/clipart</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[?⇡]</b></font> 
-<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">yarn</font> <font color="#50FA7B"><b>dev</b></font>
-  <font color="#AD7FA8"><b> ▲ Next.js 14.1.1</b></font>
-   - Local:        http://localhost:3000
-   - Environments: .env.local
-
-&gt; [PWA] PWA support is disabled
-&gt; [PWA] PWA support is disabled
- <font color="#50FA7B"><b>✓</b></font> Ready in 3.5s
- <font color="#FFB86C"><b>○</b></font> Compiling /buy-us-cupcake ...
- <font color="#50FA7B"><b>✓</b></font> Compiled /buy-us-cupcake in 10.2s (4746 modules)
-<font color="#E356A7">(node:101454) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.</font>
-<font color="#E356A7">(Use `node --trace-deprecation ...` to show where the warning was created)</font>
-<font color="#E356A7">(node:101454) [UNDICI-WS] Warning: WebSockets are experimental, expect them to change at any time.</font>
- <font color="#FFB86C"><b>○</b></font> Compiling /api/rpc ...
- <font color="#50FA7B"><b>✓</b></font> Compiled /api/rpc in 2.7s (2423 modules)
-<font color="#E356A7">(node:101454) Warning: To load an ES module, set &quot;type&quot;: &quot;module&quot; in the package.json or use the .mjs extension.</font>
- <font color="#50FA7B"><b>✓</b></font> Compiled in 2.6s (4790 modules)
- <font color="#50FA7B"><b>✓</b></font> Compiled in 1940ms (4790 modules)
- <font color="#50FA7B"><b>✓</b></font> Compiled in 1873ms (4790 modules)
- <font color="#50FA7B"><b>✓</b></font> Compiled in 378ms (2367 modules)
- <font color="#50FA7B"><b>✓</b></font> Compiled in 378ms (2367 modules)
- <font color="#50FA7B"><b>✓</b></font> Compiled in 784ms (2367 modules)
- <font color="#50FA7B"><b>✓</b></font> Compiled in 669ms (2367 modules)
-^C
-
-<font color="#8BE9FD"><b>Pages/buy-me-cupcake/clipart</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘⇡]</b></font> took <font color="#F1FA8C"><b>17m26s</b></font> 
+<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[⇡]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>
 <font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">yarn</font> <font color="#50FA7B"><b>lint</b></font>
 
 <font color="#75D7EC">./app/buy-us-cupcake/_components/ContractAlert.tsx</font>
@@ -71,8 +45,6 @@ Startup Time: 60ms 102µs 995ns
 <font color="#E4F34A">50</font>:<font color="#E4F34A">13</font>  <font color="#F1FA8C"><b>Warning</b></font>: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  <font color="#7A7A7A"><b>jsx-a11y/alt-text</b></font>
 
 <font color="#75D7EC">./app/press/_components/Page.tsx</font>
-<font color="#E4F34A">1</font>:<font color="#E4F34A">10</font>  <font color="#FF79C6"><b>Error</b></font>: &apos;clsx&apos; is defined but never used.  <font color="#7A7A7A"><b>@typescript-eslint/no-unused-vars</b></font>
-<font color="#E4F34A">2</font>:<font color="#E4F34A">8</font>  <font color="#FF79C6"><b>Error</b></font>: &apos;Image&apos; is defined but never used.  <font color="#7A7A7A"><b>@typescript-eslint/no-unused-vars</b></font>
 <font color="#E4F34A">16</font>:<font color="#E4F34A">21</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
 <font color="#E4F34A">20</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
 <font color="#E4F34A">20</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  <font color="#7A7A7A"><b>jsx-a11y/alt-text</b></font>
@@ -83,44 +55,29 @@ Startup Time: 60ms 102µs 995ns
 <font color="#E4F34A">31</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
 <font color="#E4F34A">31</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  <font color="#7A7A7A"><b>jsx-a11y/alt-text</b></font>
 
-<font color="#75D7EC">./src/store/createWagmiConfig.ts</font>
-<font color="#E4F34A">3</font>:<font color="#E4F34A">20</font>  <font color="#FF79C6"><b>Error</b></font>: &apos;metaMask&apos; is defined but never used.  <font color="#7A7A7A"><b>@typescript-eslint/no-unused-vars</b></font>
-
-<font color="#75D7EC">./src/utils/wagmi.ts</font>
-<font color="#E4F34A">1</font>:<font color="#E4F34A">8</font>  <font color="#FF79C6"><b>Error</b></font>: &apos;isClient&apos; is defined but never used.  <font color="#7A7A7A"><b>@typescript-eslint/no-unused-vars</b></font>
-
 <font color="#75D7EC">info</font>  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
 
-<font color="#8BE9FD"><b>Pages/buy-me-cupcake/clipart</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!⇡]</b></font> took <font color="#F1FA8C"><b>15s</b></font> 
+<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[⇡]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>took <font color="#F1FA8C"><b>10s</b></font> 
 <font color="#FF79C6"><b>❯</b></font> <font color="#75D7EC">yarn</font> <font color="#50FA7B"><b>lint</b></font>
 
 <font color="#75D7EC">./app/buy-us-cupcake/_components/ContractAlert.tsx</font>
-<font color="#E4F34A">13</font>:<font color="#E4F34A">10</font>  <font color="#FF79C6"><b>Error</b></font>: React Hook &quot;useLoggedInUserCanAfford&quot; is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  <font color="#7A7A7A"><b>react-hooks/rules-of-hooks</b></font>
-<font color="#E4F34A">43</font>:<font color="#E4F34A">21</font>  <font color="#FF79C6"><b>Error</b></font>: React Hook &quot;useCanUserAfford&quot; is called conditionally. React Hooks must be called in the exact same order in every component render.  <font color="#7A7A7A"><b>react-hooks/rules-of-hooks</b></font>
+<font color="#E4F34A">44</font>:<font color="#E4F34A">21</font>  <font color="#FF79C6"><b>Error</b></font>: React Hook &quot;useCanUserAfford&quot; is called conditionally. React Hooks must be called in the exact same order in every component render.  <font color="#7A7A7A"><b>react-hooks/rules-of-hooks</b></font>
 
 <font color="#75D7EC">./app/buy-us-cupcake/_components/FormBuyCoffee.tsx</font>
-<font color="#E4F34A">49</font>:<font color="#E4F34A">13</font>  <font color="#FF79C6"><b>Error</b></font>: Unsafe assignment of an `any` value.  <font color="#7A7A7A"><b>@typescript-eslint/no-unsafe-assignment</b></font>
-<font color="#E4F34A">50</font>:<font color="#E4F34A">19</font>  <font color="#FF79C6"><b>Error</b></font>: Unsafe argument of type `any` assigned to a parameter of type `SetStateAction&lt;number | null&gt;`.  <font color="#7A7A7A"><b>@typescript-eslint/no-unsafe-argument</b></font>
-<font color="#E4F34A">53</font>:<font color="#E4F34A">5</font>  <font color="#FF79C6"><b>Error</b></font>: Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.  <font color="#7A7A7A"><b>@typescript-eslint/no-floating-promises</b></font>
-<font color="#E4F34A">106</font>:<font color="#E4F34A">26</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
-<font color="#E4F34A">123</font>:<font color="#E4F34A">25</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
-<font color="#E4F34A">134</font>:<font color="#E4F34A">15</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
-<font color="#E4F34A">138</font>:<font color="#E4F34A">27</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
-<font color="#E4F34A">145</font>:<font color="#E4F34A">44</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
-<font color="#E4F34A">157</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
-<font color="#E4F34A">161</font>:<font color="#E4F34A">31</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
-<font color="#E4F34A">172</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
-<font color="#E4F34A">176</font>:<font color="#E4F34A">31</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
-<font color="#E4F34A">191</font>:<font color="#E4F34A">25</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
-<font color="#E4F34A">202</font>:<font color="#E4F34A">17</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
-
-<font color="#75D7EC">./app/buy-us-cupcake/_components/MemoCard.tsx</font>
-<font color="#E4F34A">35</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
-<font color="#E4F34A">40</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
-<font color="#E4F34A">45</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
-
-<font color="#75D7EC">./app/buy-us-cupcake/_components/Page.tsx</font>
-<font color="#E4F34A">50</font>:<font color="#E4F34A">13</font>  <font color="#F1FA8C"><b>Warning</b></font>: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  <font color="#7A7A7A"><b>jsx-a11y/alt-text</b></font>
+<font color="#E4F34A">50</font>:<font color="#E4F34A">15</font>  <font color="#FF79C6"><b>Error</b></font>: Unsafe assignment of an `any` value.  <font color="#7A7A7A"><b>@typescript-eslint/no-unsafe-assignment</b></font>
+<font color="#E4F34A">51</font>:<font color="#E4F34A">21</font>  <font color="#FF79C6"><b>Error</b></font>: Unsafe argument of type `any` assigned to a parameter of type `SetStateAction&lt;number | null&gt;`.  <font color="#7A7A7A"><b>@typescript-eslint/no-unsafe-argument</b></font>
+<font color="#E4F34A">57</font>:<font color="#E4F34A">5</font>  <font color="#FF79C6"><b>Error</b></font>: Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.  <font color="#7A7A7A"><b>@typescript-eslint/no-floating-promises</b></font>
+<font color="#E4F34A">110</font>:<font color="#E4F34A">26</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">127</font>:<font color="#E4F34A">25</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">138</font>:<font color="#E4F34A">15</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">142</font>:<font color="#E4F34A">27</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">149</font>:<font color="#E4F34A">44</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">161</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">165</font>:<font color="#E4F34A">31</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">176</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">180</font>:<font color="#E4F34A">31</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">195</font>:<font color="#E4F34A">25</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">206</font>:<font color="#E4F34A">17</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
 
 <font color="#75D7EC">./app/press/_components/Page.tsx</font>
 <font color="#E4F34A">16</font>:<font color="#E4F34A">21</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
@@ -135,6 +92,41 @@ Startup Time: 60ms 102µs 995ns
 
 <font color="#75D7EC">info</font>  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
 
-<font color="#8BE9FD"><b>Pages/buy-me-cupcake/clipart</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!+⇡]</b></font> took <font color="#F1FA8C"><b>10s</b></font> 
+<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[!⇡]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>took <font color="#F1FA8C"><b>14s</b></font> 
+<font color="#FF79C6"><b>❯</b></font> <font color="#75D7EC">yarn</font> <font color="#50FA7B"><b>lint</b></font>
+
+<font color="#75D7EC">./app/buy-us-cupcake/_components/ContractAlert.tsx</font>
+<font color="#E4F34A">45</font>:<font color="#E4F34A">21</font>  <font color="#FF79C6"><b>Error</b></font>: React Hook &quot;useCanUserAfford&quot; is called conditionally. React Hooks must be called in the exact same order in every component render.  <font color="#7A7A7A"><b>react-hooks/rules-of-hooks</b></font>
+
+<font color="#75D7EC">./app/buy-us-cupcake/_components/FormBuyCoffee.tsx</font>
+<font color="#E4F34A">50</font>:<font color="#E4F34A">15</font>  <font color="#FF79C6"><b>Error</b></font>: Unsafe assignment of an `any` value.  <font color="#7A7A7A"><b>@typescript-eslint/no-unsafe-assignment</b></font>
+<font color="#E4F34A">51</font>:<font color="#E4F34A">21</font>  <font color="#FF79C6"><b>Error</b></font>: Unsafe argument of type `any` assigned to a parameter of type `SetStateAction&lt;number | null&gt;`.  <font color="#7A7A7A"><b>@typescript-eslint/no-unsafe-argument</b></font>
+<font color="#E4F34A">57</font>:<font color="#E4F34A">5</font>  <font color="#FF79C6"><b>Error</b></font>: Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.  <font color="#7A7A7A"><b>@typescript-eslint/no-floating-promises</b></font>
+<font color="#E4F34A">110</font>:<font color="#E4F34A">26</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">127</font>:<font color="#E4F34A">25</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">138</font>:<font color="#E4F34A">15</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">142</font>:<font color="#E4F34A">27</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">149</font>:<font color="#E4F34A">44</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">161</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">165</font>:<font color="#E4F34A">31</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">176</font>:<font color="#E4F34A">19</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">180</font>:<font color="#E4F34A">31</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">195</font>:<font color="#E4F34A">25</font>  <font color="#F1FA8C"><b>Warning</b></font><font color="#7A7A7A"><b>: JSX attribute values should not contain functions created in th</b></font>e same scope  <font color="#7A7A7A"><b>react-perf/jsx-no-new-function-as-prop</b></font>
+<font color="#E4F34A">206</font>:<font color="#E4F34A">17</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+
+<font color="#75D7EC">./app/press/_components/Page.tsx</font>
+<font color="#E4F34A">16</font>:<font color="#E4F34A">21</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">20</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">20</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  <font color="#7A7A7A"><b>jsx-a11y/alt-text</b></font>
+<font color="#E4F34A">23</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">23</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  <font color="#7A7A7A"><b>jsx-a11y/alt-text</b></font>
+<font color="#E4F34A">27</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">27</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  <font color="#7A7A7A"><b>jsx-a11y/alt-text</b></font>
+<font color="#E4F34A">31</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: Using `&lt;img&gt;` could result in slower LCP and higher bandwidth. Consider using `&lt;Image /&gt;` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  <font color="#7A7A7A"><b>@next/next/no-img-element</b></font>
+<font color="#E4F34A">31</font>:<font color="#E4F34A">1</font>  <font color="#F1FA8C"><b>Warning</b></font>: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  <font color="#7A7A7A"><b>jsx-a11y/alt-text</b></font>
+
+<font color="#75D7EC">info</font>  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+<font color="#8BE9FD"><b>onchain-ipfs/web</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[!⇡]</b></font> via <font color="#50FA7B"><b> v22.2.0 </b></font>took <font color="#F1FA8C"><b>12s</b></font> 
 <font color="#FF79C6"><b>❯</b></font> 
 </pre>

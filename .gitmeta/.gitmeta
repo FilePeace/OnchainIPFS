@@ -1,12 +1,12 @@
-commit QmSQwJKySxLomRGWEKuMFS6CKdPwqMCbsmBfCcTEeJ7WHw
+commit QmcWXLYu4bHsLjBP819ACT28Pomkz2qTnUxbaphV7bHWCu
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 1baafb7360cd6b63011fde707cdc4522bdef96a4deb71ef2d05a51dc0b1b121814dd37d009f9979b43df223fb2b3e0e530af95f3814077d54c689f77a1994dd400
+Signature: ea47582ff2a38cdc46e6581e7ce1c8982687ef356b62ed46a1ad27f671783cd6292bdeadad20cd1338f9c2cf444bb57b582cd1354b1cb9d4a52597228ec1c34401
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmeR2ofJmGZabnQckvajeqNwwFyVTWzoiMASRJ5cyriZ5s
-Commit CID if containing only file hashes: QmaTBmymswqXujXof4WFU5jLjw12YFrDhLoHui1rqFhFae
+Commit CID if including git's SHA1: QmcuFgNq89J3D4oyHpX4QnLva6CE6w6b9ML8tG4ZfXp4rP
+Commit CID if containing only file hashes: QmQFXsB8nXGJfmHfPwPkuyPsDD8rxhNEVfWucKfibn9TeG
 
 ------------------------------
 
@@ -17,19 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-/usr/bin/touch -hcmd "2024-07-19 15:39:22.7665415110 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-/usr/bin/touch -hcad "2024-07-19 15:39:22.8275332490 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcmd "2024-07-19 15:02:01.4971685310 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcad "2024-07-19 15:02:01.5171635030 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/MemoCard.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/MemoCard.tsx'
-/usr/bin/touch -hcmd "2024-07-19 15:04:25.6161057690 -0300" 'web/app/buy-us-cupcake/_components/MemoCard.tsx'
-/usr/bin/touch -hcad "2024-07-19 15:04:25.6950881860 -0300" 'web/app/buy-us-cupcake/_components/MemoCard.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/Page.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/Page.tsx'
-/usr/bin/touch -hcmd "2024-07-19 15:04:01.0476279740 -0300" 'web/app/buy-us-cupcake/_components/Page.tsx'
-/usr/bin/touch -hcad "2024-07-19 15:04:01.1046150440 -0300" 'web/app/buy-us-cupcake/_components/Page.tsx'
+chown -h 1000:1000 'web/yarn.lint.log.html5'
+chmod 0664 'web/yarn.lint.log.html5'
+/usr/bin/touch -hcmd "2024-07-19 15:47:57.7750609550 -0300" 'web/yarn.lint.log.html5'
+/usr/bin/touch -hcad "2024-07-19 15:48:38.9195269730 -0300" 'web/yarn.lint.log.html5'
