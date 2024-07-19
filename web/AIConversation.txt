@@ -1,0 +1,318 @@
+onchain-ipfs/web on  main [⇡] via  v22.2.0 
+❯ yarn lint
+
+./app/buy-us-cupcake/_components/ContractAlert.tsx
+13:10  Error: React Hook "useLoggedInUserCanAfford" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+43:21  Error: React Hook "useCanUserAfford" is called conditionally. React Hooks must be called in the exact same order in every component render.  react-hooks/rules-of-hooks
+
+./app/buy-us-cupcake/_components/FormBuyCoffee.tsx
+49:13  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+50:19  Error: Unsafe argument of type `any` assigned to a parameter of type `SetStateAction<number | null>`.  @typescript-eslint/no-unsafe-argument
+53:5  Error: Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.  @typescript-eslint/no-floating-promises
+106:26  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+123:25  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+134:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+138:27  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+145:44  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+157:19  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+161:31  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+172:19  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+176:31  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+191:25  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+202:17  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./app/buy-us-cupcake/_components/MemoCard.tsx
+35:19  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+40:19  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+45:19  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./app/buy-us-cupcake/_components/Page.tsx
+50:13  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./app/press/_components/Page.tsx
+16:21  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+20:1  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+20:1  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+23:1  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+23:1  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+27:1  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+27:1  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+31:1  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+31:1  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+
+
+
+
+
+
+
+### Issues and Solutions
+
+#### 1. Conditional React Hook Calls
+The ESLint errors in `ContractAlert.tsx` indicate that React hooks are being called conditionally, which violates the [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html).
+
+**File:** `app/buy-us-cupcake/_components/ContractAlert.tsx`
+- **Issue:** Hooks `useLoggedInUserCanAfford` and `useCanUserAfford` are called conditionally.
+- **Solution:** Refactor the code to ensure hooks are called at the top level of the component.
+
+```typescript:app/buy-us-cupcake/_components/ContractAlert.tsx
+// Before refactoring
+function useCanUserAfford(amount: string) {
+  if (!amount || isNaN(parseFloat(amount))) {
+    console.error('Invalid amount:', amount);
+    return false;
+  }
+  return useLoggedInUserCanAfford(parseEther(amount));
+}
+
+// After refactoring
+function useCanUserAfford(amount: string) {
+  const canAfford = useLoggedInUserCanAfford(parseEther(amount));
+  if (!amount || isNaN(parseFloat(amount))) {
+    console.error('Invalid amount:', amount);
+    return false;
+  }
+  return canAfford;
+}
+```
+
+#### 2. Unsafe Assignments and Promises
+The ESLint errors in `FormBuyCoffee.tsx` are related to TypeScript type safety and promise handling.
+
+**File:** `app/buy-us-cupcake/_components/FormBuyCoffee.tsx`
+- **Issues:** Unsafe assignments and unhandled promises.
+- **Solution:** Ensure proper typing and handle promises correctly.
+
+```typescript:app/buy-us-cupcake/_components/FormBuyCoffee.tsx
+// Example fix for unsafe assignment
+const [coffeeCount, setCoffeeCount] = useState<number | null>(null);
+
+// Example fix for promise handling
+useEffect(() => {
+  async function fetchData() {
+    try {
+      const data = await fetchSomeData();
+      // process data
+    } catch (error) {
+      console.error('Failed to fetch data:', error);
+    }
+  }
+  fetchData();
+}, []);
+```
+
+#### 3. Image Optimization
+Warnings about using `<img>` tags instead of `<Image />` from `next/image` for better optimization.
+
+**File:** Multiple files
+- **Issue:** Usage of `<img>` tags.
+- **Solution:** Replace `<img>` with `<Image />` from `next/image`.
+
+```typescript:app/buy-us-cupcake/_components/MemoCard.tsx
+// Before
+<img src="/path/to/image.jpg" alt="Description" />
+
+// After
+<Image src="/path/to/image.jpg" alt="Description" width={500} height={300} />
+```
+
+#### 4. Alt Text for Images
+Warnings about missing `alt` attributes for images, which are important for accessibility.
+
+**File:** Multiple files
+- **Solution:** Ensure all images have appropriate `alt` text.
+
+```typescript:app/buy-us-cupcake/_components/Page.tsx
+// Before
+<Image src="/path/to/image.jpg" />
+
+// After
+<Image src="/path/to/image.jpg" alt="Description" />
+```
+
+These changes should address the ESLint issues and warnings you're encountering. Make sure to test the changes thoroughly to ensure they don't introduce new issues.
+
+
+
+
+
+onchain-ipfs/web on  main [⇡] via  v22.2.0 took 10s 
+❯ yarn lint
+
+./app/buy-us-cupcake/_components/ContractAlert.tsx
+44:21  Error: React Hook "useCanUserAfford" is called conditionally. React Hooks must be called in the exact same order in every component render.  react-hooks/rules-of-hooks
+
+./app/buy-us-cupcake/_components/FormBuyCoffee.tsx
+50:15  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+51:21  Error: Unsafe argument of type `any` assigned to a parameter of type `SetStateAction<number | null>`.  @typescript-eslint/no-unsafe-argument
+57:5  Error: Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.  @typescript-eslint/no-floating-promises
+110:26  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+127:25  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+138:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+142:27  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+149:44  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+161:19  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+165:31  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+176:19  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+180:31  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+195:25  Warning: JSX attribute values should not contain functions created in the same scope  react-perf/jsx-no-new-function-as-prop
+206:17  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./app/press/_components/Page.tsx
+16:21  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+20:1  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+20:1  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+23:1  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+23:1  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+27:1  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+27:1  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+31:1  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+31:1  Warning: img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+
+
+
+
+
+
+
+### Issues and Solutions
+
+#### 1. Conditional React Hook Calls
+The ESLint error in `ContractAlert.tsx` indicates that the React hook `useCanUserAfford` is called conditionally.
+
+**File:** `app/buy-us-cupcake/_components/ContractAlert.tsx`
+- **Issue:** Hooks must be called at the top level of a component.
+- **Solution:** Ensure that `useCanUserAfford` is called unconditionally at the top level of the component.
+
+```typescript:app/buy-us-cupcake/_components/ContractAlert.tsx
+// Ensure hooks are called at the top level
+const canAfford = useCanUserAfford(amount);
+if (!amount || isNaN(parseFloat(amount))) {
+  console.error('Invalid amount:', amount);
+  return false;
+}
+```
+
+#### 2. Unsafe Assignments and Promises
+The ESLint errors in `FormBuyCoffee.tsx` are related to TypeScript type safety and promise handling.
+
+**File:** `app/buy-us-cupcake/_components/FormBuyCoffee.tsx`
+- **Issues:** Unsafe assignments and unhandled promises.
+- **Solution:** Ensure proper typing and handle promises correctly.
+
+```typescript:app/buy-us-cupcake/_components/FormBuyCoffee.tsx
+// Example fix for unsafe assignment
+const [coffeeCount, setCoffeeCount] = useState<number | null>(null);
+
+// Example fix for promise handling
+async function fetchData() {
+  try {
+    const data = await fetchSomeData();
+    // process data
+  } catch (error) {
+    console.error('Failed to fetch data:', error);
+  }
+}
+useEffect(() => {
+  fetchData();
+}, []);
+```
+
+#### 3. Image Optimization
+Warnings about using `<img>` tags instead of `<Image />` from `next/image` for better optimization.
+
+**File:** Multiple files
+- **Issue:** Usage of `<img>` tags.
+- **Solution:** Replace `<img>` with `<Image />` from `next/image`.
+
+```typescript:app/buy-us-cupcake/_components/MemoCard.tsx
+// Before
+<img src="/path/to/image.jpg" alt="Description" />
+
+// After
+<Image src="/path/to/image.jpg" alt="Description" width={500} height={300} />
+```
+
+#### 4. Alt Text for Images
+Warnings about missing `alt` attributes for images, which are important for accessibility.
+
+**File:** Multiple files
+- **Solution:** Ensure all images have appropriate `alt` text.
+
+```typescript:app/buy-us-cupcake/_components/Page.tsx
+// Before
+<Image src="/path/to/image.jpg" />
+
+// After
+<Image src="/path/to image.jpg" alt="Description" />
+```
+
+These changes should address the ESLint issues and warnings you're encountering. Make sure to test the changes thoroughly to ensure they don't introduce new issues.
+
+
+
+
+
+
+
+onchain-ipfs/web on  main [!⇡] via  v22.2.0 took 14s 
+❯ yarn lint
+
+./app/buy-us-cupcake/_components/ContractAlert.tsx
+45:21  Error: React Hook "useCanUserAfford" is called conditionally. React Hooks must be called in the exact same order in every component render.  react-hooks/rules-of-hooks
+
+./app/buy-us-cupcake/_components/FormBuyCoffee.tsx
+50:15  Error: Unsafe assignment of an `any` value.  @typescript-eslint/no-unsafe-assignment
+51:21  Error: Unsafe argument of type `any` assigned to a parameter of type `SetStateAction<number | null>`.  @typescript-eslint/no-unsafe-argument
+57:5  Error: Promises must be awaited, end with a call to .catch, end with a call to .then with a rejection handler or be explicitly marked as ignored with the `void` operator.  @typescript-eslint/no-floating-promises
+
+
+
+
+
+### Issues and Solutions
+
+#### 1. Conditional React Hook Calls in `ContractAlert.tsx`
+The ESLint error indicates that the React hook `useCanUserAfford` is called conditionally.
+
+**File:** `app/buy-us-cupcake/_components/ContractAlert.tsx`
+- **Issue:** Hooks must be called at the top level of a component.
+- **Solution:** Ensure that `useCanUserAfford` is called unconditionally at the top level of the component.
+
+```typescript:app/buy-us-cupcake/_components/ContractAlert.tsx
+// Ensure hooks are called at the top level
+const canAfford = useCanUserAfford(requiredAmount.toFixed(18));
+if (!requiredAmount || isNaN(parseFloat(requiredAmount))) {
+  console.error('Invalid amount:', requiredAmount);
+  return false;
+}
+```
+
+#### 2. Unsafe Assignments and Promises in `FormBuyCoffee.tsx`
+The ESLint errors are related to TypeScript type safety and promise handling.
+
+**File:** `app/buy-us-cupcake/_components/FormBuyCoffee.tsx`
+- **Issues:** Unsafe assignments and unhandled promises.
+- **Solution:** Ensure proper typing and handle promises correctly.
+
+```typescript:app/buy-us-cupcake/_components/FormBuyCoffee.tsx
+// Example fix for unsafe assignment
+const [coffeeCount, setCoffeeCount] = useState<number | null>(null);
+
+// Example fix for promise handling
+async function fetchData() {
+  try {
+    const data = await fetchSomeData();
+    // process data
+  } catch (error) {
+    console.error('Failed to fetch data:', error);
+  }
+}
+useEffect(() => {
+  fetchData();
+}, []);
+```
+
+These changes should address the ESLint issues you're encountering. Make sure to test the changes thoroughly to ensure they don't introduce new issues.
