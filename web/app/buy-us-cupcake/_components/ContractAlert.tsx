@@ -25,7 +25,7 @@ export function ContractAlertLayout({ children, isError }: { children: React.Rea
 }
 
 type ContractAlertProps = {
-  contract: UseContractReturn<any>;
+  contract: UseContractReturn<unknown>;
   amount: number;
   coffeeCount?: number;
   ethPrice?: number | null;

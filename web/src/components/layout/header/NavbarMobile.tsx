@@ -8,8 +8,8 @@ import {
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import { clsx } from 'clsx';
 import AccountConnect from './AccountConnect';
-import { PagesList } from './PagesList';
 import { NavbarLink, NavbarTitle } from './Navbar';
+import { PagesList } from './PagesList';
 
 export default function NavbarMobile() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
