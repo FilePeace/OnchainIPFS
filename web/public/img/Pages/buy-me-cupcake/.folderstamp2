@@ -1,0 +1,85 @@
+This folder: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/img/Pages/buy-me-cupcake
+
+folderstamp version: r5
+Method: Recursive
+
+  File: ./.folderstamp
+  Size: 146       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10695775    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-18 00:02:11.362010362 -0300
+Modify: 2024-07-18 00:02:11.393010329 -0300
+Change: 2024-07-18 00:02:11.393010329 -0300
+ Birth: 2024-07-18 00:02:11.362010362 -0300
+IPFS hash: QmbJXpoEFzxCLuFyraMafqUWPyRiiVkXnPQT6AkasneL5x
+------------------------------
+  File: ./bg/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.weborigin
+  Size: 308       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10671057    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 20:05:12.643057463 -0300
+Modify: 2024-07-17 19:44:23.931527734 -0300
+Change: 2024-07-18 00:02:08.465013452 -0300
+ Birth: 2024-07-17 19:44:23.930527657 -0300
+IPFS hash: QmYk4XCtp6ndWLHpP9MjXDEr8BXh2tSk2uCBx2QbqWrYiA
+------------------------------
+  File: ./bg/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg
+  Size: 116551    	Blocks: 232        IO Block: 4096   regular file
+Device: 8,70	Inode: 10732588    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 19:40:32.937694456 -0300
+Modify: 2024-07-17 19:40:09.726981304 -0300
+Change: 2024-07-18 00:02:08.463013454 -0300
+ Birth: 2024-07-17 19:40:09.725981184 -0300
+IPFS hash: QmVUgH3NZpC6NRmXbvfXBbA1Z8i2wgYUAjcR83c8wCAvYu
+------------------------------
+  File: ./bg/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.about.txt
+  Size: 471       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10670897    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 20:05:12.636057339 -0300
+Modify: 2024-07-17 19:42:09.832908365 -0300
+Change: 2024-07-18 00:02:08.463013454 -0300
+ Birth: 2024-07-17 19:42:09.831908268 -0300
+IPFS hash: QmToFnH6YAgH1x99isBkUprWVoLUcLmjo8wMWDNNb2FEGH
+------------------------------
+  File: ./bg/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.about.txt
+  Size: 471       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10671021    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 20:05:12.643057463 -0300
+Modify: 2024-07-17 19:45:13.152182788 -0300
+Change: 2024-07-18 00:02:08.465013452 -0300
+ Birth: 2024-07-17 19:45:13.151182717 -0300
+IPFS hash: QmToFnH6YAgH1x99isBkUprWVoLUcLmjo8wMWDNNb2FEGH
+------------------------------
+  File: ./bg/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.weborigin
+  Size: 308       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10670871    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 20:05:12.637057357 -0300
+Modify: 2024-07-17 19:41:22.834167733 -0300
+Change: 2024-07-18 00:02:08.464013453 -0300
+ Birth: 2024-07-17 19:41:22.833167629 -0300
+IPFS hash: QmXyQyt6yWj9Zp8oRHTmxFmzH48rvG2PkaTEjhnYhzz3Z2
+------------------------------
+  File: ./bg/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg
+  Size: 90025     	Blocks: 176        IO Block: 4096   regular file
+Device: 8,70	Inode: 10670866    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 19:45:31.557475961 -0300
+Modify: 2024-07-17 19:42:59.940559870 -0300
+Change: 2024-07-18 00:02:08.464013453 -0300
+ Birth: 2024-07-17 19:42:59.940559870 -0300
+IPFS hash: QmSoTNMcrjHYbdkAhPP4jNkpraygEbaVn6dxKfYG8eH8b5
+------------------------------
+  File: ./.folderstamp1
+  Size: 2080      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10668676    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 20:05:12.624057126 -0300
+Modify: 2024-07-17 19:40:33.008702593 -0300
+Change: 2024-07-17 19:40:36.339082849 -0300
+ Birth: 2024-07-17 19:40:32.737671530 -0300
+IPFS hash: QmfDaNtEJbbznyereUv1ceC4nRYDTZHSjSon1NaU3uifpA
+------------------------------
