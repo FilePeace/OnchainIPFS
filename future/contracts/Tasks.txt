@@ -1,18 +1,5 @@
 0x93b3256d4D121B42e42eAC3c68F289268d404a9C
 
-/home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/app/buy-us-cupcake/_components
-(
-/home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/coffee.svg
-/home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/cupcake-muffin-svgrepo-com.svg
-/home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/cupcake-muffin-svgrepo-com.svg.weborigin
-/home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/cupcake-svgrepo-com.svg
-/home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public/cupcake-svgrepo-com.svg.weborigin
-)
-/home/daniella/Documents/MEDdss/Storage/Daniella/CartaoSUS/Nacional
--
-/home/daniella/Desktop/Quocient/QuocientIgnore/BrokenSymlinkSubstitutes/DssLog/2024/06/&Posted
-/home/daniella/Desktop/Untitled Folder 3
-
 - BuyMeACoffee: now just change contract name ; fix this: "Unfortunately the smart contract doesn't return the number of messages / memos, there's no good way of knowing the total" as reported on https://github.com/coinbase/build-onchain-apps/pull/516 and implement on both OnchainIPFS and as a PR for buildonchainapps but first ask if it is safe/gas-effective ; get the number of cupcakes an user has purchased ; get the memos a user sent ; admin can update the ETH price of a cupcake at any time ; change price to 0.0006586901726353755 ETH (price of a cupcake) ; make readable what was the price at the time of the memo ; have a lensHandle optional field cloning the "twitterHandle" one! ; replace "Coffee" and "coffee" by "Cupcake" and "cupcake", both on smart-contract and the UI expecting it ; deploy again progressively before finding any issue and until choosing a release stable version
 - first try IPFS Torrent / IPFS Arweave, which should make the work progressive/simpler to begin with
 -
@@ -35,24 +22,6 @@ yarn add @web3modal/wagmi wagmi viem @tanstack/react-query (walletconnect - then
 /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/contracts/lib/murky/.git-tmp
 /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/contracts/lib/openzeppelin-contracts/.git-tmp
 /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/contracts/lib/solady/.git-tmp
--
-/home/daniella/Desktop/Tasks/4.Huge/Solidity/ERCs/ERC-2350 Semantic/Tasks.txt
-/home/daniella/Desktop/Tasks/4.Huge/Solidity/ERCs
--
-Onchain IPFS: copy the NFTMint contract+UI code, then create the "OnchainIPFS Zorb", but use Zora's smart-contract?
-A 3D-rendered image features a soft blue sphere set against a gradient background that transitions from pink at the top to blue at the bottom. In the center of the sphere, a delicate white and blue hexagon is prominently displayed. The hexagon have a translucent quality, with gentle shading and highlights that give them a realistic, slightly ethereal appearance. The overall composition has a soothing and harmonious feel, with smooth, blended colors.
-Use many Zorbs commemorative for launch: 6 to collect:
-https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e07da4ac4c36bd7718b6d4fb82f2?id=KqmU8dhxiw4mz3k0xOYNXQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.lq9YmqGBP2ZIBqCojqGM&FORM=GCRIDP
-https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0a33aac41dbafb5cec2fe2b82c7?id=YhOWMnjRy8t3v6LFiGecug%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.4bGWJnXwQvdXuudDK31F&FORM=GCRIDP
-https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0a33aac41dbafb5cec2fe2b82c7?id=6aZ%2fQJk2s0Dkyr88g1CX5Q%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.z64MY8svAj45BGyaXVL9&FORM=GCRIDP
-https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0a33aac41dbafb5cec2fe2b82c7?id=Gdm9%2fD86BKj5fN7lZD1tQQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.8hHCg1E4dRR7suvaqrwl&FORM=GCRIDP
-https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0e5b19b48e7ae1bbb023c4525bb?id=QJW59qJTxCbcz0jOetbUmg%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.gUDxC0yuOpl2m68ISXsw&FORM=GCRIDP
-https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0e5b19b48e7ae1bbb023c4525bb?id=3sX02fQDVWaftjgMMf5oGQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.UO3cuws_QCXCa.jbF.rk&FORM=GCRIDP
-will mint a random one, for 0.002 ETH each.
-https://zora.co/collect/zora:0xf2086c0eaa8b34b0eef73920d0b1b53f4146e2e4/1
-https://explorer.zora.energy/address/0xf2086c0eaa8b34b0eef73920d0b1b53f4146e2e4?tab=contract
--
-- Implement/fix this for BOAT, based on OnchainIPFS' own NFTs flow: https://github.com/coinbase/build-onchain-apps/issues/328
 
 CursorIDE documentation mention: @OnChainKit-general @OnChainKit-provider @Foundry @Anvil @Base-SmartWallet @WAGMI-React @WAGMI-core @WAGMI-CLI @Viem @WalletConnect @Web
 
@@ -119,28 +88,43 @@ Also a field with a boolean if the file is multipart or no, so the file content 
 
 -
 
-Onchain IPFS:
-- Verifications part on the SVG, either "display:none" or not, also the "Fake"
-- add the "100% store in Onchain IPFS" seal to Seals page!
-
--
-
 https://www.godaddy.com/pt-br/domainsearch/find?domainToCheck=onchainipfs.xyz (or onchainipfs.filepeace.xyz)
 -
 Extra: Coinbase Smart Wallet (https://www.coinbase.com/wallet/smart-wallet) integration seems done, but need CB Onchain Verifications (https://www.coinbase.com/onchain-verify) and Account Abstraction Kit (https://www.coinbase.com/developer-platform/solutions/account-abstraction-kit)
-OnchainKit (https://onchainkit.xyz/) maybe already already included with buildonchainapps kit
-and may need https://www.smartwallet.dev/base-gasless-campaign
+may need https://www.smartwallet.dev/base-gasless-campaign
+-
+use CB Onchain Verify to add an extra-level of trust to an IPFS registry as legit (will get priority on disputes). Also accounts using Onchain Verify will get a discount on the dispute verification fee
 
-https://www.quicknode.com/guides/ethereum-development/dapps/how-to-build-an-ethereum-url-shortener-dapp
+- Verifications part on the SVG, either "display:none" or not, also the "Fake", and also about Onchain Verify in yellow about trust level
+
+/home/daniella/Desktop/Tasks/4.Huge/Solidity/ERCs/ERC-2350 Semantic/Tasks.txt
+/home/daniella/Desktop/Tasks/4.Huge/Solidity/ERCs
 
 -
 
 Launch:
 - Little hand: Gitcoin, Orb's Build Club (https://orb.club/p/0xa68c-0x0757)
+- add the "100% stored in Onchain IPFS" seal to Seals page!
+-
+Onchain IPFS: copy the NFTMint contract+UI code, then create the "OnchainIPFS Zorb", but use Zora's smart-contract?
+A 3D-rendered image features a soft blue sphere set against a gradient background that transitions from pink at the top to blue at the bottom. In the center of the sphere, a delicate white and blue hexagon is prominently displayed. The hexagon have a translucent quality, with gentle shading and highlights that give them a realistic, slightly ethereal appearance. The overall composition has a soothing and harmonious feel, with smooth, blended colors.
+Use many Zorbs commemorative for launch: 6 to collect:
+https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e07da4ac4c36bd7718b6d4fb82f2?id=KqmU8dhxiw4mz3k0xOYNXQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG3.lq9YmqGBP2ZIBqCojqGM&FORM=GCRIDP
+https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0a33aac41dbafb5cec2fe2b82c7?id=YhOWMnjRy8t3v6LFiGecug%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.4bGWJnXwQvdXuudDK31F&FORM=GCRIDP
+https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0a33aac41dbafb5cec2fe2b82c7?id=6aZ%2fQJk2s0Dkyr88g1CX5Q%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.z64MY8svAj45BGyaXVL9&FORM=GCRIDP
+https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0a33aac41dbafb5cec2fe2b82c7?id=Gdm9%2fD86BKj5fN7lZD1tQQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.8hHCg1E4dRR7suvaqrwl&FORM=GCRIDP
+https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0e5b19b48e7ae1bbb023c4525bb?id=QJW59qJTxCbcz0jOetbUmg%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.gUDxC0yuOpl2m68ISXsw&FORM=GCRIDP
+https://www.bing.com/images/create/a-3d-rendered-image-features-a-soft-blue-sphere-se/1-6695e0e5b19b48e7ae1bbb023c4525bb?id=3sX02fQDVWaftjgMMf5oGQ%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.UO3cuws_QCXCa.jbF.rk&FORM=GCRIDP
+will mint a random one, for 0.002 ETH each.
+https://zora.co/collect/zora:0xf2086c0eaa8b34b0eef73920d0b1b53f4146e2e4/1
+https://explorer.zora.energy/address/0xf2086c0eaa8b34b0eef73920d0b1b53f4146e2e4?tab=contract
+-
+- Implement/fix this for BOAT, based on OnchainIPFS' own NFTs flow: https://github.com/coinbase/build-onchain-apps/issues/328
 
 Later improvements:
-- Navbar.tsx's logotype: get rid of inline style
+- fix /press page, also moving to /press/press-kit
+-? Navbar.tsx's logotype: get rid of inline style
 
 Later Iterations:
 - factory.tamigucho.com/mintables/{mintable}: add the "Onchain IPFS" button next to the Arweave button
-- Also come with a Bash script (ipfs-onchain) that will fetch Base to download a CID and locally validate the result. This script will be used by GIPFS' IPFS wrapper. So, GIPFS ipfs wrapper will fetch files using this priority: gateway, blockchain, IPFS network
+- Also come with a Python script (ipfs-onchain) that will fetch Base to download a CID and locally validate the result. This script will be used by GIPFS' IPFS wrapper. So, GIPFS ipfs wrapper will fetch files using this priority: gateway, blockchain, IPFS network
