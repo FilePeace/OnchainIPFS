@@ -1,12 +1,12 @@
-commit QmY2DJyC2bF4b1jsuodh8QzFRDHESRrNDuWqukJAKyZHrr
+commit QmVJf5KVVd6MD3bDZkV8Mpnoq4fyCaw4gUyuJLW1D2cDvU
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 15e7592db1289fe991479038a3c2d3d832945539d56ba5243783d4e794920e0d2c573894c0b950a903de6d12a1f97fbd241ffa02fd41987606a1d924ef5787b000
+Signature: bb26b510c97879f78c23b29ec86d9ff21c6ac1b609c67083bb3907cce51c761126c8b1074ef99ce9d727bd6ade9f2b17b918eee3dbd9938970c833fe7f4a377c00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmWMH37v35iTWokBekeGs9dSJUs9CVUjz213VFEE2UyZME
-Commit CID if containing only file hashes: Qmcdb6MGdohSzBsy7oTp54rfKU4cMjo2qRqRksfSKMF2VK
+Commit CID if including git's SHA1: QmcDyQjkQ8my8K6kpunppfA2spTFC7MYRCy3rvykbf3Y2t
+Commit CID if containing only file hashes: QmWmNs2o2pNTenKQevZmfMpcvPJ23whZzZDKDAVoZorPhP
 
 ------------------------------
 
@@ -17,7 +17,15 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/AIConversation.txt'
-chmod 0664 'web/AIConversation.txt'
-/usr/bin/touch -hcmd "2024-07-19 17:37:45.7013412670 -0300" 'web/AIConversation.txt'
-/usr/bin/touch -hcad "2024-07-19 17:38:10.3316315630 -0300" 'web/AIConversation.txt'
+chown -h 1000:1000 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
+chmod 0664 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
+/usr/bin/touch -hcmd "2024-07-19 16:32:36.6148588970 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
+/usr/bin/touch -hcad "2024-07-19 16:32:36.6388571280 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
+chown -h 1000:1000 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+chmod 0664 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+/usr/bin/touch -hcmd "2024-07-19 16:55:59.9883560560 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+/usr/bin/touch -hcad "2024-07-19 16:56:00.0103541940 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+chown -h 1000:1000 'web/app/press/_components/Page.tsx'
+chmod 0664 'web/app/press/_components/Page.tsx'
+/usr/bin/touch -hcmd "2024-07-19 17:06:21.4319560240 -0300" 'web/app/press/_components/Page.tsx'
+/usr/bin/touch -hcad "2024-07-19 17:06:21.4759524410 -0300" 'web/app/press/_components/Page.tsx'

@@ -36,13 +36,14 @@ export default function ContractAlert({ contract, amount, coffeeCount = 1, ethPr
   const { isConnected } = useAccount();
   const requiredAmount = parseFloat(amount) * coffeeCount;
 
+  // Ensure hooks are called at the top level
+  const canAfford = useCanUserAfford(requiredAmount.toFixed(18));
+
   if (isNaN(requiredAmount)) {
     console.error('Calculation error:', { amount, coffeeCount });
     return null;
   }
 
-  // Ensure hooks are called at the top level
-  const canAfford = useCanUserAfford(requiredAmount.toFixed(18));
   if (!requiredAmount || isNaN(parseFloat(requiredAmount))) {
     console.error('Invalid amount:', requiredAmount);
     return false;

@@ -1,5 +1,6 @@
 import { useCallback, useState, useEffect } from 'react';
 import clsx from 'clsx';
+import Image from 'next/image';
 import { parseEther } from 'viem';
 import Button from '@/components/Button/Button';
 import { useBuyMeACoffeeContract } from '../_contracts/useBuyMeACoffeeContract';
@@ -47,14 +48,14 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
     const fetchEthPrice = async () => {
       try {
         const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd');
-        const data = await response.json();
+        const data = await response.json() as { ethereum: { usd: number } };
         setEthPrice(data.ethereum.usd);
       } catch (error) {
         console.error('Failed to fetch ETH price:', error);
       }
     };
 
-    fetchEthPrice();
+    void fetchEthPrice();
   }, []);
 
   const reset = useCallback(async () => {
@@ -64,7 +65,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
 
   const { disabled, transactionState, resetContractForms, onSubmitTransaction } =
     useSmartContractForms({
-      gasFee: parseEther(String(GAS_COST * fields.coffeeCount)),
+      gasFee: parseEther(((GAS_COST * fields.coffeeCount) || 0).toFixed(18)),
       contract,
       name: 'buyCoffee',
       arguments: [
@@ -78,6 +79,34 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
       enableSubmit: fields.name !== '' && fields.message !== '',
       reset,
     });
+
+  const handleCoffeeCountClick = useCallback((count: number) => {
+    setField('coffeeCount', Math.max(1, count));
+  }, [setField]);
+
+  const handleNameChange = useCallback((evt: React.ChangeEvent<HTMLInputElement>) => {
+    setField('name', evt.target.value);
+  }, [setField]);
+
+  const handleLensChange = useCallback((evt: React.ChangeEvent<HTMLInputElement>) => {
+    setField('lensHandle', evt.target.value);
+  }, [setField]);
+
+  const handleTwitterChange = useCallback((evt: React.ChangeEvent<HTMLInputElement>) => {
+    setField('twitterHandle', evt.target.value);
+  }, [setField]);
+
+  const handleFarcasterChange = useCallback((evt: React.ChangeEvent<HTMLInputElement>) => {
+    setField('farcasterHandle', evt.target.value);
+  }, [setField]);
+
+  const handleMessageChange = useCallback((evt: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setField('message', evt.target.value);
+  }, [setField]);
+
+  const handleShowSocialInputs = useCallback(() => {
+    setShowSocialInputs(!showSocialInputs);
+  }, [showSocialInputs]);
 
   if (transactionState !== null) {
     return (
@@ -107,7 +136,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
                 className={clsx(
                   `${fields.coffeeCount === count ? 'bg-gradient-2' : 'border border-boat-color-orange'} block h-[40px] w-full rounded lg:w-[40px]`,
                 )}
-                onClick={() => setField('coffeeCount', count)}
+                onClick={handleCoffeeCountClick}
                 title={`${(GAS_COST * count).toFixed(4)} ETH / $${ethPrice ? (GAS_COST * count * ethPrice).toFixed(2) : 'loading...'} `}
               >
                 {count}
@@ -124,7 +153,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
             <InputText
               id="name"
               placeholder="Name"
-              onChange={(evt) => setField('name', evt.target.value)}
+              onChange={handleNameChange}
               disabled={disabled}
               required
             />
@@ -135,18 +164,18 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
           })}>
             <Label htmlFor="lensHandle">Lens handle (Optional)</Label>
             <div className="flex items-center border border-gray-300 rounded overflow-hidden">
-              <img src="/img/social/button/lens.svg" alt="Lens" className="w-4 h-4" />
+              <Image src="/img/social/button/lens.svg" alt="Lens" width={24} height={24} />
               <InputText
                 id="lensHandle"
                 placeholder="@"
-                onChange={(evt) => setField('lensHandle', evt.target.value)}
+                onChange={handleLensChange}
                 disabled={disabled}
               />
             </div>
           </div>
 
           <div className="mb-5">
-            <button type="button" onClick={() => setShowSocialInputs(!showSocialInputs)}>
+            <button type="button" onClick={handleShowSocialInputs}>
               {showSocialInputs ? 'Show less social networks ▲' : 'Show more social networks ▼'}
             </button>
           </div>
@@ -158,11 +187,11 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
               })}>
                 <Label htmlFor="twitterHandle">Twitter handle (Optional)</Label>
                 <div className="flex items-center border border-gray-300 rounded overflow-hidden">
-                  <img src="/img/social/button/twitter.svg" alt="Twitter" className="w-4 h-4" />
+                  <Image src="/img/social/button/twitter.svg" alt="Twitter" width={24} height={24} />
                   <InputText
                     id="twitterHandle"
                     placeholder="@"
-                    onChange={(evt) => setField('twitterHandle', evt.target.value)}
+                    onChange={handleTwitterChange}
                     disabled={disabled}
                   />
                 </div>
@@ -173,11 +202,11 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
               })}>
                 <Label htmlFor="farcasterHandle">Farcaster handle (Optional)</Label>
                 <div className="flex items-center border border-gray-300 rounded overflow-hidden">
-                  <img src="/img/social/button/farcaster.svg" alt="Farcaster" className="w-4 h-4" />
+                  <Image src="/img/social/button/farcaster.svg" alt="Farcaster" width={24} height={24} />
                   <InputText
                     id="farcasterHandle"
                     placeholder="@"
-                    onChange={(evt) => setField('farcasterHandle', evt.target.value)}
+                    onChange={handleFarcasterChange}
                     disabled={disabled}
                   />
                 </div>
@@ -192,7 +221,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
             <TextArea
               id="message"
               placeholder="Say something"
-              onChange={(evt) => setField('message', evt.target.value)}
+              onChange={handleMessageChange}
               disabled={disabled}
               required
             />
@@ -203,7 +232,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
           <Button
             buttonContent={
               <>
-                <img src="/cupcake-muffin.svg" alt="Cupcake" width="24" height="24" style={{ marginRight: '8px' }} />
+                <Image src="/cupcake-muffin.svg" alt="Cupcake" width={24} height={24} style={{ marginRight: '8px' }} />
                 Send {fields.coffeeCount} cupcake{fields.coffeeCount > 1 ? 's' : ''} for{' '}
                 {(GAS_COST * fields.coffeeCount).toFixed(4)} ETH (${ethPrice ? (GAS_COST * fields.coffeeCount * ethPrice).toFixed(2) : 'loading...'})
               </>
