@@ -122,7 +122,7 @@ https://explorer.zora.energy/address/0xf2086c0eaa8b34b0eef73920d0b1b53f4146e2e4?
 - Implement/fix this for BOAT, based on OnchainIPFS' own NFTs flow: https://github.com/coinbase/build-onchain-apps/issues/328
 
 Later improvements:
-- fix /press page, also moving to /press/press-kit
+- move /press page's contents to /press/press-kit (additionally, add a .zip download, using IPFS ; onchain ipfs will cover this file, but using a recipe from its inner imgs reproducibly)
 -? Navbar.tsx's logotype: get rid of inline style
 
 Later Iterations:

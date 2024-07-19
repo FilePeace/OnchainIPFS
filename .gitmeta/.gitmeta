@@ -1,12 +1,12 @@
-commit QmYAByFJFYqwuyLcfMkEo2JDwErH1y82ScC41bG9LYPLKT
+commit QmcqQyCUpeYicTd48Ut4kFTyqRaJxX2CSFBxP1wPYyvT2Z
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 8d88611174597560db120ce9aa86c3f8911f1b9359f666d15c4b65236c07fc1c464643fb19aa0cb37b5dcf7bb1d77a51507d4893da1745a99bc681ed83471a1700
+Signature: 9cd9935255fe8002ff4bd93fad78f460e783096c3b99de4f855840621c9e67f07b3e69c09492696969af496ccb6f9d54b94a4afef8a72c5a33b4cca576d8cf8500
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmRJbw24HzaCjUqkB3BGGJSBS73ybiBdpP4WXy1UWNfaY5
-Commit CID if containing only file hashes: QmUia2rMBzYbGCRHwSTXRwiZaoduFSuV3gGeq94Nhq9ERM
+Commit CID if including git's SHA1: QmfMmU1t5n44ri37EsusdDW4AUjJCS38Kne6iUc8saKcKv
+Commit CID if containing only file hashes: QmeRNPkbGnnRmW53oQ5Gzk4qSQUwkP6EbeyfmtCSn3nRds
 
 ------------------------------
 
@@ -17,11 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/yarn.dev.log.html5'
-chmod 0664 'web/yarn.dev.log.html5'
-/usr/bin/touch -hcmd "2024-07-19 17:09:31.3017901110 -0300" 'web/yarn.dev.log.html5'
-/usr/bin/touch -hcad "2024-07-19 17:13:37.6390459650 -0300" 'web/yarn.dev.log.html5'
-chown -h 1000:1000 'web/yarn.lint.log.html5'
-chmod 0664 'web/yarn.lint.log.html5'
-/usr/bin/touch -hcmd "2024-07-19 17:09:08.0617442560 -0300" 'web/yarn.lint.log.html5'
-/usr/bin/touch -hcad "2024-07-19 17:13:37.6130510660 -0300" 'web/yarn.lint.log.html5'
+chown -h 1000:1000 'future/contracts/Tasks.txt'
+chmod 0664 'future/contracts/Tasks.txt'
+/usr/bin/touch -hcmd "2024-07-19 17:09:43.2058012640 -0300" 'future/contracts/Tasks.txt'
+/usr/bin/touch -hcad "2024-07-19 17:40:35.7227514150 -0300" 'future/contracts/Tasks.txt'
