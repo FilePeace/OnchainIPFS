@@ -1,5 +1,30 @@
 0x93b3256d4D121B42e42eAC3c68F289268d404a9C
 
+
+
+✔ No ESLint warnings or errors
+app/global.css
+  17:3   ✖  Expected empty line before comment  comment-empty-line-before
+  17:5   ✖  Expected whitespace after "/*"      comment-whitespace-inside
+  17:53  ✖  Expected whitespace before "*/"     comment-whitespace-inside
+✖ 3 problems (3 errors, 0 warnings)
+
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+Failed to compile.
+./app/buy-us-cupcake/_components/ContractAlert.tsx:35:31
+Type error: Type 'unknown' does not satisfy the constraint 'Abi'.
+  33 |
+  34 | type ContractAlertProps = {
+> 35 |   contract: UseContractReturn<unknown>;
+     |                               ^
+  36 |   amount: number;
+  37 |   coffeeCount?: number;
+  38 |   ethPrice?: number | null;
+Error: Command "yarn && yarn check --fix ; yarn build" exited with 1
+
+
+
 - BuyMeACoffee: now just change contract name ; fix this: "Unfortunately the smart contract doesn't return the number of messages / memos, there's no good way of knowing the total" as reported on https://github.com/coinbase/build-onchain-apps/pull/516 and implement on both OnchainIPFS and as a PR for buildonchainapps but first ask if it is safe/gas-effective ; get the number of cupcakes an user has purchased ; get the memos a user sent ; admin can update the ETH price of a cupcake at any time ; change price to 0.0006586901726353755 ETH (price of a cupcake) ; make readable what was the price at the time of the memo ; have a lensHandle optional field cloning the "twitterHandle" one! ; replace "Coffee" and "coffee" by "Cupcake" and "cupcake", both on smart-contract and the UI expecting it ; deploy again progressively before finding any issue and until choosing a release stable version
 - first try IPFS Torrent / IPFS Arweave, which should make the work progressive/simpler to begin with
 -

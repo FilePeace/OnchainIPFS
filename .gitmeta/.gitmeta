@@ -1,12 +1,12 @@
-commit QmcqQyCUpeYicTd48Ut4kFTyqRaJxX2CSFBxP1wPYyvT2Z
+commit Qmd12D4HzaafBUbdCcfDo1xuvKc99qxC6x1UT97fqsJNda
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 9cd9935255fe8002ff4bd93fad78f460e783096c3b99de4f855840621c9e67f07b3e69c09492696969af496ccb6f9d54b94a4afef8a72c5a33b4cca576d8cf8500
+Signature: dfdf135bdab0d6d5ef7d99f1191c6949b9e75c7313319e5389ae3458df956a33517aae944f4d39e86d5d4eadd61d88a3bdae337e578afb148bbe021b5b90d61500
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmfMmU1t5n44ri37EsusdDW4AUjJCS38Kne6iUc8saKcKv
-Commit CID if containing only file hashes: QmeRNPkbGnnRmW53oQ5Gzk4qSQUwkP6EbeyfmtCSn3nRds
+Commit CID if including git's SHA1: QmTQNA8iPf5Kg4FGsjHMajxKagoM4f7i8JurCiyHMuAAYv
+Commit CID if containing only file hashes: Qmd1CnNpucRYizR3hy8qdccEp2QVGmgYMxhh2Y6MC7jxhi
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'future/contracts/Tasks.txt'
-chmod 0664 'future/contracts/Tasks.txt'
-/usr/bin/touch -hcmd "2024-07-19 17:09:43.2058012640 -0300" 'future/contracts/Tasks.txt'
-/usr/bin/touch -hcad "2024-07-19 17:40:35.7227514150 -0300" 'future/contracts/Tasks.txt'
+chown -h 1000:1000 'Tasks.txt'
+chmod 0664 'Tasks.txt'
+/usr/bin/touch -hcmd "2024-07-19 17:50:41.2839239280 -0300" 'Tasks.txt'
+/usr/bin/touch -hcad "2024-07-19 17:51:13.2597537090 -0300" 'Tasks.txt'
