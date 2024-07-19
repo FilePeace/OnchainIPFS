@@ -1,12 +1,12 @@
-commit QmTxEGTMR5phsDrD4MugL3FjBxbQ48QGwLxGkZ6GDg7oMd
+commit QmUjoXb3qhnVWYn1w49PX4EyVc2BfBHeKaDpuQyHSwKiDu
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 43014d37c5ae79291cf5796350f8c25eebddab768a2058a44abb7c72f80b9ed014c7fe22f6703540384541247c6858a8b22f6ccaea801450804fca401197d45200
+Signature: b3683ffae17940a74d4b1b375bf65a4ac56093aa9462895cab8c3346f322b99b26d58464100bc4a7034b2b8c8aad09d647e395755628941a5eadf22799fc2c5301
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmVXwZxeEfA8YqUvvy9FnCcQoKZjsbCH31MKcB8HmeCRtm
-Commit CID if containing only file hashes: QmUMsWRsHjZniv49xwzDMuY7fpwgxwsYrBLzx9UPVuWZMm
+Commit CID if including git's SHA1: QmUEUTZyZ6f4EbNuGrYvCmqqSUwvx8AjucQva9R2vV845f
+Commit CID if containing only file hashes: QmY8sAt9oj68FJQ7vMUQ3Kcb5b7br9BD3egQv7epQUf78d
 
 ------------------------------
 
@@ -17,27 +17,7 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-/usr/bin/touch -hcmd "2024-07-19 04:15:24.0639837590 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-/usr/bin/touch -hcad "2024-07-19 04:15:57.2543446620 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-chown -h 1000:1000 'web/app/press/_components/Page.tsx'
-chmod 0664 'web/app/press/_components/Page.tsx'
-/usr/bin/touch -hcmd "2024-07-19 04:19:00.0991144290 -0300" 'web/app/press/_components/Page.tsx'
-/usr/bin/touch -hcad "2024-07-19 04:19:37.8103538070 -0300" 'web/app/press/_components/Page.tsx'
-chown -h 1000:1000 'web/src/components/layout/header/NavbarMobile.tsx'
-chmod 0664 'web/src/components/layout/header/NavbarMobile.tsx'
-/usr/bin/touch -hcmd "2024-07-19 04:15:24.0639837590 -0300" 'web/src/components/layout/header/NavbarMobile.tsx'
-/usr/bin/touch -hcad "2024-07-19 04:15:24.8868677190 -0300" 'web/src/components/layout/header/NavbarMobile.tsx'
-chown -h 1000:1000 'web/src/store/createWagmiConfig.ts'
-chmod 0664 'web/src/store/createWagmiConfig.ts'
-/usr/bin/touch -hcmd "2024-07-19 04:17:07.3708052110 -0300" 'web/src/store/createWagmiConfig.ts'
-/usr/bin/touch -hcad "2024-07-19 04:19:37.4583979160 -0300" 'web/src/store/createWagmiConfig.ts'
-chown -h 1000:1000 'web/src/utils/wagmi.ts'
-chmod 0664 'web/src/utils/wagmi.ts'
-/usr/bin/touch -hcmd "2024-07-19 04:18:30.8058627310 -0300" 'web/src/utils/wagmi.ts'
-/usr/bin/touch -hcad "2024-07-19 04:18:33.7524836120 -0300" 'web/src/utils/wagmi.ts'
-chown -h 1000:1000 'web/yarn.lint.log.html5'
-chmod 0664 'web/yarn.lint.log.html5'
-/usr/bin/touch -hcmd "2024-07-19 04:20:42.2453746540 -0300" 'web/yarn.lint.log.html5'
-/usr/bin/touch -hcad "2024-07-19 04:20:50.8673207760 -0300" 'web/yarn.lint.log.html5'
+chown -h 1000:1000 'README.md'
+chmod 0664 'README.md'
+/usr/bin/touch -hcmd "2024-07-19 04:24:49.7231877910 -0300" 'README.md'
+/usr/bin/touch -hcad "2024-07-19 04:24:57.5682932490 -0300" 'README.md'
