@@ -1,12 +1,12 @@
-commit QmTG1sLCXgoD6HVY2ou8otobwBAomL6qX36DwKEMdFJE61
+commit QmUV6YzhVNT3uHJ9t8Zhmdm2F3fBea4KL4vj9qvEu9Hw9A
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: f217dbd3e31cca3982a4c1b429901bea034b712d9fcb4eae8c12a31e9d08a6b9264d71419af509dca37d66cd1287a50a5973bd79f8bc79bb64244467fbaf55db00
+Signature: 64676b39f681f27bbb7f638099bbbda2d523ff2cf2976def893c6b4d10c9673667490eeff1851433a394089e18ba4e78e39e16197c36bbe519bdcffb54ec707500
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdouLZb7dZUE647c3zpTSv7eRk8j6SwSkBXXz8rBSoA4p
-Commit CID if containing only file hashes: QmePBUywBRdw2TMfwqq1pbwLbu4xCpqLjPfnFdnekddXcR
+Commit CID if including git's SHA1: QmQBWTzYAksfnJvbi8n2baxF9nUkHB7NmgfYRwLssWQ3hK
+Commit CID if containing only file hashes: QmUSeUn27wSNwJuEqvvTU3g6TTey9ELvioFwRsw6xrYzQZ
 
 ------------------------------
 
@@ -17,27 +17,23 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-/usr/bin/touch -hcmd "2024-07-18 15:39:45.1945259020 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-/usr/bin/touch -hcad "2024-07-18 15:39:45.2675232480 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcmd "2024-07-18 16:16:28.1716683210 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcad "2024-07-18 16:16:28.2386683740 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/MemoCard.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/MemoCard.tsx'
-/usr/bin/touch -hcmd "2024-07-18 15:50:11.7353196100 -0300" 'web/app/buy-us-cupcake/_components/MemoCard.tsx'
-/usr/bin/touch -hcad "2024-07-18 15:50:11.7543189480 -0300" 'web/app/buy-us-cupcake/_components/MemoCard.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/Memos.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/Memos.tsx'
-/usr/bin/touch -hcmd "2024-07-18 12:53:24.6499885710 -0300" 'web/app/buy-us-cupcake/_components/Memos.tsx'
-/usr/bin/touch -hcad "2024-07-18 12:53:24.6679886490 -0300" 'web/app/buy-us-cupcake/_components/Memos.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/Page.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/Page.tsx'
-/usr/bin/touch -hcmd "2024-07-18 17:22:59.6152475610 -0300" 'web/app/buy-us-cupcake/_components/Page.tsx'
-/usr/bin/touch -hcad "2024-07-18 17:22:59.6572472190 -0300" 'web/app/buy-us-cupcake/_components/Page.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/types.ts'
-chmod 0664 'web/app/buy-us-cupcake/_components/types.ts'
-/usr/bin/touch -hcmd "2024-07-18 00:47:38.8877647820 -0300" 'web/app/buy-us-cupcake/_components/types.ts'
-/usr/bin/touch -hcad "2024-07-19 03:07:38.1884580290 -0300" 'web/app/buy-us-cupcake/_components/types.ts'
+chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+chmod 0755 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+/usr/bin/touch -hcmd "2024-07-19 00:40:47.5766379000 -0300" 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+/usr/bin/touch -hcad "2024-07-19 03:49:50.2379708450 -0300" 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
+chmod 0664 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
+/usr/bin/touch -hcmd "2024-07-19 03:49:19.4456099320 -0300" 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
+/usr/bin/touch -hcad "2024-07-19 03:49:50.2459704100 -0300" 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
+chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
+chmod 0755 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
+/usr/bin/touch -hcmd "2024-07-19 00:40:53.0116838000 -0300" 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
+/usr/bin/touch -hcad "2024-07-19 03:49:50.2469703560 -0300" 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
+chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
+chmod 0664 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
+/usr/bin/touch -hcmd "2024-07-19 03:49:39.7465367230 -0300" 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
+/usr/bin/touch -hcad "2024-07-19 03:49:50.2529700300 -0300" 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
+chown -h 1000:1000 'web/yarn.dev.log.html5'
+chmod 0664 'web/yarn.dev.log.html5'
+/usr/bin/touch -hcmd "2024-07-18 22:23:39.5044071020 -0300" 'web/yarn.dev.log.html5'
+/usr/bin/touch -hcad "2024-07-19 03:47:35.6186083730 -0300" 'web/yarn.dev.log.html5'
