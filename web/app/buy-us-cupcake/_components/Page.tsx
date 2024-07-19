@@ -47,7 +47,7 @@ export default function BuyUsCupcakePage() {
           ])} style={{ background: `url(/img/Pages/buy-me-cupcake/bg/${randomBackground})` }}
         >
           <div className="flex items-center justify-start gap-4">
-            <Image src={`/img/Pages/buy-me-cupcake/clipart/${randomClipart}`} width="200" height="200" />
+            <Image src={`/img/Pages/buy-me-cupcake/clipart/${randomClipart}`} width="200" height="200" alt={`Clipart: ${randomClipart}`} />
             <div className="flex flex-col">
               <h2 className="mb-5 w-fit text-2xl font-semibold text-black">💌 Messages from supporters</h2>
               <p className="text-xl text-black">Buy us a cupcake if you want to appear here!</p>

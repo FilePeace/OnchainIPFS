@@ -1,5 +1,6 @@
 import { Avatar, Name } from '@coinbase/onchainkit/identity';
 import { clsx } from 'clsx';
+import Image from 'next/image';
 import { convertBigIntTimestampToDate } from '@/utils/timestamp';
 import type { CoffeeMemo } from './types';
 
@@ -32,17 +33,17 @@ function MemoCard({ numCoffees, twitterHandle, lensHandle, farcasterHandle, mess
             <span className="text-3 line-clamp-1 flex-1 truncate text-wrap break-all font-normal text-boat-color-palette-foregroundmuted">
               {lensHandle && (
                 <a href={`https://hey.xyz/u/${lensHandle}`} target="_blank" rel="noopener noreferrer">
-                  <img src="/img/social/button/lens.svg" alt="Lens" title={`@${lensHandle}`} className="social-icon" width="16" height="16" />
+                  <Image src="/img/social/button/lens.svg" alt={`Lens profile for ${lensHandle}`} title={`@${lensHandle}`} width="16" height="16" />
                 </a>
               )}
               {twitterHandle && (
                 <a href={`https://twitter.com/${twitterHandle}`} target="_blank" rel="noopener noreferrer">
-                  <img src="/img/social/button/twitter.svg" alt="Twitter" title={`@${twitterHandle}`} className="social-icon" width="16" height="16" />
+                  <Image src="/img/social/button/twitter.svg" alt={`Twitter profile for ${twitterHandle}`} title={`@${twitterHandle}`} width="16" height="16" />
                 </a>
               )}
               {farcasterHandle && (
                 <a href={`https://warpcast.com/${farcasterHandle}`} target="_blank" rel="noopener noreferrer">
-                  <img src="/img/social/button/farcaster.svg" alt="Farcaster" title={`@${farcasterHandle}`} className="social-icon" width="16" height="16" />
+                  <Image src="/img/social/button/farcaster.svg" alt={`Farcaster profile for ${farcasterHandle}`} title={`@${farcasterHandle}`} width="16" height="16" />
                 </a>
               )}
             </span>

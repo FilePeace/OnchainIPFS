@@ -6,11 +6,12 @@ import { UseContractReturn } from '@/hooks/contracts';
 import { useLoggedInUserCanAfford } from '@/hooks/useUserCanAfford';
 
 function useCanUserAfford(amount: string) {
+  const canAfford = useLoggedInUserCanAfford(parseEther(amount));
   if (!amount || isNaN(parseFloat(amount))) {
     console.error('Invalid amount:', amount);
     return false;
   }
-  return useLoggedInUserCanAfford(parseEther(amount));
+  return canAfford;
 }
 
 export function ContractAlertLayout({ children, isError }: { children: React.ReactNode, isError?: boolean }) {
@@ -40,7 +41,12 @@ export default function ContractAlert({ contract, amount, coffeeCount = 1, ethPr
     return null;
   }
 
+  // Ensure hooks are called at the top level
   const canAfford = useCanUserAfford(requiredAmount.toFixed(18));
+  if (!requiredAmount || isNaN(parseFloat(requiredAmount))) {
+    console.error('Invalid amount:', requiredAmount);
+    return false;
+  }
 
   console.log('Checking affordability:', { requiredAmount: requiredAmount.toFixed(18), canAfford });
 
