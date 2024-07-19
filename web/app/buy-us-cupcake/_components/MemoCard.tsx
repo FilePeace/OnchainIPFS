@@ -7,10 +7,12 @@ import type { CoffeeMemo } from './types';
  * Memo received from the coffee purchase in BuyMeACoffee smart contract.
  *
  * @param twitterHandle Twitter handle of the person who sent the memo.
+ * @param lensHandle Lens handle of the person who sent the memo.
+ * @param farcasterHandle Farcaster handle of the person who sent the memo.
  * @param message Message sent by the person.
  * @param timestamp Timestamp of the memo.
  */
-function MemoCard({ numCoffees, twitterHandle, message, userAddress, time }: CoffeeMemo) {
+function MemoCard({ numCoffees, twitterHandle, lensHandle, farcasterHandle, message, userAddress, time, userName }: CoffeeMemo) {
   const convertedTimestamp = convertBigIntTimestampToDate(time);
   const numCoffeesInt = Number(numCoffees);
 
@@ -18,16 +20,34 @@ function MemoCard({ numCoffees, twitterHandle, message, userAddress, time }: Cof
     <li className="flex w-full flex-col items-start gap-4 rounded-2xl border-[color:var(--boat-color-foregroundMuted,#000)] border-2 backdrop-blur-[20px]">
       <div className="w-full grow items-center justify-between lg:flex bg-boat-color-palette-backgroundalternate rounded-2xl border-2">
         <div className="flex items-center gap-3">
-          <Avatar address={userAddress} />
+          <div title={userName} style={{ borderRadius: '50%', overflow: 'hidden' }}>
+            <Avatar address={userAddress} />
+          </div>
           <div className="inline-flex items-start gap-1 md:flex">
             <span className="text-3 text-bold truncate text-wrap font-bold text-white">
-              <Name address={userAddress} />
+              <div title={userName}>
+                <Name address={userAddress} />
+              </div>
             </span>
             <span className="text-3 line-clamp-1 flex-1 truncate text-wrap break-all font-normal text-boat-color-palette-foregroundmuted">
-              {twitterHandle ? ` (@${twitterHandle})` : null}
+              {lensHandle && (
+                <a href={`https://hey.xyz/u/${lensHandle}`} target="_blank" rel="noopener noreferrer">
+                  <img src="/img/social/button/lens.svg" alt="Lens" title={`@${lensHandle}`} className="social-icon" width="16" height="16" />
+                </a>
+              )}
+              {twitterHandle && (
+                <a href={`https://twitter.com/${twitterHandle}`} target="_blank" rel="noopener noreferrer">
+                  <img src="/img/social/button/twitter.svg" alt="Twitter" title={`@${twitterHandle}`} className="social-icon" width="16" height="16" />
+                </a>
+              )}
+              {farcasterHandle && (
+                <a href={`https://warpcast.com/${farcasterHandle}`} target="_blank" rel="noopener noreferrer">
+                  <img src="/img/social/button/farcaster.svg" alt="Farcaster" title={`@${farcasterHandle}`} className="social-icon" width="16" height="16" />
+                </a>
+              )}
             </span>
             <span className="text-3 whitespace-nowrap font-normal text-boat-color-palette-foregroundmuted">
-              bought {numCoffeesInt} coffee{numCoffeesInt > 1 ? 's' : null}
+              bought {numCoffeesInt} cupcake{numCoffeesInt > 1 ? 's' : ''}
             </span>
           </div>
         </div>

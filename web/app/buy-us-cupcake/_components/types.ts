@@ -7,4 +7,6 @@ export type CoffeeMemo = {
   userAddress: Address;
   time: bigint;
   twitterHandle?: string;
+  lensHandle?: string;
+  farcasterHandle?: string;
 };

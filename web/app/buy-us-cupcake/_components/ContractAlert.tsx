@@ -1,57 +1,73 @@
 import { ExclamationTriangleIcon } from '@radix-ui/react-icons';
-import { Abi, parseEther } from 'viem';
+import { parseEther } from 'viem';
 
 import { useAccount } from 'wagmi';
 import { UseContractReturn } from '@/hooks/contracts';
 import { useLoggedInUserCanAfford } from '@/hooks/useUserCanAfford';
 
-function useCanUserAfford(amount: number) {
-  return useLoggedInUserCanAfford(parseEther(String(amount)));
+function useCanUserAfford(amount: string) {
+  if (!amount || isNaN(parseFloat(amount))) {
+    console.error('Invalid amount:', amount);
+    return false;
+  }
+  return useLoggedInUserCanAfford(parseEther(amount));
 }
 
-export function ContractAlertLayout({ children }: { children: React.ReactNode }) {
+export function ContractAlertLayout({ children, isError }: { children: React.ReactNode, isError?: boolean }) {
   return (
     <div className="my-3 flex items-center justify-center">
       <div className="mr-2">
-        <ExclamationTriangleIcon width={12} height={12} />
+        <ExclamationTriangleIcon width={12} height={12} color={isError ? 'red' : 'currentColor'} />
       </div>
-      <div className="text-xs">{children}</div>
+      <div className={`text-xs ${isError ? 'text-red-500' : ''}`}>{children}</div>
     </div>
   );
 }
 
 type ContractAlertProps = {
-  contract: UseContractReturn<Abi>;
+  contract: UseContractReturn<any>;
   amount: number;
+  coffeeCount?: number;
+  ethPrice?: number | null;
 };
 
-export default function ContractAlert({ contract, amount }: ContractAlertProps) {
+export default function ContractAlert({ contract, amount, coffeeCount = 1, ethPrice }: ContractAlertProps) {
   const { isConnected } = useAccount();
-  const canAfford = useCanUserAfford(amount);
+  const requiredAmount = parseFloat(amount) * coffeeCount;
+
+  if (isNaN(requiredAmount)) {
+    console.error('Calculation error:', { amount, coffeeCount });
+    return null;
+  }
+
+  const canAfford = useCanUserAfford(requiredAmount.toFixed(18));
+
+  console.log('Checking affordability:', { requiredAmount: requiredAmount.toFixed(18), canAfford });
 
   if (!isConnected) {
-    return <ContractAlertLayout>Please connect your wallet to continue.</ContractAlertLayout>;
+    return (
+      <ContractAlertLayout isError>
+        <div style={{ color: 'yellow' }}>Please connect your wallet to continue.</div>
+      </ContractAlertLayout>
+    );
   }
 
   if (contract.status === 'onUnsupportedNetwork') {
     return (
       <ContractAlertLayout>
-        Please connect to one of the supported networks to continue:{' '}
-        {contract.supportedChains.map((c) => c.name).join(', ')}
+        Please connect to one of the supported networks to continue: {contract.supportedChains.map((c) => c.name).join(', ')}
       </ContractAlertLayout>
     );
   }
 
   if (contract.status === 'deactivated') {
-    return (
-      <ContractAlertLayout>This contract has been deactivated on this chain.</ContractAlertLayout>
-    );
+    return <ContractAlertLayout>This contract has been deactivated on this chain.</ContractAlertLayout>;
   }
 
   if (!canAfford) {
     return (
-      <ContractAlertLayout>
-        You must have at least {String(amount)} ETH in your wallet to continue.
+      <ContractAlertLayout isError>
+        You must have at least {requiredAmount.toFixed(4)} ETH ({ethPrice ? `$${(requiredAmount * ethPrice).toFixed(2)}` : 'loading...'}) in your wallet to continue.
       </ContractAlertLayout>
     );
   }

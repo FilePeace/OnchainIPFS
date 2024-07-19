@@ -23,6 +23,8 @@ function Memos({ memos }: MemosProps) {
             numCoffees={memo.numCoffees}
             userName={memo.userName}
             twitterHandle={memo.twitterHandle}
+            lensHandle={memo.lensHandle}
+            farcasterHandle={memo.farcasterHandle}
             message={memo.message}
             userAddress={memo.userAddress}
             time={memo.time}
