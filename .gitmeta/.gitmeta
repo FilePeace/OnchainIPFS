@@ -1,12 +1,12 @@
-commit QmUV6YzhVNT3uHJ9t8Zhmdm2F3fBea4KL4vj9qvEu9Hw9A
+commit QmV4HFNDbfTsQKtzAxhRz9QKCScLAyQnyfDnc9PwEbRRPD
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 64676b39f681f27bbb7f638099bbbda2d523ff2cf2976def893c6b4d10c9673667490eeff1851433a394089e18ba4e78e39e16197c36bbe519bdcffb54ec707500
+Signature: bf82c34531d701891c828c66e8bc2eb973d678015a3a9eb83a4b3062cd044f7b11f53f3f1cc900f726ef39d6579f96fec8b6aafee1ebf0d88c519271e347225100
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmQBWTzYAksfnJvbi8n2baxF9nUkHB7NmgfYRwLssWQ3hK
-Commit CID if containing only file hashes: QmUSeUn27wSNwJuEqvvTU3g6TTey9ELvioFwRsw6xrYzQZ
+Commit CID if including git's SHA1: QmYYMKKJ5njsqfFynZAuSF8fDRvhSSFuKbtws1oNrpadZw
+Commit CID if containing only file hashes: QmTGhHgsjPaC8WX7MreUPFqyDmCM3vKrh9zrwkJwafhW9r
 
 ------------------------------
 
@@ -17,23 +17,19 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
-chmod 0755 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
-/usr/bin/touch -hcmd "2024-07-19 00:40:47.5766379000 -0300" 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
-/usr/bin/touch -hcad "2024-07-19 03:49:50.2379708450 -0300" 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
-chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
-chmod 0664 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
-/usr/bin/touch -hcmd "2024-07-19 03:49:19.4456099320 -0300" 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
-/usr/bin/touch -hcad "2024-07-19 03:49:50.2459704100 -0300" 'web/public/img/Pages/buy-me-cupcake/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
-chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
-chmod 0755 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
-/usr/bin/touch -hcmd "2024-07-19 00:40:53.0116838000 -0300" 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
-/usr/bin/touch -hcad "2024-07-19 03:49:50.2469703560 -0300" 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
-chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
-chmod 0664 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
-/usr/bin/touch -hcmd "2024-07-19 03:49:39.7465367230 -0300" 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
-/usr/bin/touch -hcad "2024-07-19 03:49:50.2529700300 -0300" 'web/public/img/Pages/buy-me-cupcake/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
-chown -h 1000:1000 'web/yarn.dev.log.html5'
-chmod 0664 'web/yarn.dev.log.html5'
-/usr/bin/touch -hcmd "2024-07-18 22:23:39.5044071020 -0300" 'web/yarn.dev.log.html5'
-/usr/bin/touch -hcad "2024-07-19 03:47:35.6186083730 -0300" 'web/yarn.dev.log.html5'
+chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/clipart/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+chmod 0755 'web/public/img/Pages/buy-me-cupcake/clipart/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+/usr/bin/touch -hcmd "2024-07-19 00:40:47.5766379000 -0300" 'web/public/img/Pages/buy-me-cupcake/clipart/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+/usr/bin/touch -hcad "2024-07-19 03:56:01.8560687390 -0300" 'web/public/img/Pages/buy-me-cupcake/clipart/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/clipart/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
+chmod 0664 'web/public/img/Pages/buy-me-cupcake/clipart/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
+/usr/bin/touch -hcmd "2024-07-19 03:56:21.1226717890 -0300" 'web/public/img/Pages/buy-me-cupcake/clipart/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
+/usr/bin/touch -hcad "2024-07-19 03:56:32.6248321960 -0300" 'web/public/img/Pages/buy-me-cupcake/clipart/_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png.localorigin'
+chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/clipart/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
+chmod 0755 'web/public/img/Pages/buy-me-cupcake/clipart/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
+/usr/bin/touch -hcmd "2024-07-19 00:40:53.0116838000 -0300" 'web/public/img/Pages/buy-me-cupcake/clipart/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
+/usr/bin/touch -hcad "2024-07-19 03:56:01.8640681620 -0300" 'web/public/img/Pages/buy-me-cupcake/clipart/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png'
+chown -h 1000:1000 'web/public/img/Pages/buy-me-cupcake/clipart/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
+chmod 0664 'web/public/img/Pages/buy-me-cupcake/clipart/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
+/usr/bin/touch -hcmd "2024-07-19 03:56:27.6201980110 -0300" 'web/public/img/Pages/buy-me-cupcake/clipart/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
+/usr/bin/touch -hcad "2024-07-19 03:56:32.6288319030 -0300" 'web/public/img/Pages/buy-me-cupcake/clipart/_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png.localorigin'
