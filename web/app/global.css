@@ -24,6 +24,7 @@
   color-scheme: dark;
 }
 
+/* Custom scrollbar styles */
 *,
 *::before,
 *::after {
@@ -55,7 +56,11 @@ body {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 svg {

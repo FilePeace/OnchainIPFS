@@ -1,12 +1,12 @@
-commit QmeZB9YhbEemhDxG2RVmXw8AkabDn3pCgYwqCdAcig2X97
+commit Qmdaq2yja2eKnpc2YvRyqqi8foomh5AaG6Jk1hzABK8sUo
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: fb0f6346675ff66febfa765824e4b6e6fef0307cca4dd46b6bdad915a6a291de44a09eb9ecfa6415b31336b37d273a0cdcfdead5aa6855d5dcd583cb5b59f12200
+Signature: fe4d2e5431857a192d7fc3b9bfd441bf22a61beef58933ebe79e6aeae019bc814464fda40a1358fbb9236e808a91bc2d54eae2e294b99db6a4a222cacfc4d6bc01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmNPmUF4j8pDg95c51xo8rG8PfPHSYV6JWu3HUeCaxkaho
-Commit CID if containing only file hashes: QmeGWbti58EG7vKdfutTYTdKo3iZD6Eqm1hawtTFxyGY8G
+Commit CID if including git's SHA1: QmbNeo5yrUuvpaZrRtZy3Kb3dut4yRE3bLmykM6SBorXeh
+Commit CID if containing only file hashes: QmVpQvaVuutrUvZ41edBuxJv1C27BoykixAnekTfuA4ugL
 
 ------------------------------
 
@@ -17,7 +17,15 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/AIConversation.txt'
-chmod 0664 'web/AIConversation.txt'
-/usr/bin/touch -hcmd "2024-07-19 19:52:04.5937298670 -0300" 'web/AIConversation.txt'
-/usr/bin/touch -hcad "2024-07-19 19:53:45.6518981700 -0300" 'web/AIConversation.txt'
+chown -h 1000:1000 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
+chmod 0664 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
+/usr/bin/touch -hcmd "2024-07-19 19:11:44.0665756610 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
+/usr/bin/touch -hcad "2024-07-19 19:11:44.0795741220 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
+chown -h 1000:1000 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+chmod 0664 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+/usr/bin/touch -hcmd "2024-07-19 19:18:22.1823055240 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+/usr/bin/touch -hcad "2024-07-19 19:18:22.2123020890 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+chown -h 1000:1000 'web/app/global.css'
+chmod 0664 'web/app/global.css'
+/usr/bin/touch -hcmd "2024-07-19 19:44:37.0484258500 -0300" 'web/app/global.css'
+/usr/bin/touch -hcad "2024-07-19 19:44:37.0854214660 -0300" 'web/app/global.css'

@@ -1,5 +1,5 @@
 import { ExclamationTriangleIcon } from '@radix-ui/react-icons';
-import { parseEther } from 'viem';
+import { parseEther, Abi } from 'viem';
 
 import { useAccount } from 'wagmi';
 import { UseContractReturn } from '@/hooks/contracts';
@@ -26,8 +26,8 @@ export function ContractAlertLayout({ children, isError }: { children: React.Rea
 }
 
 type ContractAlertProps = {
-  contract: UseContractReturn<unknown>;
-  amount: number;
+  contract: UseContractReturn<Abi>;
+  amount: string;
   coffeeCount?: number;
   ethPrice?: number | null;
 };
@@ -44,7 +44,7 @@ export default function ContractAlert({ contract, amount, coffeeCount = 1, ethPr
     return null;
   }
 
-  if (!requiredAmount || isNaN(parseFloat(requiredAmount))) {
+  if (!requiredAmount || isNaN(requiredAmount)) {
     console.error('Invalid amount:', requiredAmount);
     return false;
   }

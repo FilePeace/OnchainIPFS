@@ -80,27 +80,28 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
       reset,
     });
 
-  const handleCoffeeCountClick = useCallback((count: number) => {
+  const handleCoffeeCountClick = useCallback((event: React.MouseEvent<HTMLButtonElement>) => {
+    const count = Number(event.currentTarget.textContent);
     setField('coffeeCount', Math.max(1, count));
   }, [setField]);
 
-  const handleNameChange = useCallback((evt: React.ChangeEvent<HTMLInputElement>) => {
+  const handleNameChange = useCallback((evt: { target: { value: string } }) => {
     setField('name', evt.target.value);
   }, [setField]);
 
-  const handleLensChange = useCallback((evt: React.ChangeEvent<HTMLInputElement>) => {
+  const handleLensChange = useCallback((evt: { target: { value: string } }) => {
     setField('lensHandle', evt.target.value);
   }, [setField]);
 
-  const handleTwitterChange = useCallback((evt: React.ChangeEvent<HTMLInputElement>) => {
+  const handleTwitterChange = useCallback((evt: { target: { value: string } }) => {
     setField('twitterHandle', evt.target.value);
   }, [setField]);
 
-  const handleFarcasterChange = useCallback((evt: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFarcasterChange = useCallback((evt: { target: { value: string } }) => {
     setField('farcasterHandle', evt.target.value);
   }, [setField]);
 
-  const handleMessageChange = useCallback((evt: React.ChangeEvent<HTMLTextAreaElement>) => {
+  const handleMessageChange = useCallback((evt: { target: { value: string } }) => {
     setField('message', evt.target.value);
   }, [setField]);
 
@@ -217,7 +218,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
           <div className={clsx('mb-5', {
             'opacity-75 cursor-not-allowed': disabled
           })}>
-            <Label htmlFor="message">💌 Message</Label>
+            <Label htmlFor="message"> Message</Label>
             <TextArea
               id="message"
               placeholder="Say something"
@@ -227,7 +228,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
             />
           </div>
 
-          <ContractAlert contract={contract} amount={GAS_COST} coffeeCount={fields.coffeeCount} ethPrice={ethPrice} />
+          <ContractAlert contract={contract} amount={GAS_COST.toString()} coffeeCount={fields.coffeeCount} ethPrice={ethPrice} />
 
           <Button
             buttonContent={
