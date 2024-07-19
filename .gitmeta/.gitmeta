@@ -1,12 +1,12 @@
-commit QmVJf5KVVd6MD3bDZkV8Mpnoq4fyCaw4gUyuJLW1D2cDvU
+commit QmYAByFJFYqwuyLcfMkEo2JDwErH1y82ScC41bG9LYPLKT
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: bb26b510c97879f78c23b29ec86d9ff21c6ac1b609c67083bb3907cce51c761126c8b1074ef99ce9d727bd6ade9f2b17b918eee3dbd9938970c833fe7f4a377c00
+Signature: 8d88611174597560db120ce9aa86c3f8911f1b9359f666d15c4b65236c07fc1c464643fb19aa0cb37b5dcf7bb1d77a51507d4893da1745a99bc681ed83471a1700
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmcDyQjkQ8my8K6kpunppfA2spTFC7MYRCy3rvykbf3Y2t
-Commit CID if containing only file hashes: QmWmNs2o2pNTenKQevZmfMpcvPJ23whZzZDKDAVoZorPhP
+Commit CID if including git's SHA1: QmRJbw24HzaCjUqkB3BGGJSBS73ybiBdpP4WXy1UWNfaY5
+Commit CID if containing only file hashes: QmUia2rMBzYbGCRHwSTXRwiZaoduFSuV3gGeq94Nhq9ERM
 
 ------------------------------
 
@@ -17,15 +17,11 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-/usr/bin/touch -hcmd "2024-07-19 16:32:36.6148588970 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-/usr/bin/touch -hcad "2024-07-19 16:32:36.6388571280 -0300" 'web/app/buy-us-cupcake/_components/ContractAlert.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcmd "2024-07-19 16:55:59.9883560560 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcad "2024-07-19 16:56:00.0103541940 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-chown -h 1000:1000 'web/app/press/_components/Page.tsx'
-chmod 0664 'web/app/press/_components/Page.tsx'
-/usr/bin/touch -hcmd "2024-07-19 17:06:21.4319560240 -0300" 'web/app/press/_components/Page.tsx'
-/usr/bin/touch -hcad "2024-07-19 17:06:21.4759524410 -0300" 'web/app/press/_components/Page.tsx'
+chown -h 1000:1000 'web/yarn.dev.log.html5'
+chmod 0664 'web/yarn.dev.log.html5'
+/usr/bin/touch -hcmd "2024-07-19 17:09:31.3017901110 -0300" 'web/yarn.dev.log.html5'
+/usr/bin/touch -hcad "2024-07-19 17:13:37.6390459650 -0300" 'web/yarn.dev.log.html5'
+chown -h 1000:1000 'web/yarn.lint.log.html5'
+chmod 0664 'web/yarn.lint.log.html5'
+/usr/bin/touch -hcmd "2024-07-19 17:09:08.0617442560 -0300" 'web/yarn.lint.log.html5'
+/usr/bin/touch -hcad "2024-07-19 17:13:37.6130510660 -0300" 'web/yarn.lint.log.html5'
