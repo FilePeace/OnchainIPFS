@@ -1,0 +1,195 @@
+This folder: /home/daniella/Desktop/Untitled Folder 2/onchain-ipfs/web/public
+
+folderstamp version: r5
+Method: Non-recursive
+
+  File: ./account_abstraction
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,70	Inode: 9552860     Links: 2
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-18 16:24:45.538223200 -0300
+Modify: 2024-07-16 16:21:53.687113647 -0300
+Change: 2024-07-16 16:21:53.687113647 -0300
+ Birth: 2024-07-16 16:21:53.665113839 -0300
+IPFS hash: 
+------------------------------
+  File: ./coffee-soon.svg
+  Size: 3969      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9526739     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-19 04:02:49.849487234 -0300
+Modify: 2024-07-18 10:42:16.717470797 -0300
+Change: 2024-07-19 04:02:59.932665647 -0300
+ Birth: 2024-07-19 04:02:49.607506932 -0300
+IPFS hash: QmRpfU7y73wfsdYhK3y5qV7TuCSjYR6mra64bb6rrMXU74
+------------------------------
+  File: ./coffee.svg
+  Size: 623       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9524038     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 16:22:16.863344167 -0300
+Modify: 2024-07-16 16:21:53.695113577 -0300
+Change: 2024-07-16 16:21:53.695113577 -0300
+ Birth: 2024-07-16 16:21:53.695113577 -0300
+IPFS hash: QmWKCohKePMKReLZECzXjQtYtrNWfRfDUYri4EZKyKEC3N
+------------------------------
+  File: ./cupcake-muffin-svgrepo-com.svg
+  Size: 3540      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9284041     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-19 00:02:59.056863536 -0300
+Modify: 2024-07-18 10:45:28.369364282 -0300
+Change: 2024-07-18 10:47:37.817151370 -0300
+ Birth: 2024-07-18 10:45:28.364364504 -0300
+IPFS hash: Qmadk7D4koWE5Lz57SD5zyKNQScdr26UPbHuN7vNYLgEBD
+------------------------------
+  File: ./cupcake-muffin-svgrepo-com.svg.weborigin
+  Size: 109       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10585628    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-18 10:46:04.536980036 -0300
+Modify: 2024-07-18 10:46:04.536980036 -0300
+Change: 2024-07-18 10:47:37.818151362 -0300
+ Birth: 2024-07-18 10:46:04.536980036 -0300
+IPFS hash: QmRtUBWALTDXg3Pa7ZWBCLYqQVq24BgynfEK37pDds4uFx
+------------------------------
+  File: ./cupcake-svgrepo-com.svg
+  Size: 3969      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9282604     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-19 00:02:59.059863783 -0300
+Modify: 2024-07-18 10:42:16.717470797 -0300
+Change: 2024-07-18 10:47:37.818151362 -0300
+ Birth: 2024-07-18 10:42:16.686469404 -0300
+IPFS hash: QmRpfU7y73wfsdYhK3y5qV7TuCSjYR6mra64bb6rrMXU74
+------------------------------
+  File: ./cupcake-svgrepo-com.svg.weborigin
+  Size: 95        	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 10585632    Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-18 10:46:55.384706226 -0300
+Modify: 2024-07-18 10:46:55.384706226 -0300
+Change: 2024-07-18 10:47:37.819151354 -0300
+ Birth: 2024-07-18 10:46:55.384706226 -0300
+IPFS hash: QmUchAtRpUcojGsp73p6nhw1DUFyuWJF4SyQf7qQ1cgAkj
+------------------------------
+  File: ./favicon.ico
+  Size: 132158    	Blocks: 264        IO Block: 4096   regular file
+Device: 8,70	Inode: 9524112     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 16:22:16.889344000 -0300
+Modify: 2024-07-16 16:21:53.696113568 -0300
+Change: 2024-07-16 16:21:53.696113568 -0300
+ Birth: 2024-07-16 16:21:53.696113568 -0300
+IPFS hash: QmSBzHr6WPaZK92yG2MzxQgS8kSoCuZgYryQ1fe1iWAuYb
+------------------------------
+  File: ./hammerandpick.svg
+  Size: 186232    	Blocks: 368        IO Block: 4096   regular file
+Device: 8,70	Inode: 9524243     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 16:22:16.886344020 -0300
+Modify: 2024-07-16 16:21:53.702113516 -0300
+Change: 2024-07-16 16:21:53.702113516 -0300
+ Birth: 2024-07-16 16:21:53.701113525 -0300
+IPFS hash: QmeraBMqDtKEhTAKdmg1Gfrz17FSqK3ipzRbtLDcjHBB4m
+------------------------------
+  File: ./icons
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,70	Inode: 9553172     Links: 2
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-18 16:24:45.538223200 -0300
+Modify: 2024-07-16 16:21:53.702113516 -0300
+Change: 2024-07-16 16:21:53.702113516 -0300
+ Birth: 2024-07-16 16:21:53.702113516 -0300
+IPFS hash: 
+------------------------------
+  File: ./img
+  Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: 8,70	Inode: 9560093     Links: 5
+Access: (0775/drwxrwxr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-18 22:18:25.196156790 -0300
+Modify: 2024-07-17 19:39:07.928192622 -0300
+Change: 2024-07-17 19:39:07.928192622 -0300
+ Birth: 2024-07-16 16:21:53.702113516 -0300
+IPFS hash: 
+------------------------------
+  File: ./logo.png
+  Size: 28973     	Blocks: 64         IO Block: 4096   regular file
+Device: 8,70	Inode: 9524266     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 18:29:40.357768434 -0300
+Modify: 2024-07-16 16:21:53.705113490 -0300
+Change: 2024-07-16 16:21:53.705113490 -0300
+ Birth: 2024-07-16 16:21:53.704113498 -0300
+IPFS hash: QmTaVhwnynau37s75HY9GqCM6YwDtxDMQoiXTMpJQReDTc
+------------------------------
+  File: ./logo.svg
+  Size: 4478      	Blocks: 16         IO Block: 4096   regular file
+Device: 8,70	Inode: 9524267     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-18 22:18:08.775480210 -0300
+Modify: 2024-07-16 16:21:53.705113490 -0300
+Change: 2024-07-16 16:21:53.705113490 -0300
+ Birth: 2024-07-16 16:21:53.705113490 -0300
+IPFS hash: QmUCGun2TFxCu7AvuKMh46NyH2DTCPSaK6pQjAe7ygC8eT
+------------------------------
+  File: ./logotype.png
+  Size: 84373     	Blocks: 168        IO Block: 4096   regular file
+Device: 8,70	Inode: 9524268     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 18:29:40.423780985 -0300
+Modify: 2024-07-16 16:21:53.705113490 -0300
+Change: 2024-07-16 16:21:53.705113490 -0300
+ Birth: 2024-07-16 16:21:53.705113490 -0300
+IPFS hash: QmRu2LGicqduM7kp4461hn1qjLqLiNuSTLUhE9MMMGZn3M
+------------------------------
+  File: ./logotype.svg
+  Size: 17411     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,70	Inode: 9524273     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 16:22:16.894343968 -0300
+Modify: 2024-07-16 16:21:53.706113481 -0300
+Change: 2024-07-16 16:21:53.706113481 -0300
+ Birth: 2024-07-16 16:21:53.705113490 -0300
+IPFS hash: QmYDekSVnBqShdjzSGs1YsDrdQeHWEJa446D7PCvPUvfrr
+------------------------------
+  File: ./manifest.json
+  Size: 503       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9524321     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 16:22:16.863344167 -0300
+Modify: 2024-07-16 16:21:53.706113481 -0300
+Change: 2024-07-16 16:21:53.706113481 -0300
+ Birth: 2024-07-16 16:21:53.706113481 -0300
+IPFS hash: Qmbhbz14Cn3kxXyhB5jpeENtYzgy95xNZTrVdNb19QN7y9
+------------------------------
+  File: ./sw.js
+  Size: 33702     	Blocks: 72         IO Block: 4096   regular file
+Device: 8,70	Inode: 9453128     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 17:09:40.653009361 -0300
+Modify: 2024-07-13 17:09:40.654009273 -0300
+Change: 2024-07-13 17:09:40.654009273 -0300
+ Birth: 2024-07-13 17:09:40.653009361 -0300
+IPFS hash: QmVCFqQjcEJeChptCn1zyo9NxoFkyAsp77EoXFTZQz8V76
+------------------------------
+  File: ./vercel.svg
+  Size: 629       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,70	Inode: 9524322     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-17 16:22:16.885344026 -0300
+Modify: 2024-07-16 16:21:53.737113210 -0300
+Change: 2024-07-16 16:21:53.737113210 -0300
+ Birth: 2024-07-16 16:21:53.737113210 -0300
+IPFS hash: QmajqF5ZvJn133LYWMe2QvHMVVLkuwvfLpuczQXftxNwbX
+------------------------------
+  File: ./workbox-07a7b4f2.js
+  Size: 23682     	Blocks: 48         IO Block: 4096   regular file
+Device: 8,70	Inode: 9453129     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-07-13 17:09:40.654009273 -0300
+Modify: 2024-07-13 17:09:40.654009273 -0300
+Change: 2024-07-13 17:09:40.654009273 -0300
+ Birth: 2024-07-13 17:09:40.654009273 -0300
+IPFS hash: QmfAxsQYwKjhscEMidffGxXeujw9PWdt89HeGdrqqJTCMi
+------------------------------

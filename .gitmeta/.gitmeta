@@ -1,12 +1,12 @@
-commit QmbkUGtKU4uXmZiZfaPKwMn2rq7mFq38ttiZRxVMngoaPe
+commit QmcQsFhG9ZHBBcZvAXAxAr3NP7AbphSCZu556a43QESpan
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: a300fd3bc5e57a65318785d80b1fa4c3ca50552ae1bda5401963e1a656c06d27476bafb8b575914ffa078f1102ec3d0c46857b9f4f2bdf68926955faf01a3f7b00
+Signature: cff79d56019e17acd159455964757680b1a8c21fe9b96a59bb34c5d1a315ff3610a050642b713445c9bc3fd220c83478bcc9adf34aaa5b15ea74fbc64494a54101
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmTbKtWYFsLvWJ33iZJjcM3G6XA5voUMiJoYD3jpDzPG8P
-Commit CID if containing only file hashes: QmW5i38cwj5tm2Mgj9dqmA4eJv24iWg1kLMxnpXahdsXed
+Commit CID if including git's SHA1: QmYGT9JBWYfAwUmGAdtFKmSndzo8h7BY8FvjdxXCxzd2xc
+Commit CID if containing only file hashes: QmNpgi18spH1HF75Df6DMCiLLEESDcWdys1fxuZAwY4CmX
 
 ------------------------------
 
@@ -17,11 +17,27 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcmd "2024-07-19 04:06:22.0969178810 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-/usr/bin/touch -hcad "2024-07-19 04:06:22.1129165380 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
-chown -h 1000:1000 'web/app/buy-us-cupcake/_components/Page.tsx'
-chmod 0664 'web/app/buy-us-cupcake/_components/Page.tsx'
-/usr/bin/touch -hcmd "2024-07-19 03:58:27.3272504270 -0300" 'web/app/buy-us-cupcake/_components/Page.tsx'
-/usr/bin/touch -hcad "2024-07-19 03:58:27.3472489000 -0300" 'web/app/buy-us-cupcake/_components/Page.tsx'
+chown -h 1000:1000 'web/public/.folderstamp1'
+chmod 0664 'web/public/.folderstamp1'
+/usr/bin/touch -hcmd "2024-07-19 04:03:20.1700122690 -0300" 'web/public/.folderstamp1'
+/usr/bin/touch -hcad "2024-07-19 04:09:53.1120743910 -0300" 'web/public/.folderstamp1'
+chown -h 1000:1000 'web/public/coffee-soon.svg'
+chmod 0664 'web/public/coffee-soon.svg'
+/usr/bin/touch -hcmd "2024-07-18 10:42:16.7174707970 -0300" 'web/public/coffee-soon.svg'
+/usr/bin/touch -hcad "2024-07-19 04:03:19.1810931970 -0300" 'web/public/coffee-soon.svg'
+chown -h 1000:1000 'web/public/cupcake-muffin-svgrepo-com.svg.weborigin'
+chmod 0664 'web/public/cupcake-muffin-svgrepo-com.svg.weborigin'
+/usr/bin/touch -hcmd "2024-07-18 10:46:04.5369800360 -0300" 'web/public/cupcake-muffin-svgrepo-com.svg.weborigin'
+/usr/bin/touch -hcad "2024-07-19 04:03:19.3710776500 -0300" 'web/public/cupcake-muffin-svgrepo-com.svg.weborigin'
+chown -h 1000:1000 'web/public/cupcake-muffin.svg'
+chmod 0664 'web/public/cupcake-muffin.svg'
+/usr/bin/touch -hcmd "2024-07-18 10:45:28.3693642820 -0300" 'web/public/cupcake-muffin.svg'
+/usr/bin/touch -hcad "2024-07-19 04:05:04.1484321400 -0300" 'web/public/cupcake-muffin.svg'
+chown -h 1000:1000 'web/public/cupcake-svgrepo-com.svg'
+chmod 0664 'web/public/cupcake-svgrepo-com.svg'
+/usr/bin/touch -hcmd "2024-07-18 10:42:16.7174707970 -0300" 'web/public/cupcake-svgrepo-com.svg'
+/usr/bin/touch -hcad "2024-07-19 00:02:59.0598637830 -0300" 'web/public/cupcake-svgrepo-com.svg'
+chown -h 1000:1000 'web/public/cupcake-svgrepo-com.svg.weborigin'
+chmod 0664 'web/public/cupcake-svgrepo-com.svg.weborigin'
+/usr/bin/touch -hcmd "2024-07-18 10:46:55.3847062260 -0300" 'web/public/cupcake-svgrepo-com.svg.weborigin'
+/usr/bin/touch -hcad "2024-07-19 04:03:19.4850683220 -0300" 'web/public/cupcake-svgrepo-com.svg.weborigin'
