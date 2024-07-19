@@ -10,14 +10,21 @@ export default function BuyUsCupcakePage() {
   const { memos, refetchMemos, currentPage, goToPreviousPage, goToNextPage } =
     useOnchainCoffeeMemos(pageSize);
 
-  // Define the image filenames
-  const images = [
+  // Define the clipart filenames
+  const cliparts = [
+    '_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg.png',
+    '_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg.png'
+  ];
+
+  // Define the background filenames
+  const backgrounds = [
     '_eca9303c-74e8-4d65-9643-4f3518741d8b.jpeg',
     '_e05bc47c-aca7-4ae9-b40f-e96a99f67c8b.jpeg'
   ];
 
-  // Randomly select an image
-  const randomImage = images[Math.floor(Math.random() * images.length)];
+  // Randomly select a clipart and a background
+  const randomClipart = cliparts[Math.floor(Math.random() * cliparts.length)];
+  const randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
 
   return (
     <div>
@@ -37,10 +44,10 @@ export default function BuyUsCupcakePage() {
           className={clsx([
             'lg:col-span-2 rounded-lg border border-solid border-boat-color-palette-line',
             'p-10',
-          ])} style={{ background: `url(./img/Pages/buy-me-cupcake/bg/${randomImage})` }}
+          ])} style={{ background: `url(/img/Pages/buy-me-cupcake/bg/${randomBackground})` }}
         >
           <div className="flex items-center justify-start gap-4">
-            <Image src={`/img/Pages/buy-me-cupcake/bg/${randomImage}`} width="200" height="200" />
+            <Image src={`/img/Pages/buy-me-cupcake/clipart/${randomClipart}`} width="200" height="200" />
             <div className="flex flex-col">
               <h2 className="mb-5 w-fit text-2xl font-semibold text-black">💌 Messages from supporters</h2>
               <p className="text-xl text-black">Buy us a cupcake if you want to appear here!</p>

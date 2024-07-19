@@ -199,6 +199,7 @@ function FormBuyCoffee({ refetchMemos }: FormBuyCoffeeProps) {
           <Button
             buttonContent={
               <>
+                <img src="/cupcake-muffin.svg" alt="Cupcake" width="24" height="24" style={{ marginRight: '8px' }} />
                 Send {fields.coffeeCount} cupcake{fields.coffeeCount > 1 ? 's' : ''} for{' '}
                 {(GAS_COST * fields.coffeeCount).toFixed(4)} ETH (${ethPrice ? (GAS_COST * fields.coffeeCount * ethPrice).toFixed(2) : 'loading...'})
               </>

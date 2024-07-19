@@ -1,12 +1,12 @@
-commit QmTHGwnrHNdQhQJcFDokk3jzoyqK44GvMdNk1H4WpyqMJ4
+commit QmbkUGtKU4uXmZiZfaPKwMn2rq7mFq38ttiZRxVMngoaPe
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 549e37a4d527f10c872363c2caf744144da28129e5486e080f9e56d35f1c61ff4de7659692ec0348a46f6f310d55f062973302d587b3a7066a0193c9de219ca001
+Signature: a300fd3bc5e57a65318785d80b1fa4c3ca50552ae1bda5401963e1a656c06d27476bafb8b575914ffa078f1102ec3d0c46857b9f4f2bdf68926955faf01a3f7b00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmZpmghggf88wV74LcSjFvf3ZBewWH9KnpSs9GLbQjQsR7
-Commit CID if containing only file hashes: QmQCrYZyYZq96etx5QhvfmfLzeWAqbybWMSCvdmGemQbGX
+Commit CID if including git's SHA1: QmTbKtWYFsLvWJ33iZJjcM3G6XA5voUMiJoYD3jpDzPG8P
+Commit CID if containing only file hashes: QmW5i38cwj5tm2Mgj9dqmA4eJv24iWg1kLMxnpXahdsXed
 
 ------------------------------
 
@@ -17,7 +17,11 @@ Remote URL: https://github.com/danimesq/OnchainIPFS.git
 
 ------------------------------
 
-chown -h 1000:1000 'web/app/buy-us-cupcake/AIConversation.txt'
-chmod 0664 'web/app/buy-us-cupcake/AIConversation.txt'
-/usr/bin/touch -hcmd "2024-07-19 04:08:17.6267683980 -0300" 'web/app/buy-us-cupcake/AIConversation.txt'
-/usr/bin/touch -hcad "2024-07-19 04:08:30.9632045670 -0300" 'web/app/buy-us-cupcake/AIConversation.txt'
+chown -h 1000:1000 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+chmod 0664 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+/usr/bin/touch -hcmd "2024-07-19 04:06:22.0969178810 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+/usr/bin/touch -hcad "2024-07-19 04:06:22.1129165380 -0300" 'web/app/buy-us-cupcake/_components/FormBuyCoffee.tsx'
+chown -h 1000:1000 'web/app/buy-us-cupcake/_components/Page.tsx'
+chmod 0664 'web/app/buy-us-cupcake/_components/Page.tsx'
+/usr/bin/touch -hcmd "2024-07-19 03:58:27.3272504270 -0300" 'web/app/buy-us-cupcake/_components/Page.tsx'
+/usr/bin/touch -hcad "2024-07-19 03:58:27.3472489000 -0300" 'web/app/buy-us-cupcake/_components/Page.tsx'
